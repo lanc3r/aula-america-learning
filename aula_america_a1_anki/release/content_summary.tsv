@@ -1,0 +1,22 @@
+﻿uid	type	primary_spanish	tags
+AA1-U01-L01-P001	chunk_production	Hola.	aula::u01::l01 type::chunk skill::speaking topic::greeting
+AA1-U01-L01-P002	chunk_production	Me llamo Yuzhou.	aula::u01::l01 type::chunk skill::speaking topic::personal_information
+AA1-U01-L01-P003	chunk_production	Soy de China.	aula::u01::l01 type::chunk skill::speaking topic::origin
+AA1-U01-L01-P004	chunk_production	Soy chino.	aula::u01::l01 type::chunk skill::speaking topic::nationality
+AA1-U01-L01-P005	chunk_production	Soy ingeniero de software.	aula::u01::l01 type::chunk skill::speaking topic::profession
+AA1-U01-L01-P006	chunk_production	Mucho gusto.	aula::u01::l01 type::chunk skill::speaking topic::greeting
+AA1-U01-L02-P001	chunk_production	¿Cómo te llamas?	aula::u01::l02 type::question skill::speaking topic::personal_information
+AA1-U01-L02-P002	chunk_production	¿De dónde eres?	aula::u01::l02 type::question skill::speaking topic::origin
+AA1-U01-L02-P003	chunk_production	¿A qué te dedicas?	aula::u01::l02 type::question skill::speaking topic::profession
+AA1-U01-L02-P004	chunk_production	¿Cuántos años tienes?	aula::u01::l02 type::question skill::speaking topic::age
+AA1-U01-L02-P005	chunk_production	Tengo 36 años.	aula::u01::l02 type::chunk skill::speaking topic::age
+AA1-U01-L01-P007	chunk_production	Se llama María.	aula::u01::l01 type::chunk skill::speaking topic::third_person
+AA1-U01-L01-P008	chunk_production	Es mexicana.	aula::u01::l01 type::chunk skill::speaking topic::third_person
+AA1-U01-L01-P009	chunk_production	Es médica.	aula::u01::l01 type::chunk skill::speaking topic::third_person
+AA1-U01-L02-D001	dialogue_response	¿Cómo te llamas?	aula::u01::l02 type::dialogue skill::listening skill::speaking
+AA1-U01-L02-D002	dialogue_response	¿De dónde eres?	aula::u01::l02 type::dialogue skill::listening skill::speaking
+AA1-U01-L02-D003	dialogue_response	¿A qué te dedicas?	aula::u01::l02 type::dialogue skill::listening skill::speaking
+AA1-U01-L02-D004	dialogue_response	¿Cuántos años tienes?	aula::u01::l02 type::dialogue skill::listening skill::speaking
+AA1-U01-L02-M001	mistake_contrast	Tengo 36 años.	aula::u01::l02 type::mistake topic::age
+AA1-U01-L01-M001	mistake_contrast	Soy ingeniero de software.	aula::u01::l01 type::mistake topic::profession
+AA1-U01-L02-M002	mistake_contrast	¿Cómo te llamas?	aula::u01::l02 type::mistake topic::personal_information

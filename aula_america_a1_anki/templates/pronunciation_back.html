@@ -1,0 +1,31 @@
+<div class="shell"><div class="panel">
+  <div class="header">
+    <div class="meta">{{Unit}} · {{Lesson}}</div>
+    <div class="badge">{{Category}}</div>
+  </div>
+  <div class="answer_zone">
+    <div class="example">{{TargetES}}</div>
+    <div class="audio_row">{{TargetAudio}}</div>
+    {{#ContrastES}}<div class="subanswer">对比：{{ContrastES}}</div>
+    <div class="audio_row">{{ContrastAudio}}</div>{{/ContrastES}}
+  </div>
+  <div class="details">
+    <div class="detail">
+      <div class="detail_label">舌位与气流</div>
+      <div class="detail_text">{{ArticulationZH}}</div>
+    </div>
+    <div class="detail">
+      <div class="detail_label">常见错误</div>
+      <div class="detail_text">{{CommonErrorZH}}</div>
+    </div>
+    <div class="detail">
+      <div class="detail_label">练习提示</div>
+      <div class="detail_text">{{PracticeCueZH}}</div>
+    </div>
+    {{#Note}}<div class="detail">
+      <div class="detail_label">注意</div>
+      <div class="detail_text">{{Note}}</div>
+    </div>{{/Note}}
+  </div>
+  <div class="ai_note">AI 音频 · OpenAI cedar</div>
+</div></div>

@@ -1,0 +1,32 @@
+<div class="shell"><div class="panel">
+  <div class="header">
+    <div class="meta">{{Unit}} · {{Lesson}}</div>
+    <div class="badge">{{Category}}</div>
+  </div>
+  <div class="answer_zone">
+    <div class="word">{{WordES}}</div>
+    <div class="word_meta">
+      {{#Gender}}{{Gender}}{{/Gender}}
+      {{#PluralES}} · {{PluralES}}{{/PluralES}}
+    </div>
+    <div class="audio_row">{{WordAudio}}</div>
+    <div class="subanswer">{{MeaningZH}}</div>
+  </div>
+  {{#ExampleES}}<div class="details">
+    <div class="detail">
+      <div class="detail_label">例句</div>
+      <div class="example">{{ExampleES}}</div>
+      <div class="audio_row">{{ExampleAudio}}</div>
+      <div class="detail_text" style="text-align:center;">{{ExampleZH}}</div>
+    </div>
+    {{#UsageZH}}<div class="detail">
+      <div class="detail_label">使用</div>
+      <div class="detail_text">{{UsageZH}}</div>
+    </div>{{/UsageZH}}
+    {{#RegionalVariant}}<div class="detail">
+      <div class="detail_label">地区差异</div>
+      <div class="detail_text">{{RegionalVariant}}</div>
+    </div>{{/RegionalVariant}}
+  </div>{{/ExampleES}}
+  <div class="ai_note">AI 音频 · OpenAI cedar</div>
+</div></div>

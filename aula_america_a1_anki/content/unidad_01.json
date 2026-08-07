@@ -1,0 +1,392 @@
+{
+  "unit": "unidad_01",
+  "content_version": "0.1.0",
+  "source": "Aula América 1 (A1), Unidad 1, plus personalized course notes",
+  "cards": {
+    "chunk_production": [
+      {
+        "uid": "AA1-U01-L01-P001",
+        "unit": "U1",
+        "lesson": "L1",
+        "category": "句块",
+        "context_zh": "第一次见面",
+        "prompt_zh": "你好。",
+        "spanish": "Hola.",
+        "meaning_zh": "你好。",
+        "usage_zh": "最通用的日常问候。",
+        "pattern": "",
+        "note": "",
+        "tags": [
+          "aula::u01::l01",
+          "type::chunk",
+          "skill::speaking",
+          "topic::greeting"
+        ]
+      },
+      {
+        "uid": "AA1-U01-L01-P002",
+        "unit": "U1",
+        "lesson": "L1",
+        "category": "句块",
+        "context_zh": "自我介绍",
+        "prompt_zh": "我叫 Yuzhou。",
+        "spanish": "Me llamo Yuzhou.",
+        "meaning_zh": "我叫 Yuzhou。",
+        "usage_zh": "第一次见面时介绍姓名。",
+        "pattern": "Me llamo + 姓名",
+        "note": "",
+        "tags": [
+          "aula::u01::l01",
+          "type::chunk",
+          "skill::speaking",
+          "topic::personal_information"
+        ]
+      },
+      {
+        "uid": "AA1-U01-L01-P003",
+        "unit": "U1",
+        "lesson": "L1",
+        "category": "句块",
+        "context_zh": "自我介绍",
+        "prompt_zh": "我来自中国。",
+        "spanish": "Soy de China.",
+        "meaning_zh": "我来自中国。",
+        "usage_zh": "说明自己的来源地。",
+        "pattern": "Soy de + 地点",
+        "note": "",
+        "tags": [
+          "aula::u01::l01",
+          "type::chunk",
+          "skill::speaking",
+          "topic::origin"
+        ]
+      },
+      {
+        "uid": "AA1-U01-L01-P004",
+        "unit": "U1",
+        "lesson": "L1",
+        "category": "句块",
+        "context_zh": "自我介绍",
+        "prompt_zh": "我是中国人。",
+        "spanish": "Soy chino.",
+        "meaning_zh": "我是中国人。",
+        "usage_zh": "男性说 chino；女性说 china。",
+        "pattern": "Soy + 国籍",
+        "note": "",
+        "tags": [
+          "aula::u01::l01",
+          "type::chunk",
+          "skill::speaking",
+          "topic::nationality"
+        ]
+      },
+      {
+        "uid": "AA1-U01-L01-P005",
+        "unit": "U1",
+        "lesson": "L1",
+        "category": "句块",
+        "context_zh": "自我介绍",
+        "prompt_zh": "我是软件工程师。",
+        "spanish": "Soy ingeniero de software.",
+        "meaning_zh": "我是软件工程师。",
+        "usage_zh": "中性的职业介绍中，职业前通常不用 un。",
+        "pattern": "Soy + 职业",
+        "note": "",
+        "tags": [
+          "aula::u01::l01",
+          "type::chunk",
+          "skill::speaking",
+          "topic::profession"
+        ]
+      },
+      {
+        "uid": "AA1-U01-L01-P006",
+        "unit": "U1",
+        "lesson": "L1",
+        "category": "句块",
+        "context_zh": "第一次见面",
+        "prompt_zh": "很高兴认识你。",
+        "spanish": "Mucho gusto.",
+        "meaning_zh": "很高兴认识你。",
+        "usage_zh": "双方都可以用同一句回应。",
+        "pattern": "",
+        "note": "",
+        "tags": [
+          "aula::u01::l01",
+          "type::chunk",
+          "skill::speaking",
+          "topic::greeting"
+        ]
+      },
+      {
+        "uid": "AA1-U01-L02-P001",
+        "unit": "U1",
+        "lesson": "L2",
+        "category": "提问",
+        "context_zh": "询问个人信息",
+        "prompt_zh": "你叫什么名字？",
+        "spanish": "¿Cómo te llamas?",
+        "meaning_zh": "你叫什么名字？",
+        "usage_zh": "常见的 tú 形式，用于自然的非正式交流。",
+        "pattern": "¿Cómo te llamas? ↔ Me llamo…",
+        "note": "",
+        "tags": [
+          "aula::u01::l02",
+          "type::question",
+          "skill::speaking",
+          "topic::personal_information"
+        ]
+      },
+      {
+        "uid": "AA1-U01-L02-P002",
+        "unit": "U1",
+        "lesson": "L2",
+        "category": "提问",
+        "context_zh": "询问个人信息",
+        "prompt_zh": "你来自哪里？",
+        "spanish": "¿De dónde eres?",
+        "meaning_zh": "你来自哪里？",
+        "usage_zh": "询问来源地。",
+        "pattern": "¿De dónde eres? ↔ Soy de…",
+        "note": "",
+        "tags": [
+          "aula::u01::l02",
+          "type::question",
+          "skill::speaking",
+          "topic::origin"
+        ]
+      },
+      {
+        "uid": "AA1-U01-L02-P003",
+        "unit": "U1",
+        "lesson": "L2",
+        "category": "提问",
+        "context_zh": "询问个人信息",
+        "prompt_zh": "你做什么工作？",
+        "spanish": "¿A qué te dedicas?",
+        "meaning_zh": "你做什么工作？",
+        "usage_zh": "询问职业或主要从事的事情。",
+        "pattern": "¿A qué te dedicas? ↔ Soy…",
+        "note": "",
+        "tags": [
+          "aula::u01::l02",
+          "type::question",
+          "skill::speaking",
+          "topic::profession"
+        ]
+      },
+      {
+        "uid": "AA1-U01-L02-P004",
+        "unit": "U1",
+        "lesson": "L2",
+        "category": "提问",
+        "context_zh": "询问个人信息",
+        "prompt_zh": "你几岁？",
+        "spanish": "¿Cuántos años tienes?",
+        "meaning_zh": "你几岁？",
+        "usage_zh": "西语用 tener 表达年龄。",
+        "pattern": "¿Cuántos años tienes? ↔ Tengo… años.",
+        "note": "",
+        "tags": [
+          "aula::u01::l02",
+          "type::question",
+          "skill::speaking",
+          "topic::age"
+        ]
+      },
+      {
+        "uid": "AA1-U01-L02-P005",
+        "unit": "U1",
+        "lesson": "L2",
+        "category": "句块",
+        "context_zh": "自我介绍",
+        "prompt_zh": "我 36 岁。",
+        "spanish": "Tengo 36 años.",
+        "meaning_zh": "我 36 岁。",
+        "usage_zh": "年龄用 tengo，不用 soy。",
+        "pattern": "Tengo + 年龄 + años",
+        "note": "",
+        "tags": [
+          "aula::u01::l02",
+          "type::chunk",
+          "skill::speaking",
+          "topic::age"
+        ]
+      },
+      {
+        "uid": "AA1-U01-L01-P007",
+        "unit": "U1",
+        "lesson": "L1",
+        "category": "第三人称",
+        "context_zh": "介绍别人",
+        "prompt_zh": "她叫 María。",
+        "spanish": "Se llama María.",
+        "meaning_zh": "她叫 María。",
+        "usage_zh": "介绍第三人称的姓名。",
+        "pattern": "Se llama + 姓名",
+        "note": "",
+        "tags": [
+          "aula::u01::l01",
+          "type::chunk",
+          "skill::speaking",
+          "topic::third_person"
+        ]
+      },
+      {
+        "uid": "AA1-U01-L01-P008",
+        "unit": "U1",
+        "lesson": "L1",
+        "category": "第三人称",
+        "context_zh": "介绍别人",
+        "prompt_zh": "她是墨西哥人。",
+        "spanish": "Es mexicana.",
+        "meaning_zh": "她是墨西哥人。",
+        "usage_zh": "mexicana 是女性形式。",
+        "pattern": "Es + 国籍",
+        "note": "",
+        "tags": [
+          "aula::u01::l01",
+          "type::chunk",
+          "skill::speaking",
+          "topic::third_person"
+        ]
+      },
+      {
+        "uid": "AA1-U01-L01-P009",
+        "unit": "U1",
+        "lesson": "L1",
+        "category": "第三人称",
+        "context_zh": "介绍别人",
+        "prompt_zh": "她是医生。",
+        "spanish": "Es médica.",
+        "meaning_zh": "她是医生。",
+        "usage_zh": "médica 是女性形式。",
+        "pattern": "Es + 职业",
+        "note": "",
+        "tags": [
+          "aula::u01::l01",
+          "type::chunk",
+          "skill::speaking",
+          "topic::third_person"
+        ]
+      }
+    ],
+    "dialogue_response": [
+      {
+        "uid": "AA1-U01-L02-D001",
+        "unit": "U1",
+        "lesson": "L2",
+        "context_zh": "第一次见面",
+        "question_es": "¿Cómo te llamas?",
+        "answer_es": "Me llamo Yuzhou.",
+        "answer_zh": "我叫 Yuzhou。",
+        "usage_zh": "听到问题后，不翻译，直接回答。",
+        "tags": [
+          "aula::u01::l02",
+          "type::dialogue",
+          "skill::listening",
+          "skill::speaking"
+        ]
+      },
+      {
+        "uid": "AA1-U01-L02-D002",
+        "unit": "U1",
+        "lesson": "L2",
+        "context_zh": "第一次见面",
+        "question_es": "¿De dónde eres?",
+        "answer_es": "Soy de China.",
+        "answer_zh": "我来自中国。",
+        "usage_zh": "听到问题后，不翻译，直接回答。",
+        "tags": [
+          "aula::u01::l02",
+          "type::dialogue",
+          "skill::listening",
+          "skill::speaking"
+        ]
+      },
+      {
+        "uid": "AA1-U01-L02-D003",
+        "unit": "U1",
+        "lesson": "L2",
+        "context_zh": "第一次见面",
+        "question_es": "¿A qué te dedicas?",
+        "answer_es": "Soy ingeniero de software.",
+        "answer_zh": "我是软件工程师。",
+        "usage_zh": "听到问题后，不翻译，直接回答。",
+        "tags": [
+          "aula::u01::l02",
+          "type::dialogue",
+          "skill::listening",
+          "skill::speaking"
+        ]
+      },
+      {
+        "uid": "AA1-U01-L02-D004",
+        "unit": "U1",
+        "lesson": "L2",
+        "context_zh": "第一次见面",
+        "question_es": "¿Cuántos años tienes?",
+        "answer_es": "Tengo 36 años.",
+        "answer_zh": "我 36 岁。",
+        "usage_zh": "听到问题后，不翻译，直接回答。",
+        "tags": [
+          "aula::u01::l02",
+          "type::dialogue",
+          "skill::listening",
+          "skill::speaking"
+        ]
+      }
+    ],
+    "mistake_contrast": [
+      {
+        "uid": "AA1-U01-L02-M001",
+        "unit": "U1",
+        "lesson": "L2",
+        "context_zh": "易错点",
+        "prompt_zh": "表达“我 36 岁”，哪一句正确？",
+        "wrong_es": "Soy 36 años.",
+        "correct_es": "Tengo 36 años.",
+        "explanation_zh": "西班牙语用 tener 表达年龄，不能照搬英语的 be。",
+        "tags": [
+          "aula::u01::l02",
+          "type::mistake",
+          "topic::age"
+        ]
+      },
+      {
+        "uid": "AA1-U01-L01-M001",
+        "unit": "U1",
+        "lesson": "L1",
+        "context_zh": "自然度辨析",
+        "prompt_zh": "在中性的职业自我介绍中，哪一句更自然？",
+        "wrong_es": "Soy un ingeniero de software.",
+        "correct_es": "Soy ingeniero de software.",
+        "explanation_zh": "职业身份前通常不用 un / una。带冠词并非绝对错误，但往往需要修饰、分类或特别强调。",
+        "tags": [
+          "aula::u01::l01",
+          "type::mistake",
+          "topic::profession"
+        ]
+      },
+      {
+        "uid": "AA1-U01-L02-M002",
+        "unit": "U1",
+        "lesson": "L2",
+        "context_zh": "易错点",
+        "prompt_zh": "“你叫什么名字？”应该怎么说？",
+        "wrong_es": "¿Cómo de llamas?",
+        "correct_es": "¿Cómo te llamas?",
+        "explanation_zh": "这里需要 te，与 tú 对应；de 不属于这个结构。",
+        "tags": [
+          "aula::u01::l02",
+          "type::mistake",
+          "topic::personal_information"
+        ]
+      }
+    ],
+    "vocabulary": [],
+    "grammar_pattern": [],
+    "rule_concept": [],
+    "pronunciation": []
+  }
+}

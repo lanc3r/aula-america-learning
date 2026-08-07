@@ -1,0 +1,30 @@
+<div class="shell"><div class="panel">
+  <div class="header">
+    <div class="meta">{{Unit}} · {{Lesson}}</div>
+    <div class="badge">{{Category}}</div>
+  </div>
+  <div class="answer_zone">
+    <div class="spanish">{{AnswerES}}</div>
+    <div class="audio_row">{{AnswerAudio}}</div>
+    <div class="subanswer">{{MeaningZH}}</div>
+  </div>
+  <div class="details">
+    <div class="detail">
+      <div class="detail_label">结构</div>
+      <div class="detail_text">{{Pattern}}</div>
+    </div>
+    <div class="detail">
+      <div class="detail_label">解释</div>
+      <div class="detail_text">{{ExplanationZH}}</div>
+    </div>
+    {{#ContrastES}}<div class="detail">
+      <div class="detail_label">对比</div>
+      <div class="detail_text">{{ContrastES}}</div>
+    </div>{{/ContrastES}}
+    {{#Note}}<div class="detail">
+      <div class="detail_label">注意</div>
+      <div class="detail_text">{{Note}}</div>
+    </div>{{/Note}}
+  </div>
+  <div class="ai_note">AI 音频 · OpenAI cedar</div>
+</div></div>

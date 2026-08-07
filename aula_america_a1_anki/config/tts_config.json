@@ -1,0 +1,8 @@
+{
+  "model": "gpt-4o-mini-tts",
+  "voice": "cedar",
+  "response_format": "mp3",
+  "speed": 1.0,
+  "cache_prefix": "aa1",
+  "instructions": "Habla con una voz masculina adulta, cálida y natural, en español latinoamericano neutro. Evita rasgos marcadamente peninsulares. Usa un ritmo conversacional ligeramente más lento de lo normal, sin exagerar la dicción, separar artificialmente las sílabas ni sonar como una grabación didáctica. Mantén una entonación auténtica en preguntas y afirmaciones. Lee únicamente el texto proporcionado."
+}

@@ -1,0 +1,280 @@
+{
+  "contract_version": 1,
+  "note_types": {
+    "chunk_production": {
+      "model_id": 1607392320,
+      "model_name": "Aula · 主动表达 · Cedar",
+      "template_name": "中文 → 西语",
+      "front_template": "templates/chunk_production_front.html",
+      "back_template": "templates/chunk_production_back.html",
+      "style_file": "templates/base_style.css",
+      "fields": [
+        "UID",
+        "Unit",
+        "Lesson",
+        "Category",
+        "ContextZH",
+        "PromptZH",
+        "Spanish",
+        "MeaningZH",
+        "Audio",
+        "UsageZH",
+        "Pattern",
+        "Note"
+      ],
+      "required_content_fields": [
+        "uid",
+        "unit",
+        "lesson",
+        "category",
+        "context_zh",
+        "prompt_zh",
+        "spanish",
+        "meaning_zh",
+        "usage_zh",
+        "pattern",
+        "note",
+        "tags"
+      ],
+      "audio_content_fields": [
+        "spanish"
+      ]
+    },
+    "dialogue_response": {
+      "model_id": 1607392321,
+      "model_name": "Aula · 听问即答 · Cedar",
+      "template_name": "听问题 → 西语回答",
+      "front_template": "templates/dialogue_response_front.html",
+      "back_template": "templates/dialogue_response_back.html",
+      "style_file": "templates/base_style.css",
+      "fields": [
+        "UID",
+        "Unit",
+        "Lesson",
+        "ContextZH",
+        "QuestionES",
+        "QuestionAudio",
+        "AnswerES",
+        "AnswerZH",
+        "AnswerAudio",
+        "UsageZH"
+      ],
+      "required_content_fields": [
+        "uid",
+        "unit",
+        "lesson",
+        "context_zh",
+        "question_es",
+        "answer_es",
+        "answer_zh",
+        "usage_zh",
+        "tags"
+      ],
+      "audio_content_fields": [
+        "question_es",
+        "answer_es"
+      ]
+    },
+    "mistake_contrast": {
+      "model_id": 1607392322,
+      "model_name": "Aula · 易错辨析 · Cedar",
+      "template_name": "易错辨析",
+      "front_template": "templates/mistake_contrast_front.html",
+      "back_template": "templates/mistake_contrast_back.html",
+      "style_file": "templates/base_style.css",
+      "fields": [
+        "UID",
+        "Unit",
+        "Lesson",
+        "ContextZH",
+        "PromptZH",
+        "WrongES",
+        "CorrectES",
+        "CorrectAudio",
+        "ExplanationZH"
+      ],
+      "required_content_fields": [
+        "uid",
+        "unit",
+        "lesson",
+        "context_zh",
+        "prompt_zh",
+        "wrong_es",
+        "correct_es",
+        "explanation_zh",
+        "tags"
+      ],
+      "audio_content_fields": [
+        "correct_es"
+      ]
+    },
+    "vocabulary": {
+      "model_id": 1607392323,
+      "model_name": "Aula · 词汇 · Cedar",
+      "template_name": "词汇",
+      "front_template": "templates/vocabulary_front.html",
+      "back_template": "templates/vocabulary_back.html",
+      "style_file": "templates/base_style.css",
+      "fields": [
+        "UID",
+        "Unit",
+        "Lesson",
+        "Category",
+        "PromptZH",
+        "WordES",
+        "Gender",
+        "PluralES",
+        "MeaningZH",
+        "WordAudio",
+        "ExampleES",
+        "ExampleZH",
+        "ExampleAudio",
+        "UsageZH",
+        "RegionalVariant"
+      ],
+      "required_content_fields": [
+        "uid",
+        "unit",
+        "lesson",
+        "category",
+        "prompt_zh",
+        "word_es",
+        "gender",
+        "plural_es",
+        "meaning_zh",
+        "example_es",
+        "example_zh",
+        "usage_zh",
+        "regional_variant",
+        "tags"
+      ],
+      "audio_content_fields": [
+        "word_es",
+        "example_es"
+      ]
+    },
+    "grammar_pattern": {
+      "model_id": 1607392324,
+      "model_name": "Aula · 语法运用 · Cedar",
+      "template_name": "语法运用",
+      "front_template": "templates/grammar_pattern_front.html",
+      "back_template": "templates/grammar_pattern_back.html",
+      "style_file": "templates/base_style.css",
+      "fields": [
+        "UID",
+        "Unit",
+        "Lesson",
+        "Category",
+        "ContextZH",
+        "PromptZH",
+        "AnswerES",
+        "AnswerAudio",
+        "MeaningZH",
+        "Pattern",
+        "ExplanationZH",
+        "ContrastES",
+        "Note"
+      ],
+      "required_content_fields": [
+        "uid",
+        "unit",
+        "lesson",
+        "category",
+        "context_zh",
+        "prompt_zh",
+        "answer_es",
+        "meaning_zh",
+        "pattern",
+        "explanation_zh",
+        "contrast_es",
+        "note",
+        "tags"
+      ],
+      "audio_content_fields": [
+        "answer_es"
+      ]
+    },
+    "rule_concept": {
+      "model_id": 1607392325,
+      "model_name": "Aula · 规则理解",
+      "template_name": "规则理解",
+      "front_template": "templates/rule_concept_front.html",
+      "back_template": "templates/rule_concept_back.html",
+      "style_file": "templates/base_style.css",
+      "fields": [
+        "UID",
+        "Unit",
+        "Lesson",
+        "Category",
+        "QuestionZH",
+        "CoreAnswerZH",
+        "ExampleES",
+        "ExampleAudio",
+        "ExplanationZH",
+        "EnglishComparison",
+        "JapaneseComparison",
+        "NegativeTransfer",
+        "Note"
+      ],
+      "required_content_fields": [
+        "uid",
+        "unit",
+        "lesson",
+        "category",
+        "question_zh",
+        "core_answer_zh",
+        "example_es",
+        "explanation_zh",
+        "english_comparison",
+        "japanese_comparison",
+        "negative_transfer",
+        "note",
+        "tags"
+      ],
+      "audio_content_fields": [
+        "example_es"
+      ]
+    },
+    "pronunciation": {
+      "model_id": 1607392326,
+      "model_name": "Aula · 发音听辨 · Cedar",
+      "template_name": "发音听辨",
+      "front_template": "templates/pronunciation_front.html",
+      "back_template": "templates/pronunciation_back.html",
+      "style_file": "templates/base_style.css",
+      "fields": [
+        "UID",
+        "Unit",
+        "Lesson",
+        "Category",
+        "TaskZH",
+        "TargetES",
+        "TargetAudio",
+        "ContrastES",
+        "ContrastAudio",
+        "ArticulationZH",
+        "CommonErrorZH",
+        "PracticeCueZH",
+        "Note"
+      ],
+      "required_content_fields": [
+        "uid",
+        "unit",
+        "lesson",
+        "category",
+        "task_zh",
+        "target_es",
+        "contrast_es",
+        "articulation_zh",
+        "common_error_zh",
+        "practice_cue_zh",
+        "note",
+        "tags"
+      ],
+      "audio_content_fields": [
+        "target_es",
+        "contrast_es"
+      ]
+    }
+  }
+}

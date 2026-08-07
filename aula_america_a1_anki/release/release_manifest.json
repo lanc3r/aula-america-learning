@@ -1,0 +1,17 @@
+{
+  "version": "0.1.2",
+  "deck_file": "aula_america_a1_v0_1_2.apkg",
+  "deck_name": "西班牙语::Aula América A1",
+  "card_counts": {
+    "chunk_production": 14,
+    "dialogue_response": 4,
+    "mistake_contrast": 3,
+    "vocabulary": 0,
+    "grammar_pattern": 0,
+    "rule_concept": 0,
+    "pronunciation": 0
+  },
+  "total_cards": 21,
+  "unique_audio_files": 14,
+  "contract_hash": "b1105fb1ba2c6128721f10e1a32087cd0602c716e890aedb3cac2c7b30dcf2a4"
+}
