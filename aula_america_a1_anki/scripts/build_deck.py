@@ -27,14 +27,19 @@ def read_text(relative_path: str) -> str:
     return (ROOT / relative_path).read_text(encoding="utf-8")
 
 def run_validation() -> None:
-    command = [sys.executable, str(ROOT / "scripts" / "validate_content.py")]
-    result = subprocess.run(command)
+    commands = [
+        [sys.executable, str(ROOT / "scripts" / "validate_content.py")],
+        [sys.executable, str(ROOT / "scripts" / "audit_card_design.py")],
+    ]
 
-    if result.returncode != 0:
-        raise SystemExit(
-            "\n内容验证失败，已停止生成。"
-            "\n请根据上方列出的具体项目修正后重试。"
-        )
+    for command in commands:
+        result = subprocess.run(command)
+
+        if result.returncode != 0:
+            raise SystemExit(
+                "\n内容验证失败，已停止生成。"
+                "\n请根据上方列出的具体项目修正后重试。"
+            )
 
 def import_dependencies():
     try:
@@ -46,12 +51,22 @@ def import_dependencies():
         ) from exc
     return genanki
 
+def instructions_for(text: str, tts: dict[str, Any]) -> str:
+    base = str(tts.get("instructions", "")).strip()
+    overrides = tts.get("text_instruction_overrides", {})
+    if not isinstance(overrides, dict):
+        raise ValueError(
+            "tts_config.json 中的 text_instruction_overrides 必须是对象。"
+        )
+    extra = str(overrides.get(text, "")).strip()
+    return "\n\n".join(part for part in (base, extra) if part)
+
 def audio_key(text: str, tts: dict[str, Any]) -> str:
     payload = "\n".join([
         tts["model"],
         tts["voice"],
         str(tts["speed"]),
-        tts["instructions"],
+        instructions_for(text, tts),
         text
     ])
     return hashlib.sha256(payload.encode("utf-8")).hexdigest()[:18]
@@ -124,7 +139,7 @@ def generate_audio(
                 model=tts["model"],
                 voice=tts["voice"],
                 input=text,
-                instructions=tts["instructions"],
+                instructions=instructions_for(text, tts),
                 response_format=tts["response_format"],
                 speed=tts["speed"],
             ) as response:
@@ -239,7 +254,13 @@ def map_fields(
             card["context_zh"], card["prompt_zh"], card["answer_es"],
             sound_field(card["answer_es"], audio_map),
             card["meaning_zh"], card["pattern"],
-            card["explanation_zh"], card["contrast_es"], card["note"]
+            card["explanation_zh"],
+            (
+                card["contrast_es"]
+                + ("<br>" + sound_field(card["contrast_es"], audio_map)
+                   if card["contrast_es"] else "")
+            ),
+            card["note"]
         ]
     if type_name == "rule_concept":
         return [
@@ -272,16 +293,16 @@ def build_deck(
     models = make_models(genanki, note_types)
     deck = genanki.Deck(deck_config["deck_id"], deck_config["deck_name"])
 
+    ordered_cards = []
     for type_name, cards in collected.items():
-        model = models[type_name]
         for card in cards:
-            note = genanki.Note(
-                model=model,
-                fields=map_fields(type_name, card, audio_map),
-                tags=card["tags"]
-            )
-            note.guid = genanki.guid_for(card["uid"])
-            deck.add_note(note)
+            ordered_cards.append((card.get("learning_order", 999999999), type_name, card))
+    ordered_cards.sort(key=lambda x: (x[0], x[2]["uid"]))
+    for _, type_name, card in ordered_cards:
+        model = models[type_name]
+        note = genanki.Note(model=model, fields=map_fields(type_name, card, audio_map), tags=card["tags"])
+        note.guid = genanki.guid_for(card["uid"])
+        deck.add_note(note)
 
     OUTPUT_DIR.mkdir(exist_ok=True)
     RELEASE_DIR.mkdir(exist_ok=True)

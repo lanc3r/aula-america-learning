@@ -18,6 +18,7 @@ IGNORED_DIRECTORIES = {
     "__pycache__",
     "audio_cache",
     "output",
+    "prebuilds",
     "release",
     "github_upload",
     ".git",
@@ -132,11 +133,11 @@ def validate_content(
                     value = str(card.get(field, "")).strip()
                     if not value:
                         continue
-                    if value.endswith("?") and not value.startswith("¿"):
+                    if value.endswith("?") and "¿" not in value:
                         errors.append(
                             f"{location} 西语问句缺少倒问号：{field}={value}"
                         )
-                    if value.endswith("!") and not value.startswith("¡"):
+                    if value.endswith("!") and "¡" not in value:
                         errors.append(
                             f"{location} 西语感叹句缺少倒感叹号：{field}={value}"
                         )

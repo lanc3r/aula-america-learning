@@ -1,0 +1,65 @@
+deck	note_type	front	back	extra	tags
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	市场里，店员常说：还要别的吗？	¿Algo más?		nvh_core u8_review_02 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	市场里，顾客常说：给我半公斤。	Deme medio kilo.		nvh_core u8_review_02 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	市场里，顾客常说：多少钱？	¿Cuánto es?		nvh_core u8_review_02 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	市场里，顾客常说：就这些。	Eso es todo.		nvh_core u8_review_02 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	市场里，店员常说：一共十二欧。	En total son doce euros.		nvh_core u8_review_02 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	市场里，店员常说：不好意思，今天没有。	Lo siento, hoy no tengo.		nvh_core u8_review_02 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	市场/小店结束时：下次见！	¡Hasta la próxima!		nvh_core u8_review_02 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	复习整合：酒店房间是内侧而且很安静。	La habitación es interior y muy tranquila.		nvh_core u8_review_03 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	复习整合：在车站直接买。	En la estación directamente.		nvh_core u8_review_03 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	复习整合：每天上午十一点都有。	Sí, todos los días a las once.		nvh_core u8_review_03 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	复习整合：七月没有，只有八月。	En julio no, solo en agosto.		nvh_core u8_review_03 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	复习整合：在下一站下。	En la próxima parada.		nvh_core u8_review_03 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	复习整合：十五到三十欧之间。	Entre quince y treinta euros.		nvh_core u8_review_03 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	描述城市：它在哪里？	¿Dónde está?		nvh_core u8_review_04 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	描述城市：那里有什么？	¿Qué hay?		nvh_core u8_review_04 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	描述城市：你喜欢什么？	¿Qué te gusta?		nvh_core u8_review_04 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	我喜欢步行逛市中心。	Me gusta pasear por el centro a pie.		nvh_core u8_review_04 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	我喜欢去博物馆。	Me gusta ir a museos.		nvh_core u8_review_04 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	我喜欢尝当地菜。	Me gusta probar la comida local.		nvh_core u8_review_04 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	我们俩都喜欢拍照。	A los dos nos gusta hacer fotos.	U8 输出卡，回收 gustar。	nvh_core u8_review_04 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	我喜欢购物，但我朋友不喜欢。	A mí me gusta ir de compras, pero a mi amigo no.		nvh_core u8_review_04 review_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	听机场广播找航班口：你主要在听什么？	filtrar información	听力策略识别卡：筛选特定信息。	nvh_core u8_review_05 strategy anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	听一个旅游播客了解大意：你主要在听什么？	captar el sentido	听力策略识别卡：抓大意。	nvh_core u8_review_05 strategy anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	听别人问几点：你需要什么程度？	entender todo exactamente	短句功能强，适合精确理解。	nvh_core u8_review_05 strategy anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	酒吧文化：我们分账。	Dividimos la cuenta.	拉美/旅行实用表达。	aula_america_alignment latam_travel_upgrade u8_review_01 culture_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	这顿我请。	Invito yo.	自然口语；不是 pedir。	aula_america_alignment latam_travel_upgrade u8_review_01 culture_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	小费包含了吗？	¿La propina está incluida?	Aula América 文化补充。	aula_america_alignment latam_travel_upgrade u8_review_01 culture_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	我们坐吧台可以吗？	¿Podemos sentarnos en la barra?		aula_america_alignment latam_travel_upgrade u8_review_01 culture_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	可以和别人拼桌吗？	¿Podemos compartir una mesa?		aula_america_alignment latam_travel_upgrade u8_review_01 culture_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	早餐不总是包含在酒店价格里。	El desayuno no siempre está incluido en el precio del hotel.		aula_america_alignment latam_travel_upgrade u8_review_01 culture_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	改错：Por fin soy en Bolivia.	Por fin estoy en Bolivia.	位置/状态用 estar。	error_review u8_review_06 contrast anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	改错：una familla muy sympática	una familia muy simpática	拼写：familia, simpática。	error_review u8_review_06 contrast anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	改错：trabaja en una officina a Cochabamba	trabaja en una oficina en Cochabamba	城市里用 en；oficina 一个 f。	error_review u8_review_06 contrast anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	改错：Yo trabaja en una escuela al centro.	Yo trabajo en una escuela en el centro.	yo trabajo；在市中心 en el centro。	error_review u8_review_06 contrast anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	改错：Me pagan mil cincuentos pesos.	Me pagan mil quinientos pesos.	1500 = mil quinientos。	error_review u8_review_06 contrast anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	改错：Todavía he no ido a La Paz.	Todavía no he ido a La Paz.	no 放在 he 前面。	error_review u8_review_06 contrast anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	改错：Quiero la visitar.	Quiero visitarla.	代词接在 infinitivo 后面：visitarla。	error_review u8_review_06 contrast anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	改错：Vas en Allemania con coche?	¿Vas a Alemania en coche?	去某地用 a；交通方式 en coche。	error_review u8_review_06 contrast anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 综合输出：我在玻利维亚，住在一个友好的家庭家里。	Estoy en Bolivia y vivo con una familia muy simpática.		review_bridge u8_review_06 output anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 综合输出：我想参观首都和博物馆。	Quiero visitar la capital y ver los museos.		review_bridge u8_review_06 output anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 综合输出：我还没去 La Paz，但是十月去。	Todavía no he ido a La Paz, pero voy en octubre.		review_bridge u8_review_06 output anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 综合输出：这个城市有很多餐厅，市中心很有意思。	Hay muchos restaurantes y el centro es muy interesante.		review_bridge u8_review_06 output anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 综合输出：我喜欢步行，但是如果很远，我坐出租车。	Me gusta caminar, pero si está muy lejos, voy en taxi.		review_bridge u8_review_06 output anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 餐厅整合：我想要一杯水，不加冰。	Quería un vaso de agua sin hielo.	回收 U5 点餐 + U7 礼貌请求。	review_bridge latam_travel_upgrade u8_review_03 u8_review_04 integrated_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 餐厅整合：我没有点这个。	No he pedido esto.	U7 投诉 + U9 esto 预热。	review_bridge latam_travel_upgrade u8_review_03 u8_review_04 integrated_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 餐厅整合：账单可以分开吗？	¿Podemos pagar por separado?	LatAm 旅行实用。	review_bridge latam_travel_upgrade u8_review_03 u8_review_04 integrated_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 餐厅整合：可以打包吗？	¿Es para llevar?	识别卡；主动说可用 Para llevar, por favor。	review_bridge latam_travel_upgrade u8_review_03 u8_review_04 integrated_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 酒店整合：我已经预订了两晚。	Ya he reservado dos noches.		review_bridge latam_travel_upgrade u8_review_03 u8_review_04 integrated_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 酒店整合：我还没付钱。	Todavía no he pagado.		review_bridge latam_travel_upgrade u8_review_03 u8_review_04 integrated_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 酒店整合：房间很吵，我睡不好。	La habitación es muy ruidosa y no duermo bien.		review_bridge latam_travel_upgrade u8_review_03 u8_review_04 integrated_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 酒店整合：可以换一间房吗？	¿Me puede cambiar de habitación?	高频酒店求助。	review_bridge latam_travel_upgrade u8_review_03 u8_review_04 integrated_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 城市整合：这里附近有 ATM 吗？	¿Hay un cajero por aquí?	LatAm/旅行高频；避免重复 v047 的 farmacia。	review_bridge latam_travel_upgrade u8_review_03 u8_review_04 integrated_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 城市整合：这里走路十分钟。	Está a diez minutos caminando.	LatAm 口语常用 caminando。	review_bridge latam_travel_upgrade u8_review_03 u8_review_04 integrated_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 城市整合：往前走两个街区。	Siga derecho dos cuadras.	U6 拉美问路回收。	review_bridge latam_travel_upgrade u8_review_03 u8_review_04 integrated_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 城市整合：在拐角左转。	Doble a la izquierda en la esquina.		review_bridge latam_travel_upgrade u8_review_03 u8_review_04 integrated_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 旅行偏好：我不喜欢太游客化的地方。	No me gustan los lugares muy turísticos.		review_bridge latam_travel_upgrade u8_review_03 u8_review_04 integrated_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 旅行偏好：我喜欢有烟火气的地方。	Me gustan los lugares con mucha vida.	自然表达，不直译“烟火气”。	review_bridge latam_travel_upgrade u8_review_03 u8_review_04 integrated_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 旅行偏好：我喜欢晚上出去走走。	Me gusta salir a caminar por la noche.		review_bridge latam_travel_upgrade u8_review_03 u8_review_04 integrated_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 旅行偏好：我喜欢坐在露台上喝点东西。	Me gusta tomar algo en una terraza.		review_bridge latam_travel_upgrade u8_review_03 u8_review_04 integrated_phrase anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 辨析：¿Dónde está...? 还是 ¿Dónde hay...? 问“哪里有 ATM”？	¿Dónde hay un cajero?	不知道是否存在/哪里有，用 hay。	error_review u8_review_06 contrast anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 辨析：¿Dónde está...? 还是 ¿Dónde hay...? 问“我的酒店在哪里”？	¿Dónde está mi hotel?	具体已知地点的位置，用 estar。	error_review u8_review_06 contrast anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 辨析：“我住在市中心”用 en 还是 a？	Vivo en el centro.	静态位置用 en。	error_review u8_review_06 contrast anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 辨析：“我去市中心”用 en 还是 a?	Voy al centro.	方向/目的地用 a；a + el = al。	error_review u8_review_06 contrast anki_v049 anki_v049_nvh_u8_mirador_review
+Spanish::Nos vemos hoy::U8 Mirador review	Basic	U8 辨析：“已经”与“还没有”：ya / todavía no 怎么配？	Ya he reservado. / Todavía no he pagado.	两个都是 U7 旅行经历/准备的核心时间标记。	error_review u8_review_06 contrast anki_v049 anki_v049_nvh_u8_mirador_review

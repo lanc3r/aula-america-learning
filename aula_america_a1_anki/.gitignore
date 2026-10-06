@@ -1,0 +1,28 @@
+# Python/runtime caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local audio and generated deck artifacts
+audio_cache/
+output/
+release/
+github_upload/
+*.apkg
+*.anki2
+
+# Archived generated bundles/manifests
+prebuilds/**/*.zip
+prebuilds/**/*.apkg
+prebuilds/**/*.manifest.json
+prebuilds/**/build_summary.json
+
+# Generated reports/previews
+audio_required_report.json
+u6_cleanup_report.json
+u6_formal_audit_report.json
+preview.html
+
+# Local OS/editor files
+.DS_Store

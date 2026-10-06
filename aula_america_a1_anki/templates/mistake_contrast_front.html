@@ -5,10 +5,19 @@
   </div>
   <div class="body">
     <div class="prompt" style="font-size:29px;">{{PromptZH}}</div>
+    {{#WrongES}}
     <div class="choice_stack">
       <div class="choice">{{WrongES}}</div>
       <div class="choice">{{CorrectES}}</div>
     </div>
-    <div class="cue">先判断，再翻面</div>
+    <script>
+      var choices = document.querySelector(".choice_stack");
+      if (choices && Math.random() < 0.5) {
+        choices.insertBefore(choices.lastElementChild, choices.firstElementChild);
+      }
+    </script>
+    <div class="cue">选出正确表达，再翻面</div>
+    {{/WrongES}}
+    {{^WrongES}}<div class="cue">先回答，再翻面</div>{{/WrongES}}
   </div>
 </div></div>

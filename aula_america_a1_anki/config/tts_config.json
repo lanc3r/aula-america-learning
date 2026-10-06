@@ -2,7 +2,30 @@
   "model": "gpt-4o-mini-tts",
   "voice": "cedar",
   "response_format": "mp3",
-  "speed": 1.0,
+  "speed": 1.03,
   "cache_prefix": "aa1",
-  "instructions": "Habla con una voz masculina adulta, cálida y natural, en español latinoamericano neutro. Evita rasgos marcadamente peninsulares. Usa un ritmo conversacional ligeramente más lento de lo normal, sin exagerar la dicción, separar artificialmente las sílabas ni sonar como una grabación didáctica. Mantén una entonación auténtica en preguntas y afirmaciones. Lee únicamente el texto proporcionado."
+  "instructions": "El texto de entrada está siempre en español. Habla con una voz masculina adulta, cálida y natural, con pronunciación latinoamericana neutra cercana a México. Evita rasgos marcadamente peninsulares. No leas como locutor de audiolibro ni como profesor dictando palabra por palabra. Usa una velocidad conversacional realista, un poco ágil pero clara para un estudiante A1. La prioridad principal es el habla conectada: pronuncia cada grupo de sentido como una sola corriente de voz, no como palabras aisladas. No hagas micro-pausas entre preposición y artículo, artículo y sustantivo, verbo auxiliar y infinitivo, ni entre palabras cortas dentro de una pregunta. Aplica enlace, sinalefa y resilabificación de forma natural. Si una palabra termina en consonante y la siguiente empieza por vocal, une la consonante con la vocal siguiente. Si dos vocales se encuentran entre palabras, evita separarlas con una pausa artificial. Por ejemplo, di «por aquí», «está abierto», «dónde está», «quién es», «en el centro», «de una farmacia», «a la derecha», «va al centro», «ir en metro» y «cuánto se tarda» como grupos fluidos. Evita totalmente el estilo robótico de una palabra por vez. Reduce ligeramente las palabras funcionales frecuentes, sin exagerar ni volverlas difíciles de entender. En preguntas de viaje, atención al cliente, direcciones, transporte y restaurante, usa una entonación cotidiana y amable, como una interacción real en Latinoamérica. En respuestas o indicaciones, suena útil y directo, no rígido. Pronuncia todas las palabras como español, incluso cuando su escritura coincida con una palabra inglesa. Lee únicamente el texto proporcionado.",
+  "text_instruction_overrides": {
+    "once": "«Once» es el número 11. Pronúncialo como una palabra española latinoamericana, nunca como la palabra inglesa.",
+    "¿Quién es?": "Pronuncia esta pregunta como una unidad prosódica breve y natural. No hagas una pausa entre las dos palabras; enlaza con fluidez la n final de «quién» con la e inicial de «es».",
+    "¿Hay una farmacia por aquí?": "Lee esta pregunta como una sola unidad conversacional: «hay una farmacia» y «por aquí» deben ir conectados. No hagas pausa antes de «por» ni separes «por aquí». Entonación amable de pregunta real.",
+    "¿Dónde está la oficina de turismo?": "Lee «dónde está» como un grupo conectado, sin pausa entre las dos palabras. Mantén «la oficina de turismo» como un solo grupo de sentido, con entonación natural de pregunta.",
+    "Disculpe, ¿dónde está la oficina de turismo?": "Haz una pausa breve después de «Disculpe», pero no dentro de «dónde está la oficina de turismo». Lee la pregunta como una unidad fluida y amable.",
+    "¿Me puede recomendar un café o una cafetería?": "Lee «me puede recomendar» como un bloque natural, sin cortar entre palabras. Mantén una entonación amable de petición real, no de lectura palabra por palabra.",
+    "¿La farmacia está abierta?": "Conecta «farmacia está abierta» de forma natural. No hagas pausa entre «está» y «abierta». Entonación de pregunta cotidiana.",
+    "La farmacia está abierta.": "Conecta «farmacia está abierta» de forma natural. No hagas pausa entre «está» y «abierta». Suena como una respuesta breve y natural.",
+    "¿Puedo ir en metro?": "Lee «puedo ir en metro» como una sola unidad prosódica. No cortes entre «ir» y «en». Entonación de pregunta cotidiana.",
+    "¿Puedo ir en autobús?": "Lee «puedo ir en autobús» como una sola unidad prosódica. Conecta «ir en autobús» sin pausa interna.",
+    "¿Puedo ir a pie?": "Lee «puedo ir a pie» como una unidad fluida. No cortes entre «ir» y «a pie».",
+    "¿Este autobús va al centro?": "Conecta «va al centro» de forma natural, sin pausa entre «va» y «al». Entonación de pregunta real en transporte.",
+    "Tiene que tomar la línea 3 en dirección al centro histórico.": "Lee la frase por grupos: «tiene que tomar la línea tres» + «en dirección al centro histórico». Conecta «dirección al centro» sin pausas internas. Suena como indicación útil, no rígida.",
+    "Tiene que bajar en la estación Alameda.": "Lee «tiene que bajar» y «en la estación Alameda» como grupos fluidos. No cortes palabra por palabra.",
+    "¿Cuánto se tarda?": "Lee esta pregunta como una unidad breve y natural. No hagas pausa entre «cuánto», «se» y «tarda».",
+    "en dirección al centro": "Lee «en dirección al centro» como un grupo fluido, conectando «dirección al» y «al centro» sin pausas internas.",
+    "Gira a la derecha en el semáforo.": "Lee por grupos conectados: «gira a la derecha» + «en el semáforo». No cortes «a la» ni «en el».",
+    "Toma la primera calle a la derecha.": "Lee «a la derecha» como un grupo conectado, sin pausa entre «a» y «la».",
+    "Toma la línea 3 en dirección al centro.": "Lee por grupos conectados: «toma la línea tres» + «en dirección al centro». No cortes «en dirección al centro».",
+    "Entonces, tomo la línea 3 en dirección al centro histórico.": "Haz una pausa breve después de «Entonces», y lee «tomo la línea tres en dirección al centro histórico» con conexión natural dentro del grupo.",
+    "Hay muchos restaurantes en el centro.": "Lee «en el centro» conectado, sin pausa entre «en» y «el». Suena como afirmación cotidiana, no como lista de palabras."
+  }
 }

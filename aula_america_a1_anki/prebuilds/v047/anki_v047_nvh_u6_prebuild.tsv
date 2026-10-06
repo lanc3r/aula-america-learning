@@ -1,0 +1,147 @@
+deck	note_type	front	back	extra	tags
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	药店；连冠词	la farmacia	地点名词建议连冠词一起记。	nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	酒店；连冠词	el hotel		nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	博物馆；连冠词	el museo		nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	广场；连冠词	la plaza		nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	大教堂；连冠词	la catedral		nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	旅游信息处；连冠词	la oficina de turismo		nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	地铁站；连冠词	la estación de metro		nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	咖啡馆；连冠词	la cafetería	不要和 la cafetera 咖啡机/咖啡壶混。	nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	咖啡馆/咖啡；连冠词	el café	口语里 un café 可指一家咖啡馆，也可指一杯咖啡。	nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	银行；连冠词	el banco		nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	市中心；连冠词	el centro		nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	历史中心；连冠词	el centro histórico		nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	街道；连冠词	la calle		nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	红绿灯；连冠词	el semáforo		nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	桥；连冠词	el puente		nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	公交站/站点；连冠词	la parada		nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	车站；连冠词	la estación	地铁/火车站更常用 estación。	nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	线路；连冠词	la línea		nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	公交车；连冠词	el autobús		nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	地铁；连冠词	el metro	tomar el metro，不说 tomar un metro 表示交通方式。	nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	出租车；连冠词	el taxi		nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	地图/城市平面图；连冠词	el plano de la ciudad		nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	门票；连冠词，西班牙教材常见	la entrada	拉美很多地方也可用 el boleto。	nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	门票；连冠词，拉美常见	el boleto	Spain-oriented 教材常用 entrada。	nvh_u6 por_la_ciudad anki_v047 vocab lexico
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	这附近有药店吗？	¿Hay una farmacia por aquí?	问“有没有”用 hay。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es hay_estar ubicacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	酒店附近有药店吗？	¿Hay una farmacia cerca del hotel?	cerca de + el hotel = cerca del hotel。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es hay_estar ubicacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	市中心有很多餐厅。	Hay muchos restaurantes en el centro.	hay + 数量/不确定事物。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es hay_estar ubicacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	大教堂附近没有地铁站。	No hay estaciones de metro cerca de la catedral.	没有某类东西：no hay + 复数名词。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es hay_estar ubicacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	旅游信息处在哪里？	¿Dónde está la oficina de turismo?	问确定地点在哪里，用 estar。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es hay_estar ubicacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	药店在酒店对面。	La farmacia está enfrente del hotel.	enfrente de + el hotel = enfrente del hotel。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es hay_estar ubicacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	酒店在广场旁边。	El hotel está al lado de la plaza.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es hay_estar ubicacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	大教堂离地铁站很远。	La catedral está lejos de la estación de metro.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es hay_estar ubicacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	博物馆在银行旁边。	El museo está al lado del banco.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es hay_estar ubicacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	博物馆在银行对面。	El museo está enfrente del banco.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es hay_estar ubicacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	博物馆步行五分钟。	El museo está a cinco minutos a pie.	estar a + 时间 + a pie。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es hay_estar ubicacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	药店步行两分钟。	La farmacia está a dos minutos a pie.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es hay_estar ubicacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	“旅游信息处在哪里？”为什么不是 ¿Dónde es la oficina de turismo?	¿Dónde está la oficina de turismo?	问建筑/地点的具体位置用 estar；ser 更常用于身份、本质或活动举办地点。	nvh_u6 por_la_ciudad anki_v047 contrast error_prone
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	“这附近有药店吗？”不要混成 ¿Hay una farmacia está cerca?	¿Hay una farmacia cerca?	hay 自己已经表示“有/存在”，后面直接放地点表达。	nvh_u6 por_la_ciudad anki_v047 contrast error_prone
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	“咖啡馆”不是 la cafetera。正确说法是？	la cafetería / el café	la cafetera = 咖啡机/咖啡壶。	nvh_u6 por_la_ciudad anki_v047 contrast error_prone
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	“在银行对面”：enfrente ___ banco	enfrente del banco	固定搭配 enfrente de；de + el = del。	nvh_u6 por_la_ciudad anki_v047 contrast error_prone
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	“在银行对面”：也可以用 frente ___ banco	frente al banco	固定搭配 frente a；a + el = al。不要混成 enfrente al banco。	nvh_u6 por_la_ciudad anki_v047 contrast error_prone
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	“去博物馆”：ir ___ museo	ir al museo	ir a + el museo = ir al museo。	nvh_u6 por_la_ciudad anki_v047 contrast error_prone
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	“往市中心方向”：en dirección ___ centro	en dirección al centro	en dirección a + el centro = al centro。	nvh_u6 por_la_ciudad anki_v047 contrast error_prone
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	不好意思，旅游信息处在哪里？	Disculpe, ¿dónde está la oficina de turismo?	反问号从真正的问题开始。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es pedir_informacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	您能推荐一家咖啡馆吗？	¿Me puede recomendar una cafetería?		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es pedir_informacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	您有城市地图吗？	¿Tiene un plano de la ciudad?		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es pedir_informacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	博物馆几点关门？	¿A qué hora cierra el museo?	问具体几点，用 ¿A qué hora...?	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es pedir_informacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	药店开着吗？	¿La farmacia está abierta?	状态：estar abierto/a。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es pedir_informacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	博物馆开着吗？	¿El museo está abierto?		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es pedir_informacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	旅游信息处几点开门？	¿A qué hora abre la oficina de turismo?		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es pedir_informacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	您知道博物馆周一开门吗？	¿Sabe si el museo abre los lunes?	los lunes = 每周一/周一这一天类。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es pedir_informacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	门票在哪里买？	¿Dónde se pueden comprar las entradas?	也可用 boletos，尤其拉美。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es pedir_informacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	门票多少钱？	¿Cuánto cuesta una entrada?		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es pedir_informacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	有导览参观吗？	¿Hay visitas guiadas?		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es pedir_informacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	去市中心的公交从哪里出发？	¿De dónde sale el autobús para el centro?	salir de = 从……出发。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es pedir_informacion
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	“博物馆几点关门？”最自然怎么说？	¿A qué hora cierra el museo?	日程/营业时间用 abre/cierra。	nvh_u6 por_la_ciudad anki_v047 contrast abrir_cerrar
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	“博物馆现在关着。”	El museo está cerrado.	状态用 estar + cerrado。	nvh_u6 por_la_ciudad anki_v047 contrast abrir_cerrar
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	“药店现在开着。”	La farmacia está abierta.	状态用 estar + abierta。	nvh_u6 por_la_ciudad anki_v047 contrast abrir_cerrar
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	“¿A qué hora se cierra el museo?”为什么不作为首选？	更自然：¿A qué hora cierra el museo?	cierra 直接描述营业时间；se cierra 更像“被关上/关闭这个动作”。	nvh_u6 por_la_ciudad anki_v047 contrast abrir_cerrar
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	“什么时候关门？”可以用 cuándo 吗？	¿Cuándo cierra?	可以，但范围比 ¿A qué hora...? 更宽，不一定问具体几点。	nvh_u6 por_la_ciudad anki_v047 contrast abrir_cerrar
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	一直往前走。	Sigue todo derecho. / Sigue todo recto.	todo derecho 拉美很常见；todo recto 也对。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es indicaciones
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	一直往前走到广场。	Sigue todo derecho hasta la plaza.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es indicaciones
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	沿着这条街一直走到广场。	Sigue por esta calle todo derecho hasta la plaza.	por esta calle = 沿着这条街。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es indicaciones
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	在红绿灯那里右转。	Gira a la derecha en el semáforo.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es indicaciones
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	向左转。	Gira a la izquierda.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es indicaciones
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	过马路。	Cruza la calle.	cruzar 后面直接接名词。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es indicaciones
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	穿过广场。	Cruza la plaza.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es indicaciones
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	过桥。	Cruza el puente.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es indicaciones
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	在第二条街左转。	Toma la segunda calle a la izquierda.	tomar + calle = 走/选这条街。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es indicaciones
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	走第一条街右转。	Toma la primera calle a la derecha.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es indicaciones
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	走到红绿灯。	Sigue hasta el semáforo.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es indicaciones
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	到最后，博物馆在街的尽头。	Al final de la calle está el museo.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es indicaciones
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	听到 Siga todo derecho. 你要理解成什么？	请/您一直往前走。	usted 礼貌指路。	nvh_u6 por_la_ciudad anki_v047 recognition indicaciones usted
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	听到 Gire a la derecha. 你要理解成什么？	请/您向右转。	usted 礼貌指路。	nvh_u6 por_la_ciudad anki_v047 recognition indicaciones usted
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	听到 Tome la segunda calle. 你要理解成什么？	请/您走第二条街。	usted 礼貌指路。	nvh_u6 por_la_ciudad anki_v047 recognition indicaciones usted
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	听到 Baje en Alameda. 你要理解成什么？	请/您在 Alameda 下车。	usted 礼貌指路。	nvh_u6 por_la_ciudad anki_v047 recognition indicaciones usted
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	tú: sigue / usted: ____ / ustedes: ____	siga / sigan	只做识别，不展开完整命令式。	nvh_u6 por_la_ciudad anki_v047 recognition indicaciones usted
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	tú: gira / usted: ____ / ustedes: ____	gire / giren		nvh_u6 por_la_ciudad anki_v047 recognition indicaciones usted
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	tú: toma / usted: ____ / ustedes: ____	tome / tomen		nvh_u6 por_la_ciudad anki_v047 recognition indicaciones usted
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	tú: cruza / usted: ____ / ustedes: ____	cruce / crucen		nvh_u6 por_la_ciudad anki_v047 recognition indicaciones usted
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	第一条街	la primera calle	calle 是阴性。	nvh_u6 por_la_ciudad anki_v047 vocab_phrase ordinales
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	第二条街	la segunda calle		nvh_u6 por_la_ciudad anki_v047 vocab_phrase ordinales
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	第三条街	la tercera calle		nvh_u6 por_la_ciudad anki_v047 vocab_phrase ordinales
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	第一个红绿灯	el primer semáforo	primer 放在阳性单数名词前。	nvh_u6 por_la_ciudad anki_v047 vocab_phrase ordinales
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	第二座桥	el segundo puente		nvh_u6 por_la_ciudad anki_v047 vocab_phrase ordinales
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	要去市中心，你需要坐地铁。	Para ir al centro, tienes que tomar el metro.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	坐 3 号线，往大教堂方向。	Toma la línea 3 en dirección a la catedral.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	坐 3 号线，往市中心方向。	Toma la línea 3 en dirección al centro.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	在下一站下车。	Baja en la próxima parada.	bajar en + 站点。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	在 Alameda 站下车。	Baja en la estación Alameda.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	换到 2 号线。	Cambia a la línea 2.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	我需要换线吗？	¿Tengo que cambiar de línea?	泛泛说换线：cambiar de línea。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	我们需要坐公交。	Tenemos que tomar el autobús.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	我得在博物馆附近下车。	Tengo que bajar cerca del museo.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	我可以坐地铁去吗？	¿Puedo ir en metro?	交通方式：ir en + 交通工具。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	我可以坐公交去吗？	¿Puedo ir en autobús?		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	我可以步行去吗？	¿Puedo ir a pie?	例外：a pie。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	最好坐出租车。	Es mejor tomar un taxi.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	最好步行去。	Es mejor ir a pie.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	这辆公交去市中心吗？	¿Este autobús va al centro?		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	这条线去大教堂吗？	¿Esta línea va a la catedral?		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	我需要坐哪条线？	¿Qué línea tengo que tomar?		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	要去博物馆我需要坐哪条线？	¿Qué línea tengo que tomar para ir al museo?		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	我需要在哪里下车？	¿Dónde tengo que bajar?		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	有几站？公交/站点	¿Cuántas paradas son?	parada 阴性复数，所以 cuántas。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	有几站？地铁/火车站	¿Cuántas estaciones son?	estación 阴性复数。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	是直达的吗？	¿Es directo?		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	是直达的。	Es directo.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	不用换线。	No tiene que cambiar de línea.	对陌生人/usted 的回答。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es transporte
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	所以，我坐 3 号线，往历史中心方向。	Entonces, tomo la línea 3 en dirección al centro histórico.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es ruta_recap
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	我在 Alameda 下车。	Bajo en Alameda.	站名明确时可省略 la estación。	nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es ruta_recap
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	我在 Alameda 站下车。	Bajo en la estación Alameda.		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es ruta_recap
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	博物馆在车站附近，对吗？	El museo está cerca de la estación, ¿verdad?		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es ruta_recap
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	所以，我需要坐 3 号线，在 Alameda 下车，对吗？	Entonces, tengo que tomar la línea 3 y bajar en Alameda, ¿verdad?		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es ruta_recap
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	所以，我坐 3 号线，在 Alameda 下车，然后换到 2 号线，对吗？	Entonces, tomo la línea 3, bajo en Alameda y cambio a la línea 2, ¿verdad?		nvh_u6 por_la_ciudad anki_v047 sentence_zh_to_es ruta_recap
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	游客：不好意思，我怎么到博物馆？	Disculpe, ¿cómo llego al museo?	llegar a = 到达某地；a + el museo = al museo。	nvh_u6 por_la_ciudad anki_v047 dialogue dialogo
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	游客：可以坐地铁去吗？	¿Puedo tomar el metro? / ¿Puedo ir en metro?	tomar el metro；不用 un metro。	nvh_u6 por_la_ciudad anki_v047 dialogue dialogo
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	工作人员：您需要坐 3 号线，往历史中心方向。	Tiene que tomar la línea 3 en dirección al centro histórico.	usted 形式：tiene que。	nvh_u6 por_la_ciudad anki_v047 dialogue dialogo
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	工作人员：您需要在 Alameda 站下车。	Tiene que bajar en la estación Alameda.		nvh_u6 por_la_ciudad anki_v047 dialogue dialogo
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	游客：需要换线吗？	¿Tengo que cambiar de línea?		nvh_u6 por_la_ciudad anki_v047 dialogue dialogo
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	工作人员：不用，是直达的。	No, es directo.		nvh_u6 por_la_ciudad anki_v047 dialogue dialogo
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	游客：一共有几站？	¿Cuántas estaciones son?		nvh_u6 por_la_ciudad anki_v047 dialogue dialogo
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	工作人员：四站。	Son cuatro estaciones.		nvh_u6 por_la_ciudad anki_v047 dialogue dialogo
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	游客：要花多久？	¿Cuánto se tarda?	先整句记。	nvh_u6 por_la_ciudad anki_v047 dialogue dialogo
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	工作人员：步行大概十分钟。	Son unos diez minutos a pie.	unos diez = 大概十。	nvh_u6 por_la_ciudad anki_v047 dialogue dialogo
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	小段落：我的酒店在市中心。	Mi hotel está en el centro.		nvh_u6 por_la_ciudad anki_v047 production salida
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	小段落：酒店附近有一家药店。	Hay una farmacia cerca del hotel.		nvh_u6 por_la_ciudad anki_v047 production salida
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	小段落：药店在酒店对面。	La farmacia está enfrente del hotel.		nvh_u6 por_la_ciudad anki_v047 production salida
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	小段落：我想去博物馆。	Quiero ir al museo.		nvh_u6 por_la_ciudad anki_v047 production salida
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	小段落：我坐 3 号线，往历史中心方向。	Tomo la línea 3 en dirección al centro histórico.		nvh_u6 por_la_ciudad anki_v047 production salida
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	小段落：我在 Alameda 站下车。	Bajo en la estación Alameda.		nvh_u6 por_la_ciudad anki_v047 production salida
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	小段落：博物馆步行五分钟。	El museo está a cinco minutos a pie.		nvh_u6 por_la_ciudad anki_v047 production salida
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	在市中心散步	pasear por el centro	pasear por = 在……散步/逛。	nvh_u6 por_la_ciudad anki_v047 future_u6 prebuild
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	参观大教堂	visitar la catedral		nvh_u6 por_la_ciudad anki_v047 future_u6 prebuild
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	去购物	ir de compras		nvh_u6 por_la_ciudad anki_v047 future_u6 prebuild
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	去剧院	ir al teatro	a + el teatro = al teatro。	nvh_u6 por_la_ciudad anki_v047 future_u6 prebuild
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	在典型咖啡馆吃早饭	desayunar en un café típico		nvh_u6 por_la_ciudad anki_v047 future_u6 prebuild
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	吃当地/传统食物	comer comida típica / tradicional		nvh_u6 por_la_ciudad anki_v047 future_u6 prebuild
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	有很棒的城市景色。	Hay una vista fantástica de la ciudad.		nvh_u6 por_la_ciudad anki_v047 future_u6 prebuild
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	这是一个很大的城市。	Es una ciudad grande.	ser 描述城市本质/特征。	nvh_u6 por_la_ciudad anki_v047 future_u6 prebuild
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	它不是这个国家的首都。	No es la capital del país.		nvh_u6 por_la_ciudad anki_v047 future_u6 prebuild
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	它在这个国家的北部。	Está en el norte del país.	位置用 estar。	nvh_u6 por_la_ciudad anki_v047 future_u6 prebuild
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	它以……闻名。	Es famosa por...	famoso/famosa 要配合名词。	nvh_u6 por_la_ciudad anki_v047 future_u6 prebuild
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	有很多来自不同国家的人。	Hay gente de muchos países diferentes.		nvh_u6 por_la_ciudad anki_v047 future_u6 prebuild
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	我最想了解两个地方。	Prefiero conocer dos lugares.	教材后续 La Candelaria 任务可用。	nvh_u6 por_la_ciudad anki_v047 future_u6 prebuild
+Spanish::Nos vemos hoy::U6 Por la ciudad	Basic	对我来说，最有意思的地方是……	Para mí, el lugar más interesante es...		nvh_u6 por_la_ciudad anki_v047 future_u6 prebuild

@@ -1,6 +1,6 @@
 {
   "unit": "unidad_01",
-  "content_version": "0.1.0",
+  "content_version": "0.2.3",
   "source": "Aula América 1 (A1), Unidad 1, plus personalized course notes",
   "cards": {
     "chunk_production": [
@@ -20,8 +20,11 @@
           "aula::u01::l01",
           "type::chunk",
           "skill::speaking",
-          "topic::greeting"
-        ]
+          "topic::greeting",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150100
       },
       {
         "uid": "AA1-U01-L01-P002",
@@ -39,8 +42,11 @@
           "aula::u01::l01",
           "type::chunk",
           "skill::speaking",
-          "topic::personal_information"
-        ]
+          "topic::personal_information",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150101
       },
       {
         "uid": "AA1-U01-L01-P003",
@@ -58,8 +64,11 @@
           "aula::u01::l01",
           "type::chunk",
           "skill::speaking",
-          "topic::origin"
-        ]
+          "topic::origin",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150102
       },
       {
         "uid": "AA1-U01-L01-P004",
@@ -77,8 +86,11 @@
           "aula::u01::l01",
           "type::chunk",
           "skill::speaking",
-          "topic::nationality"
-        ]
+          "topic::nationality",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150103
       },
       {
         "uid": "AA1-U01-L01-P005",
@@ -96,8 +108,11 @@
           "aula::u01::l01",
           "type::chunk",
           "skill::speaking",
-          "topic::profession"
-        ]
+          "topic::profession",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150104
       },
       {
         "uid": "AA1-U01-L01-P006",
@@ -115,8 +130,11 @@
           "aula::u01::l01",
           "type::chunk",
           "skill::speaking",
-          "topic::greeting"
-        ]
+          "topic::greeting",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150105
       },
       {
         "uid": "AA1-U01-L02-P001",
@@ -134,8 +152,11 @@
           "aula::u01::l02",
           "type::question",
           "skill::speaking",
-          "topic::personal_information"
-        ]
+          "topic::personal_information",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150206
       },
       {
         "uid": "AA1-U01-L02-P002",
@@ -153,8 +174,11 @@
           "aula::u01::l02",
           "type::question",
           "skill::speaking",
-          "topic::origin"
-        ]
+          "topic::origin",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150207
       },
       {
         "uid": "AA1-U01-L02-P003",
@@ -162,18 +186,21 @@
         "lesson": "L2",
         "category": "提问",
         "context_zh": "询问个人信息",
-        "prompt_zh": "你做什么工作？",
+        "prompt_zh": "你是做什么的？（¿A qué te dedicas?）",
         "spanish": "¿A qué te dedicas?",
-        "meaning_zh": "你做什么工作？",
-        "usage_zh": "询问职业或主要从事的事情。",
+        "meaning_zh": "你是做什么的？",
+        "usage_zh": "较自然地询问职业或主要从事的事情；不要和 ¿En qué trabajas? 那张混成同一张。",
         "pattern": "¿A qué te dedicas? ↔ Soy…",
         "note": "",
         "tags": [
           "aula::u01::l02",
           "type::question",
           "skill::speaking",
-          "topic::profession"
-        ]
+          "topic::profession",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150208
       },
       {
         "uid": "AA1-U01-L02-P004",
@@ -191,8 +218,11 @@
           "aula::u01::l02",
           "type::question",
           "skill::speaking",
-          "topic::age"
-        ]
+          "topic::age",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150209
       },
       {
         "uid": "AA1-U01-L02-P005",
@@ -210,8 +240,11 @@
           "aula::u01::l02",
           "type::chunk",
           "skill::speaking",
-          "topic::age"
-        ]
+          "topic::age",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150210
       },
       {
         "uid": "AA1-U01-L01-P007",
@@ -229,8 +262,11 @@
           "aula::u01::l01",
           "type::chunk",
           "skill::speaking",
-          "topic::third_person"
-        ]
+          "topic::third_person",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150111
       },
       {
         "uid": "AA1-U01-L01-P008",
@@ -248,8 +284,11 @@
           "aula::u01::l01",
           "type::chunk",
           "skill::speaking",
-          "topic::third_person"
-        ]
+          "topic::third_person",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150112
       },
       {
         "uid": "AA1-U01-L01-P009",
@@ -267,8 +306,781 @@
           "aula::u01::l01",
           "type::chunk",
           "skill::speaking",
-          "topic::third_person"
-        ]
+          "topic::third_person",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150113
+      },
+      {
+        "uid": "AA1-U01-L03-P001",
+        "unit": "U1",
+        "lesson": "L03",
+        "category": "问候",
+        "context_zh": "早上见面",
+        "prompt_zh": "早上好。",
+        "spanish": "Buenos días.",
+        "meaning_zh": "早上好。",
+        "usage_zh": "上午使用的常见问候。",
+        "pattern": "",
+        "note": "",
+        "tags": [
+          "aula::u01::l03",
+          "type::chunk",
+          "skill::speaking",
+          "topic::greeting",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150314
+      },
+      {
+        "uid": "AA1-U01-L03-P002",
+        "unit": "U1",
+        "lesson": "L03",
+        "category": "问候",
+        "context_zh": "下午见面",
+        "prompt_zh": "下午好。",
+        "spanish": "Buenas tardes.",
+        "meaning_zh": "下午好。",
+        "usage_zh": "中午以后到傍晚常用。",
+        "pattern": "",
+        "note": "",
+        "tags": [
+          "aula::u01::l03",
+          "type::chunk",
+          "skill::speaking",
+          "topic::greeting",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150315
+      },
+      {
+        "uid": "AA1-U01-L03-P003",
+        "unit": "U1",
+        "lesson": "L03",
+        "category": "问候",
+        "context_zh": "晚上见面",
+        "prompt_zh": "晚上好。",
+        "spanish": "Buenas noches.",
+        "meaning_zh": "晚上好。",
+        "usage_zh": "晚上见面时问候，也可用于睡前道晚安。",
+        "pattern": "",
+        "note": "",
+        "tags": [
+          "aula::u01::l03",
+          "type::chunk",
+          "skill::speaking",
+          "topic::greeting",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150316
+      },
+      {
+        "uid": "AA1-U01-L03-P004",
+        "unit": "U1",
+        "lesson": "L03",
+        "category": "告别",
+        "context_zh": "结束交谈",
+        "prompt_zh": "再见。",
+        "spanish": "¡Adiós!",
+        "meaning_zh": "再见。",
+        "usage_zh": "通用告别语。",
+        "pattern": "",
+        "note": "",
+        "tags": [
+          "aula::u01::l03",
+          "type::chunk",
+          "skill::speaking",
+          "topic::farewell",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150317
+      },
+      {
+        "uid": "AA1-U01-L03-P005",
+        "unit": "U1",
+        "lesson": "L03",
+        "category": "告别",
+        "context_zh": "稍后再见",
+        "prompt_zh": "稍后见。",
+        "spanish": "¡Hasta luego!",
+        "meaning_zh": "稍后见。",
+        "usage_zh": "预计之后还会再见时很常用；本卡目标是 hasta luego。",
+        "pattern": "",
+        "note": "",
+        "tags": [
+          "aula::u01::l03",
+          "type::chunk",
+          "skill::speaking",
+          "topic::farewell",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150318
+      },
+      {
+        "uid": "AA1-U01-L03-P006",
+        "unit": "U1",
+        "lesson": "L03",
+        "category": "告别",
+        "context_zh": "结束交谈",
+        "prompt_zh": "回头见 / 到时见。",
+        "spanish": "¡Nos vemos!",
+        "meaning_zh": "回头见。",
+        "usage_zh": "自然、口语化的告别；本卡目标是 nos vemos。",
+        "pattern": "",
+        "note": "",
+        "tags": [
+          "aula::u01::l03",
+          "type::chunk",
+          "skill::speaking",
+          "topic::farewell",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150319
+      },
+      {
+        "uid": "AA1-U01-L03-P007",
+        "unit": "U1",
+        "lesson": "L03",
+        "category": "课堂求助",
+        "context_zh": "不知道某个物品的西语说法",
+        "prompt_zh": "这个用西班牙语怎么说？",
+        "spanish": "¿Cómo se dice esto en español?",
+        "meaning_zh": "这个用西班牙语怎么说？",
+        "usage_zh": "指着物品询问说法。",
+        "pattern": "¿Cómo se dice + 内容 + en español?",
+        "note": "",
+        "tags": [
+          "aula::u01::l03",
+          "type::chunk",
+          "skill::speaking",
+          "topic::classroom_language",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150320
+      },
+      {
+        "uid": "AA1-U01-L03-P008",
+        "unit": "U1",
+        "lesson": "L03",
+        "category": "课堂求助",
+        "context_zh": "询问词义",
+        "prompt_zh": "“mochila”是什么意思？",
+        "spanish": "¿Qué significa “mochila”?",
+        "meaning_zh": "“mochila”是什么意思？",
+        "usage_zh": "询问一个词或表达的意思。",
+        "pattern": "¿Qué significa + 词语?",
+        "note": "",
+        "tags": [
+          "aula::u01::l03",
+          "type::chunk",
+          "skill::speaking",
+          "topic::classroom_language",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150321
+      },
+      {
+        "uid": "AA1-U01-L03-P009",
+        "unit": "U1",
+        "lesson": "L03",
+        "category": "课堂求助",
+        "context_zh": "询问发音",
+        "prompt_zh": "“ingeniero”怎么发音？",
+        "spanish": "¿Cómo se pronuncia “ingeniero”?",
+        "meaning_zh": "“ingeniero”怎么发音？",
+        "usage_zh": "询问一个词的读音。",
+        "pattern": "¿Cómo se pronuncia + 词语?",
+        "note": "",
+        "tags": [
+          "aula::u01::l03",
+          "type::chunk",
+          "skill::speaking",
+          "topic::classroom_language",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150322
+      },
+      {
+        "uid": "AA1-U01-L03-P010",
+        "unit": "U1",
+        "lesson": "L03",
+        "category": "课堂求助",
+        "context_zh": "询问拼写",
+        "prompt_zh": "你的名字怎么拼？",
+        "spanish": "¿Cómo se escribe tu nombre?",
+        "meaning_zh": "你的名字怎么拼？",
+        "usage_zh": "询问姓名或单词如何拼写。",
+        "pattern": "¿Cómo se escribe + 名词?",
+        "note": "",
+        "tags": [
+          "aula::u01::l03",
+          "type::chunk",
+          "skill::speaking",
+          "topic::spelling",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150323
+      },
+      {
+        "uid": "AA1-U01-L03-P011",
+        "unit": "U1",
+        "lesson": "L03",
+        "category": "拼写姓名",
+        "context_zh": "回答姓名拼写",
+        "prompt_zh": "我叫 Yuzhou。拼作：Y、U、Z、H、O、U。",
+        "spanish": "Me llamo Yuzhou. Se escribe: ye, u, zeta, hache, o, u.",
+        "meaning_zh": "我叫 Yuzhou。拼作：Y、U、Z、H、O、U。",
+        "usage_zh": "口头拼写时说字母名称。",
+        "pattern": "Se escribe: + 字母名称",
+        "note": "",
+        "tags": [
+          "aula::u01::l03",
+          "type::chunk",
+          "skill::speaking",
+          "topic::spelling",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150324
+      },
+      {
+        "uid": "AA1-U01-L04-P001",
+        "unit": "U1",
+        "lesson": "L04",
+        "category": "提问",
+        "context_zh": "询问个人信息",
+        "prompt_zh": "你的名字是什么？",
+        "spanish": "¿Cuál es tu nombre?",
+        "meaning_zh": "你的名字是什么？",
+        "usage_zh": "比 ¿Cómo te llamas? 稍偏表格登记或确认信息。",
+        "pattern": "¿Cuál es tu + 名词?",
+        "note": "",
+        "tags": [
+          "aula::u01::l04",
+          "type::chunk",
+          "skill::speaking",
+          "topic::personal_information",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150425
+      },
+      {
+        "uid": "AA1-U01-L04-P002",
+        "unit": "U1",
+        "lesson": "L04",
+        "category": "提问",
+        "context_zh": "询问联系方式",
+        "prompt_zh": "你有电子邮箱吗？",
+        "spanish": "¿Tienes correo electrónico?",
+        "meaning_zh": "你有电子邮箱吗？",
+        "usage_zh": "询问对方是否有电子邮箱。",
+        "pattern": "¿Tienes + 名词?",
+        "note": "",
+        "tags": [
+          "aula::u01::l04",
+          "type::chunk",
+          "skill::speaking",
+          "topic::contact_information",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150426
+      },
+      {
+        "uid": "AA1-U01-L04-P003",
+        "unit": "U1",
+        "lesson": "L04",
+        "category": "提问",
+        "context_zh": "询问联系方式",
+        "prompt_zh": "你的电子邮箱是什么？",
+        "spanish": "¿Cuál es tu correo electrónico?",
+        "meaning_zh": "你的电子邮箱是什么？",
+        "usage_zh": "日常也常把 correo electrónico 简称为 correo。",
+        "pattern": "¿Cuál es tu + 名词?",
+        "note": "",
+        "tags": [
+          "aula::u01::l04",
+          "type::chunk",
+          "skill::speaking",
+          "topic::contact_information",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150427
+      },
+      {
+        "uid": "AA1-U01-L04-P004",
+        "unit": "U1",
+        "lesson": "L04",
+        "category": "提问",
+        "context_zh": "询问联系方式",
+        "prompt_zh": "你有手机吗？",
+        "spanish": "¿Tienes celular?",
+        "meaning_zh": "你有手机吗？",
+        "usage_zh": "广泛拉美西语常说 celular；西班牙常说 móvil。",
+        "pattern": "¿Tienes + 名词?",
+        "note": "",
+        "tags": [
+          "aula::u01::l04",
+          "type::chunk",
+          "skill::speaking",
+          "topic::contact_information",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150428
+      },
+      {
+        "uid": "AA1-U01-L04-P005",
+        "unit": "U1",
+        "lesson": "L04",
+        "category": "提问",
+        "context_zh": "询问联系方式",
+        "prompt_zh": "你的手机号是多少？",
+        "spanish": "¿Cuál es tu número de celular?",
+        "meaning_zh": "你的手机号是多少？",
+        "usage_zh": "拉美常用；也可以说 número de teléfono。",
+        "pattern": "¿Cuál es tu número de + 名词?",
+        "note": "",
+        "tags": [
+          "aula::u01::l04",
+          "type::chunk",
+          "skill::speaking",
+          "topic::contact_information",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150429
+      },
+      {
+        "uid": "AA1-U01-L04-P006",
+        "unit": "U1",
+        "lesson": "L04",
+        "category": "联系方式",
+        "context_zh": "口头提供邮箱",
+        "prompt_zh": "我的邮箱是 yuzhou@ejemplo.com。",
+        "spanish": "Mi correo es yuzhou arroba ejemplo punto com.",
+        "meaning_zh": "我的邮箱是 yuzhou@ejemplo.com。",
+        "usage_zh": "口头读邮箱时，@ 读 arroba，句点读 punto。",
+        "pattern": "Mi correo es + 地址",
+        "note": "",
+        "tags": [
+          "aula::u01::l04",
+          "type::chunk",
+          "skill::speaking",
+          "topic::contact_information",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150430
+      },
+      {
+        "uid": "AA1-U01-L05-P001",
+        "unit": "U1",
+        "lesson": "L05",
+        "category": "第三人称",
+        "context_zh": "询问人物身份",
+        "prompt_zh": "他是谁？",
+        "spanish": "¿Quién es?",
+        "meaning_zh": "他是谁？",
+        "usage_zh": "用于照片、现场人物或前文提到的陌生名字，询问对方的身份、关系或角色；也可按语境表示“她是谁？”。",
+        "pattern": "¿Quién es?",
+        "note": "只想问姓名时用 ¿Cómo se llama?。",
+        "tags": [
+          "aula::u01::l05",
+          "type::chunk",
+          "skill::speaking",
+          "topic::third_person",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150531
+      },
+      {
+        "uid": "AA1-U01-L05-P002",
+        "unit": "U1",
+        "lesson": "L05",
+        "category": "第三人称",
+        "context_zh": "询问第三人的姓名",
+        "prompt_zh": "他叫什么名字？",
+        "spanish": "¿Cómo se llama?",
+        "meaning_zh": "他叫什么名字？",
+        "usage_zh": "也可以表示“她叫什么名字？”。",
+        "pattern": "¿Cómo se llama? ↔ Se llama…",
+        "note": "",
+        "tags": [
+          "aula::u01::l05",
+          "type::chunk",
+          "skill::speaking",
+          "topic::third_person",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150532
+      },
+      {
+        "uid": "AA1-U01-L05-P003",
+        "unit": "U1",
+        "lesson": "L05",
+        "category": "第三人称",
+        "context_zh": "询问第三人的来源",
+        "prompt_zh": "他来自哪里？",
+        "spanish": "¿De dónde es?",
+        "meaning_zh": "他来自哪里？",
+        "usage_zh": "也可以表示“她来自哪里？”。",
+        "pattern": "¿De dónde es? ↔ Es de…",
+        "note": "",
+        "tags": [
+          "aula::u01::l05",
+          "type::chunk",
+          "skill::speaking",
+          "topic::third_person",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150533
+      },
+      {
+        "uid": "AA1-U01-L05-P004",
+        "unit": "U1",
+        "lesson": "L05",
+        "category": "第三人称",
+        "context_zh": "询问第三人的职业",
+        "prompt_zh": "他做什么工作？",
+        "spanish": "¿A qué se dedica?",
+        "meaning_zh": "他做什么工作？",
+        "usage_zh": "也可以表示“她做什么工作？”。",
+        "pattern": "¿A qué se dedica? ↔ Es…",
+        "note": "",
+        "tags": [
+          "aula::u01::l05",
+          "type::chunk",
+          "skill::speaking",
+          "topic::third_person",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150534
+      },
+      {
+        "uid": "AA1-U01-L05-P005",
+        "unit": "U1",
+        "lesson": "L05",
+        "category": "第三人称",
+        "context_zh": "询问第三人的年龄",
+        "prompt_zh": "他几岁？",
+        "spanish": "¿Cuántos años tiene?",
+        "meaning_zh": "他几岁？",
+        "usage_zh": "也可以表示“她几岁？”。",
+        "pattern": "¿Cuántos años tiene? ↔ Tiene… años.",
+        "note": "",
+        "tags": [
+          "aula::u01::l05",
+          "type::chunk",
+          "skill::speaking",
+          "topic::third_person",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150535
+      },
+      {
+        "uid": "AA1-U01-L05-P006",
+        "unit": "U1",
+        "lesson": "L05",
+        "category": "第三人称",
+        "context_zh": "介绍别人的年龄",
+        "prompt_zh": "他 29 岁。",
+        "spanish": "Tiene veintinueve años.",
+        "meaning_zh": "他 29 岁。",
+        "usage_zh": "第三人称年龄使用 tiene。",
+        "pattern": "Tiene + 年龄 + años",
+        "note": "",
+        "tags": [
+          "aula::u01::l05",
+          "type::chunk",
+          "skill::speaking",
+          "topic::third_person",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150536
+      },
+      {
+        "uid": "AA1-U01-L07-P001",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "个人信息",
+        "context_zh": "提供姓名",
+        "prompt_zh": "我的名字是 Yuzhou。",
+        "spanish": "Mi nombre es Yuzhou.",
+        "meaning_zh": "我的名字是 Yuzhou。",
+        "usage_zh": "需要明确填写或确认名字时使用。",
+        "pattern": "Mi nombre es + 名字",
+        "note": "日常初次见面更常用 Me llamo…",
+        "tags": [
+          "aula::u01::l07",
+          "type::chunk",
+          "skill::speaking",
+          "topic::personal_information",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150737
+      },
+      {
+        "uid": "AA1-U01-L07-P002",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "个人信息",
+        "context_zh": "询问姓氏",
+        "prompt_zh": "你姓什么？",
+        "spanish": "¿Cuál es tu apellido?",
+        "meaning_zh": "你姓什么？",
+        "usage_zh": "非正式地询问姓氏。",
+        "pattern": "¿Cuál es tu apellido?",
+        "note": "apellido 是姓；nombre 是名字或姓名。",
+        "tags": [
+          "aula::u01::l07",
+          "type::chunk",
+          "skill::speaking",
+          "topic::personal_information",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150738
+      },
+      {
+        "uid": "AA1-U01-L07-P003",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "个人信息",
+        "context_zh": "提供姓氏",
+        "prompt_zh": "我的姓是 Wang。",
+        "spanish": "Mi apellido es Wang.",
+        "meaning_zh": "我的姓是 Wang。",
+        "usage_zh": "填写表格或确认姓氏时使用。",
+        "pattern": "Mi apellido es + 姓氏",
+        "note": "",
+        "tags": [
+          "aula::u01::l07",
+          "type::chunk",
+          "skill::speaking",
+          "topic::personal_information",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150739
+      },
+      {
+        "uid": "AA1-U01-L07-P004",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "正式称呼",
+        "context_zh": "正式询问姓名",
+        "prompt_zh": "您叫什么名字？",
+        "spanish": "¿Cómo se llama usted?",
+        "meaning_zh": "您叫什么名字？",
+        "usage_zh": "用于需要礼貌或正式称呼的场景；usted 使用第三人称动词形式。",
+        "pattern": "¿Cómo se llama usted?",
+        "note": "语境明确时也常省略 usted：¿Cómo se llama?",
+        "tags": [
+          "aula::u01::l07",
+          "type::chunk",
+          "skill::speaking",
+          "topic::formality",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150740
+      },
+      {
+        "uid": "AA1-U01-L07-P005",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "正式称呼",
+        "context_zh": "正式确认姓名",
+        "prompt_zh": "您的名字是什么？",
+        "spanish": "¿Cuál es su nombre?",
+        "meaning_zh": "您的名字是什么？",
+        "usage_zh": "正式询问对方名字；su 在这里表示“您的”。",
+        "pattern": "¿Cuál es su + 信息?",
+        "note": "su 也可能表示“你们的、他/她的、他们/她们的”，由语境判断。",
+        "tags": [
+          "aula::u01::l07",
+          "type::chunk",
+          "skill::speaking",
+          "topic::formality",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150741
+      },
+      {
+        "uid": "AA1-U01-L07-P006",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "职业",
+        "context_zh": "询问职业",
+        "prompt_zh": "你做什么工作？（用 trabajar）",
+        "spanish": "¿En qué trabajas?",
+        "meaning_zh": "你做什么工作？",
+        "usage_zh": "日常、直接地询问对方从事什么工作；本卡目标是 trabajar 句型。",
+        "pattern": "¿En qué trabajas?",
+        "note": "近义问法：¿A qué te dedicas?",
+        "tags": [
+          "aula::u01::l07",
+          "type::chunk",
+          "skill::speaking",
+          "topic::profession",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150742
+      },
+      {
+        "uid": "AA1-U01-L07-P007",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "职业",
+        "context_zh": "说明职业",
+        "prompt_zh": "我的工作是软件工程师。",
+        "spanish": "Trabajo como ingeniero de software.",
+        "meaning_zh": "我从事软件工程师工作。",
+        "usage_zh": "用 trabajo como 强调从事的职业或角色。",
+        "pattern": "Trabajo como + 职业",
+        "note": "不能直接说 Trabajo ingeniero。",
+        "tags": [
+          "aula::u01::l07",
+          "type::chunk",
+          "skill::speaking",
+          "topic::profession",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150743
+      },
+      {
+        "uid": "AA1-U01-L07-P008",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "职业",
+        "context_zh": "说明工作单位或行业",
+        "prompt_zh": "我在一家科技公司工作。",
+        "spanish": "Trabajo en una empresa de tecnología.",
+        "meaning_zh": "我在一家科技公司工作。",
+        "usage_zh": "用 trabajo en 说明工作地点、单位或行业。",
+        "pattern": "Trabajo en + 地点 / 单位 / 行业",
+        "note": "",
+        "tags": [
+          "aula::u01::l07",
+          "type::chunk",
+          "skill::speaking",
+          "topic::profession",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150744
+      },
+      {
+        "uid": "AA1-U01-L07-P009",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "复数人称",
+        "context_zh": "介绍群体",
+        "prompt_zh": "我们是学生。",
+        "spanish": "Somos estudiantes.",
+        "meaning_zh": "我们是学生。",
+        "usage_zh": "somos 已经标明“我们”，通常不必说 nosotros。",
+        "pattern": "nosotros / nosotras → somos",
+        "note": "强调或对比时可说 Nosotros somos estudiantes.",
+        "tags": [
+          "aula::u01::l07",
+          "type::chunk",
+          "skill::speaking",
+          "topic::plural_persons",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150745
+      },
+      {
+        "uid": "AA1-U01-L07-P010",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "复数人称",
+        "context_zh": "两人共同介绍姓名",
+        "prompt_zh": "我们叫 Carlos 和 Ana。",
+        "spanish": "Nos llamamos Carlos y Ana.",
+        "meaning_zh": "我们叫 Carlos 和 Ana。",
+        "usage_zh": "nos llamamos 是 llamarse 的 nosotros 形式。",
+        "pattern": "nosotros / nosotras → nos llamamos",
+        "note": "",
+        "tags": [
+          "aula::u01::l07",
+          "type::chunk",
+          "skill::speaking",
+          "topic::plural_persons",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150746
+      },
+      {
+        "uid": "AA1-U01-L07-P011",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "复数人称",
+        "context_zh": "询问一群人的姓名",
+        "prompt_zh": "你们叫什么名字？",
+        "spanish": "¿Cómo se llaman ustedes?",
+        "meaning_zh": "你们叫什么名字？",
+        "usage_zh": "广泛拉美西语用 ustedes 表示“你们”，动词使用第三人称复数。",
+        "pattern": "ustedes → se llaman",
+        "note": "西班牙非正式复数常用 vosotros / vosotras，属于另一套形式。",
+        "tags": [
+          "aula::u01::l07",
+          "type::chunk",
+          "skill::speaking",
+          "topic::plural_persons",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150747
+      },
+      {
+        "uid": "AA1-U01-L07-P012",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "告别",
+        "context_zh": "预计不久后再见",
+        "prompt_zh": "很快再见。",
+        "spanish": "¡Hasta pronto!",
+        "meaning_zh": "很快再见。",
+        "usage_zh": "比 hasta luego 更明确地表达希望不久后再见。",
+        "pattern": "",
+        "note": "",
+        "tags": [
+          "aula::u01::l07",
+          "type::chunk",
+          "skill::speaking",
+          "topic::farewell",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 150748
       }
     ],
     "dialogue_response": [
@@ -285,8 +1097,11 @@
           "aula::u01::l02",
           "type::dialogue",
           "skill::listening",
-          "skill::speaking"
-        ]
+          "skill::speaking",
+          "group::06_问答情景"
+        ],
+        "learning_group": "06_问答情景",
+        "learning_order": 160200
       },
       {
         "uid": "AA1-U01-L02-D002",
@@ -301,8 +1116,11 @@
           "aula::u01::l02",
           "type::dialogue",
           "skill::listening",
-          "skill::speaking"
-        ]
+          "skill::speaking",
+          "group::06_问答情景"
+        ],
+        "learning_group": "06_问答情景",
+        "learning_order": 160201
       },
       {
         "uid": "AA1-U01-L02-D003",
@@ -317,8 +1135,11 @@
           "aula::u01::l02",
           "type::dialogue",
           "skill::listening",
-          "skill::speaking"
-        ]
+          "skill::speaking",
+          "group::06_问答情景"
+        ],
+        "learning_group": "06_问答情景",
+        "learning_order": 160202
       },
       {
         "uid": "AA1-U01-L02-D004",
@@ -333,8 +1154,271 @@
           "aula::u01::l02",
           "type::dialogue",
           "skill::listening",
-          "skill::speaking"
-        ]
+          "skill::speaking",
+          "group::06_问答情景"
+        ],
+        "learning_group": "06_问答情景",
+        "learning_order": 160203
+      },
+      {
+        "uid": "AA1-U01-L03-D001",
+        "unit": "U1",
+        "lesson": "L03",
+        "context_zh": "日常问候",
+        "question_es": "¿Cómo estás?",
+        "answer_es": "Muy bien, gracias.",
+        "answer_zh": "很好，谢谢。",
+        "usage_zh": "自然回应日常问候。",
+        "tags": [
+          "aula::u01::l03",
+          "type::dialogue",
+          "skill::listening",
+          "skill::speaking",
+          "topic::greeting",
+          "group::06_问答情景"
+        ],
+        "learning_group": "06_问答情景",
+        "learning_order": 160304
+      },
+      {
+        "uid": "AA1-U01-L04-D001",
+        "unit": "U1",
+        "lesson": "L04",
+        "context_zh": "提供联系方式",
+        "question_es": "¿Tienes correo electrónico?",
+        "answer_es": "Sí, mi correo es yuzhou arroba ejemplo punto com.",
+        "answer_zh": "有，我的邮箱是 yuzhou@ejemplo.com。",
+        "usage_zh": "使用示例地址，不需要在卡片中保存真实联系方式。",
+        "tags": [
+          "aula::u01::l04",
+          "type::dialogue",
+          "skill::listening",
+          "skill::speaking",
+          "topic::contact_information",
+          "group::06_问答情景"
+        ],
+        "learning_group": "06_问答情景",
+        "learning_order": 160405
+      },
+      {
+        "uid": "AA1-U01-L04-D002",
+        "unit": "U1",
+        "lesson": "L04",
+        "context_zh": "提供联系方式",
+        "question_es": "¿Cuál es tu correo electrónico?",
+        "answer_es": "Mi correo es yuzhou arroba ejemplo punto com.",
+        "answer_zh": "我的邮箱是 yuzhou@ejemplo.com。",
+        "usage_zh": "口头读邮箱：arroba 表示 @，punto 表示句点。",
+        "tags": [
+          "aula::u01::l04",
+          "type::dialogue",
+          "skill::listening",
+          "skill::speaking",
+          "topic::contact_information",
+          "group::06_问答情景"
+        ],
+        "learning_group": "06_问答情景",
+        "learning_order": 160406
+      },
+      {
+        "uid": "AA1-U01-L04-D003",
+        "unit": "U1",
+        "lesson": "L04",
+        "context_zh": "提供联系方式",
+        "question_es": "¿Tienes celular?",
+        "answer_es": "Sí.",
+        "answer_zh": "有。",
+        "usage_zh": "回答是否有手机时，单独说 Sí 很自然。",
+        "tags": [
+          "aula::u01::l04",
+          "type::dialogue",
+          "skill::listening",
+          "skill::speaking",
+          "topic::contact_information",
+          "group::06_问答情景"
+        ],
+        "learning_group": "06_问答情景",
+        "learning_order": 160407
+      },
+      {
+        "uid": "AA1-U01-L04-D004",
+        "unit": "U1",
+        "lesson": "L04",
+        "context_zh": "提供联系方式",
+        "question_es": "¿Cuál es tu número de celular?",
+        "answer_es": "Mi número es cuatro, cero, ocho, cinco, cinco, cinco, cero, uno, dos, tres.",
+        "answer_zh": "我的号码是 408-555-0123。",
+        "usage_zh": "电话号码可以逐位读；此处使用虚构号码。",
+        "tags": [
+          "aula::u01::l04",
+          "type::dialogue",
+          "skill::listening",
+          "skill::speaking",
+          "topic::contact_information",
+          "group::06_问答情景"
+        ],
+        "learning_group": "06_问答情景",
+        "learning_order": 160408
+      },
+      {
+        "uid": "AA1-U01-L05-D001",
+        "unit": "U1",
+        "lesson": "L05",
+        "context_zh": "谈论第三个人",
+        "question_es": "¿Cómo se llama?",
+        "answer_es": "Se llama Carlos.",
+        "answer_zh": "他叫 Carlos。",
+        "usage_zh": "听到第三人称问题后直接回答。",
+        "tags": [
+          "aula::u01::l05",
+          "type::dialogue",
+          "skill::listening",
+          "skill::speaking",
+          "topic::third_person",
+          "group::06_问答情景"
+        ],
+        "learning_group": "06_问答情景",
+        "learning_order": 160509
+      },
+      {
+        "uid": "AA1-U01-L05-D002",
+        "unit": "U1",
+        "lesson": "L05",
+        "context_zh": "谈论第三个人",
+        "question_es": "¿De dónde es?",
+        "answer_es": "Es de México.",
+        "answer_zh": "他来自墨西哥。",
+        "usage_zh": "听到第三人称问题后直接回答。",
+        "tags": [
+          "aula::u01::l05",
+          "type::dialogue",
+          "skill::listening",
+          "skill::speaking",
+          "topic::third_person",
+          "group::06_问答情景"
+        ],
+        "learning_group": "06_问答情景",
+        "learning_order": 160510
+      },
+      {
+        "uid": "AA1-U01-L05-D003",
+        "unit": "U1",
+        "lesson": "L05",
+        "context_zh": "谈论第三个人",
+        "question_es": "¿A qué se dedica?",
+        "answer_es": "Es médico.",
+        "answer_zh": "他是医生。",
+        "usage_zh": "职业前通常不用 un。",
+        "tags": [
+          "aula::u01::l05",
+          "type::dialogue",
+          "skill::listening",
+          "skill::speaking",
+          "topic::third_person",
+          "group::06_问答情景"
+        ],
+        "learning_group": "06_问答情景",
+        "learning_order": 160511
+      },
+      {
+        "uid": "AA1-U01-L05-D004",
+        "unit": "U1",
+        "lesson": "L05",
+        "context_zh": "谈论第三个人",
+        "question_es": "¿Cuántos años tiene?",
+        "answer_es": "Tiene veintinueve años.",
+        "answer_zh": "他 29 岁。",
+        "usage_zh": "第三人称年龄使用 tiene。",
+        "tags": [
+          "aula::u01::l05",
+          "type::dialogue",
+          "skill::listening",
+          "skill::speaking",
+          "topic::third_person",
+          "group::06_问答情景"
+        ],
+        "learning_group": "06_问答情景",
+        "learning_order": 160512
+      },
+      {
+        "uid": "AA1-U01-L07-D001",
+        "unit": "U1",
+        "lesson": "L07",
+        "context_zh": "填写个人信息",
+        "question_es": "¿Cuál es tu apellido?",
+        "answer_es": "Mi apellido es Wang.",
+        "answer_zh": "我的姓是 Wang。",
+        "usage_zh": "听到 apellido 时，提供姓氏，不要把名字和姓氏写反。",
+        "tags": [
+          "aula::u01::l07",
+          "type::dialogue",
+          "skill::listening",
+          "skill::speaking",
+          "topic::personal_information",
+          "group::06_问答情景"
+        ],
+        "learning_group": "06_问答情景",
+        "learning_order": 160713
+      },
+      {
+        "uid": "AA1-U01-L07-D002",
+        "unit": "U1",
+        "lesson": "L07",
+        "context_zh": "正式场合",
+        "question_es": "¿Cómo se llama usted?",
+        "answer_es": "Me llamo Yuzhou.",
+        "answer_zh": "我叫 Yuzhou。",
+        "usage_zh": "问题使用正式 usted，但回答自己的姓名仍然用 me llamo。",
+        "tags": [
+          "aula::u01::l07",
+          "type::dialogue",
+          "skill::listening",
+          "skill::speaking",
+          "topic::formality",
+          "group::06_问答情景"
+        ],
+        "learning_group": "06_问答情景",
+        "learning_order": 160714
+      },
+      {
+        "uid": "AA1-U01-L07-D003",
+        "unit": "U1",
+        "lesson": "L07",
+        "context_zh": "初次认识时谈职业",
+        "question_es": "¿En qué trabajas?",
+        "answer_es": "Soy ingeniero de software.",
+        "answer_zh": "我是软件工程师。",
+        "usage_zh": "也可以回答 Trabajo como ingeniero de software.",
+        "tags": [
+          "aula::u01::l07",
+          "type::dialogue",
+          "skill::listening",
+          "skill::speaking",
+          "topic::profession",
+          "group::06_问答情景"
+        ],
+        "learning_group": "06_问答情景",
+        "learning_order": 160715
+      },
+      {
+        "uid": "AA1-U01-L07-D004",
+        "unit": "U1",
+        "lesson": "L07",
+        "context_zh": "认识两个人",
+        "question_es": "¿Cómo se llaman ustedes?",
+        "answer_es": "Nos llamamos Carlos y Ana.",
+        "answer_zh": "我们叫 Carlos 和 Ana。",
+        "usage_zh": "把 ustedes 的提问直接转换成 nosotros 的回答。",
+        "tags": [
+          "aula::u01::l07",
+          "type::dialogue",
+          "skill::listening",
+          "skill::speaking",
+          "topic::plural_persons",
+          "group::06_问答情景"
+        ],
+        "learning_group": "06_问答情景",
+        "learning_order": 160716
       }
     ],
     "mistake_contrast": [
@@ -350,8 +1434,11 @@
         "tags": [
           "aula::u01::l02",
           "type::mistake",
-          "topic::age"
-        ]
+          "topic::age",
+          "group::07_易错综合"
+        ],
+        "learning_group": "07_易错综合",
+        "learning_order": 170200
       },
       {
         "uid": "AA1-U01-L01-M001",
@@ -365,8 +1452,11 @@
         "tags": [
           "aula::u01::l01",
           "type::mistake",
-          "topic::profession"
-        ]
+          "topic::profession",
+          "group::07_易错综合"
+        ],
+        "learning_group": "07_易错综合",
+        "learning_order": 170101
       },
       {
         "uid": "AA1-U01-L02-M002",
@@ -380,13 +1470,1224 @@
         "tags": [
           "aula::u01::l02",
           "type::mistake",
-          "topic::personal_information"
-        ]
+          "topic::personal_information",
+          "group::07_易错综合"
+        ],
+        "learning_group": "07_易错综合",
+        "learning_order": 170202
+      },
+      {
+        "uid": "AA1-U01-L04-M001",
+        "unit": "U1",
+        "lesson": "L04",
+        "context_zh": "拼写辨析",
+        "prompt_zh": "表示“是的”时，哪种写法正确？",
+        "wrong_es": "Si, mi correo es yuzhou arroba ejemplo punto com.",
+        "correct_es": "Sí, mi correo es yuzhou arroba ejemplo punto com.",
+        "explanation_zh": "sí 表示“是的”，必须写重音；si 不带重音表示“如果”。",
+        "tags": [
+          "aula::u01::l04",
+          "type::mistake",
+          "topic::accent",
+          "group::07_易错综合"
+        ],
+        "learning_group": "07_易错综合",
+        "learning_order": 170403
+      },
+      {
+        "uid": "AA1-U01-L04-M002",
+        "unit": "U1",
+        "lesson": "L04",
+        "context_zh": "代词辨析",
+        "prompt_zh": "“我的电子邮箱”应该怎么说？",
+        "wrong_es": "me correo electrónico",
+        "correct_es": "mi correo electrónico",
+        "explanation_zh": "mi 表示“我的”；me 是宾格或反身代词，不能放在名词前表示所有关系。",
+        "tags": [
+          "aula::u01::l04",
+          "type::mistake",
+          "topic::possessive",
+          "group::07_易错综合"
+        ],
+        "learning_group": "07_易错综合",
+        "learning_order": 170404
+      },
+      {
+        "uid": "AA1-U01-L04-M003",
+        "unit": "U1",
+        "lesson": "L04",
+        "context_zh": "固定搭配",
+        "prompt_zh": "“电子邮箱”应该怎么说？",
+        "wrong_es": "correo de electrónico",
+        "correct_es": "correo electrónico",
+        "explanation_zh": "electrónico 直接修饰 correo，中间不加 de。",
+        "tags": [
+          "aula::u01::l04",
+          "type::mistake",
+          "topic::contact_information",
+          "group::07_易错综合"
+        ],
+        "learning_group": "07_易错综合",
+        "learning_order": 170405
+      },
+      {
+        "uid": "AA1-U01-L04-M004",
+        "unit": "U1",
+        "lesson": "L04",
+        "context_zh": "疑问词辨析",
+        "prompt_zh": "询问“你的邮箱是什么？”哪一句自然？",
+        "wrong_es": "¿Qué es tu correo electrónico?",
+        "correct_es": "¿Cuál es tu correo electrónico?",
+        "explanation_zh": "询问一个具体信息值时使用 ¿Cuál es…?；¿Qué es…? 通常是在询问定义。",
+        "tags": [
+          "aula::u01::l04",
+          "type::mistake",
+          "topic::question_words",
+          "group::07_易错综合"
+        ],
+        "learning_group": "07_易错综合",
+        "learning_order": 170406
+      },
+      {
+        "uid": "AA1-U01-L05-M001",
+        "unit": "U1",
+        "lesson": "L05",
+        "context_zh": "阴阳性",
+        "prompt_zh": "介绍男性 Carlos 的职业，哪一句正确？",
+        "wrong_es": "Carlos es médica.",
+        "correct_es": "Carlos es médico.",
+        "explanation_zh": "médico 与男性人物一致；médica 用于女性人物。",
+        "tags": [
+          "aula::u01::l05",
+          "type::mistake",
+          "topic::gender",
+          "group::07_易错综合"
+        ],
+        "learning_group": "07_易错综合",
+        "learning_order": 170507
+      },
+      {
+        "uid": "AA1-U01-L06-M001",
+        "unit": "U1",
+        "lesson": "L06",
+        "context_zh": "数字构成",
+        "prompt_zh": "表达“我 36 岁”，数字部分应该怎样连接？",
+        "wrong_es": "Tengo treinta seis años.",
+        "correct_es": "Tengo treinta y seis años.",
+        "explanation_zh": "30 以上的非整十数字通常在十位和个位之间加 y。",
+        "tags": [
+          "aula::u01::l06",
+          "type::mistake",
+          "topic::numbers",
+          "group::07_易错综合"
+        ],
+        "learning_group": "07_易错综合",
+        "learning_order": 170608
+      },
+      {
+        "uid": "AA1-U01-L07-M001",
+        "unit": "U1",
+        "lesson": "L07",
+        "context_zh": "正式人称",
+        "prompt_zh": "对“您”使用 ser，哪一句正确？",
+        "wrong_es": "Usted eres de China.",
+        "correct_es": "Usted es de China.",
+        "explanation_zh": "usted 的意义是“您”，但语法上使用第三人称单数变位。",
+        "tags": [
+          "aula::u01::l07",
+          "type::mistake",
+          "topic::formality",
+          "group::07_易错综合"
+        ],
+        "learning_group": "07_易错综合",
+        "learning_order": 170709
+      },
+      {
+        "uid": "AA1-U01-L07-M002",
+        "unit": "U1",
+        "lesson": "L07",
+        "context_zh": "职业表达",
+        "prompt_zh": "表达“我从事工程师工作”，哪一句自然？",
+        "wrong_es": "Trabajo ingeniero.",
+        "correct_es": "Trabajo como ingeniero.",
+        "explanation_zh": "trabajar 后表示职业角色时需要 como；也可以说 Soy ingeniero。",
+        "tags": [
+          "aula::u01::l07",
+          "type::mistake",
+          "topic::profession",
+          "group::07_易错综合"
+        ],
+        "learning_group": "07_易错综合",
+        "learning_order": 170710
+      },
+      {
+        "uid": "AA1-U01-L07-M003",
+        "unit": "U1",
+        "lesson": "L07",
+        "context_zh": "性数一致",
+        "prompt_zh": "介绍一群女性墨西哥人，哪一句正确？",
+        "wrong_es": "Ellas son mexicanos.",
+        "correct_es": "Ellas son mexicanas.",
+        "explanation_zh": "ellas 表示全女性群体，因此国籍词也使用阴性复数 mexicanas。",
+        "tags": [
+          "aula::u01::l07",
+          "type::mistake",
+          "topic::gender",
+          "group::07_易错综合"
+        ],
+        "learning_group": "07_易错综合",
+        "learning_order": 170711
+      },
+      {
+        "uid": "AA1-U01-L07-M004",
+        "unit": "U1",
+        "lesson": "L07",
+        "context_zh": "正式称呼",
+        "prompt_zh": "正式称呼 Yuzhou Wang，哪一种符合通常习惯？",
+        "wrong_es": "Señor Yuzhou.",
+        "correct_es": "Señor Wang.",
+        "explanation_zh": "señor / señora 通常接姓氏 apellido，而不是名字 nombre。",
+        "tags": [
+          "aula::u01::l07",
+          "type::mistake",
+          "topic::names",
+          "group::07_易错综合"
+        ],
+        "learning_group": "07_易错综合",
+        "learning_order": 170712
       }
     ],
-    "vocabulary": [],
-    "grammar_pattern": [],
-    "rule_concept": [],
-    "pronunciation": []
+    "vocabulary": [
+      {
+        "uid": "AA1-U01-L06-V001",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "0",
+        "word_es": "cero",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "零",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110600
+      },
+      {
+        "uid": "AA1-U01-L06-V002",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "1",
+        "word_es": "uno",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "一",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110601
+      },
+      {
+        "uid": "AA1-U01-L06-V003",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "2",
+        "word_es": "dos",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "二",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110602
+      },
+      {
+        "uid": "AA1-U01-L06-V004",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "3",
+        "word_es": "tres",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "三",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110603
+      },
+      {
+        "uid": "AA1-U01-L06-V005",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "4",
+        "word_es": "cuatro",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "四",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110604
+      },
+      {
+        "uid": "AA1-U01-L06-V006",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "5",
+        "word_es": "cinco",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "五",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110605
+      },
+      {
+        "uid": "AA1-U01-L06-V007",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "6",
+        "word_es": "seis",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "六",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110606
+      },
+      {
+        "uid": "AA1-U01-L06-V008",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "7",
+        "word_es": "siete",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "七",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110607
+      },
+      {
+        "uid": "AA1-U01-L06-V009",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "8",
+        "word_es": "ocho",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "八",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110608
+      },
+      {
+        "uid": "AA1-U01-L06-V010",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "9",
+        "word_es": "nueve",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "九",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110609
+      },
+      {
+        "uid": "AA1-U01-L06-V011",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "10",
+        "word_es": "diez",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "十",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110610
+      },
+      {
+        "uid": "AA1-U01-L06-V012",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "11",
+        "word_es": "once",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "十一",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110611
+      },
+      {
+        "uid": "AA1-U01-L06-V013",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "12",
+        "word_es": "doce",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "十二",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110612
+      },
+      {
+        "uid": "AA1-U01-L06-V014",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "13",
+        "word_es": "trece",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "十三",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110613
+      },
+      {
+        "uid": "AA1-U01-L06-V015",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "14",
+        "word_es": "catorce",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "十四",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110614
+      },
+      {
+        "uid": "AA1-U01-L06-V016",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "15",
+        "word_es": "quince",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "十五",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110615
+      },
+      {
+        "uid": "AA1-U01-L06-V017",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "20",
+        "word_es": "veinte",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "二十",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110616
+      },
+      {
+        "uid": "AA1-U01-L06-V018",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "30",
+        "word_es": "treinta",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "三十",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110617
+      },
+      {
+        "uid": "AA1-U01-L06-V019",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "40",
+        "word_es": "cuarenta",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "四十",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110618
+      },
+      {
+        "uid": "AA1-U01-L06-V020",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "50",
+        "word_es": "cincuenta",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "五十",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110619
+      },
+      {
+        "uid": "AA1-U01-L06-V021",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "60",
+        "word_es": "sesenta",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "六十",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110620
+      },
+      {
+        "uid": "AA1-U01-L06-V022",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "70",
+        "word_es": "setenta",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "七十",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110621
+      },
+      {
+        "uid": "AA1-U01-L06-V023",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "80",
+        "word_es": "ochenta",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "八十",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110622
+      },
+      {
+        "uid": "AA1-U01-L06-V024",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "90",
+        "word_es": "noventa",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "九十",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110623
+      },
+      {
+        "uid": "AA1-U01-L06-V025",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字",
+        "prompt_zh": "100",
+        "word_es": "cien",
+        "gender": "",
+        "plural_es": "",
+        "meaning_zh": "一百",
+        "example_es": "",
+        "example_zh": "",
+        "usage_zh": "构成 0–100 数字系统的基础词，需要直接记忆。",
+        "regional_variant": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::vocabulary",
+          "topic::numbers",
+          "skill::recall",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 110624
+      }
+    ],
+    "grammar_pattern": [
+      {
+        "uid": "AA1-U01-L06-G001",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字构成",
+        "context_zh": "Unidad 1 核心结构",
+        "prompt_zh": "说出数字 16、17、18、19。",
+        "answer_es": "dieciséis; diecisiete; dieciocho; diecinueve",
+        "meaning_zh": "十六；十七；十八；十九",
+        "pattern": "16–19：dieci- + 个位数",
+        "explanation_zh": "16–19 合写成一个词；dieciséis 需要重音符号。",
+        "contrast_es": "",
+        "note": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::grammar",
+          "skill::production",
+          "group::04_语法模式"
+        ],
+        "learning_group": "04_语法模式",
+        "learning_order": 140600
+      },
+      {
+        "uid": "AA1-U01-L06-G002",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字构成",
+        "context_zh": "Unidad 1 核心结构",
+        "prompt_zh": "说出数字 21、22、23、26、29。",
+        "answer_es": "veintiuno; veintidós; veintitrés; veintiséis; veintinueve",
+        "meaning_zh": "二十一；二十二；二十三；二十六；二十九",
+        "pattern": "21–29：veinti- + 个位数",
+        "explanation_zh": "21–29 合写成一个词。veintidós、veintitrés、veintiséis带重音。",
+        "contrast_es": "",
+        "note": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::grammar",
+          "skill::production",
+          "group::04_语法模式"
+        ],
+        "learning_group": "04_语法模式",
+        "learning_order": 140601
+      },
+      {
+        "uid": "AA1-U01-L06-G003",
+        "unit": "U1",
+        "lesson": "L06",
+        "category": "数字构成",
+        "context_zh": "Unidad 1 核心结构",
+        "prompt_zh": "说出数字 36 和 48。",
+        "answer_es": "treinta y seis; cuarenta y ocho",
+        "meaning_zh": "三十六；四十八",
+        "pattern": "30–99：整十 + y + 个位数",
+        "explanation_zh": "从 30 开始，非整十数字通常使用“整十 + y + 个位数”。",
+        "contrast_es": "",
+        "note": "",
+        "tags": [
+          "aula::u01::l06",
+          "type::grammar",
+          "skill::production",
+          "group::04_语法模式"
+        ],
+        "learning_group": "04_语法模式",
+        "learning_order": 140602
+      },
+      {
+        "uid": "AA1-U01-L05-G001",
+        "unit": "U1",
+        "lesson": "L05",
+        "category": "动词变位",
+        "context_zh": "Unidad 1 核心结构",
+        "prompt_zh": "完成三句话：我来自中国；你是学生；Carlos 是医生。",
+        "answer_es": "Soy de China. Eres estudiante. Carlos es médico.",
+        "meaning_zh": "我来自中国。你是学生。Carlos 是医生。",
+        "pattern": "ser：soy / eres / es",
+        "explanation_zh": "动词 ser 会随“是谁”改变形式。",
+        "contrast_es": "Yo soy de China.",
+        "note": "主语明确时，yo 通常可以省略。",
+        "tags": [
+          "aula::u01::l05",
+          "type::grammar",
+          "skill::production",
+          "group::04_语法模式"
+        ],
+        "learning_group": "04_语法模式",
+        "learning_order": 140503
+      },
+      {
+        "uid": "AA1-U01-L05-G002",
+        "unit": "U1",
+        "lesson": "L05",
+        "category": "动词变位",
+        "context_zh": "Unidad 1 核心结构",
+        "prompt_zh": "完成：我叫 Yuzhou；你叫什么名字；他叫 Carlos。",
+        "answer_es": "Me llamo Yuzhou. ¿Cómo te llamas? Se llama Carlos.",
+        "meaning_zh": "我叫 Yuzhou。你叫什么名字？他叫 Carlos。",
+        "pattern": "llamarse：me llamo / te llamas / se llama",
+        "explanation_zh": "me、te、se 与相应的动词形式一起变化。",
+        "contrast_es": "",
+        "note": "",
+        "tags": [
+          "aula::u01::l05",
+          "type::grammar",
+          "skill::production",
+          "group::04_语法模式"
+        ],
+        "learning_group": "04_语法模式",
+        "learning_order": 140504
+      },
+      {
+        "uid": "AA1-U01-L05-G003",
+        "unit": "U1",
+        "lesson": "L05",
+        "category": "动词变位",
+        "context_zh": "Unidad 1 核心结构",
+        "prompt_zh": "完成：我 36 岁；你几岁；Carlos 29 岁。",
+        "answer_es": "Tengo treinta y seis años. ¿Cuántos años tienes? Carlos tiene veintinueve años.",
+        "meaning_zh": "我 36 岁。你几岁？Carlos 29 岁。",
+        "pattern": "tener：tengo / tienes / tiene",
+        "explanation_zh": "年龄使用 tener，并随人称变为 tengo、tienes、tiene。",
+        "contrast_es": "",
+        "note": "",
+        "tags": [
+          "aula::u01::l05",
+          "type::grammar",
+          "skill::production",
+          "group::04_语法模式"
+        ],
+        "learning_group": "04_语法模式",
+        "learning_order": 140505
+      },
+      {
+        "uid": "AA1-U01-L07-G001",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "正式与非正式",
+        "context_zh": "个人信息问答",
+        "prompt_zh": "把非正式问法改为正式问法：¿Cómo te llamas? ¿Cuál es tu nombre?",
+        "answer_es": "¿Cómo se llama usted? ¿Cuál es su nombre?",
+        "meaning_zh": "您叫什么名字？您的名字是什么？",
+        "pattern": "tú：te / tu / llamas ↔ usted：se / su / llama",
+        "explanation_zh": "usted 表示“您”，但与 él / ella 共用第三人称单数形式。",
+        "contrast_es": "¿Cómo te llamas? ¿Cuál es tu nombre?",
+        "note": "口语中语境明确时可省略 usted。",
+        "tags": [
+          "aula::u01::l07",
+          "type::grammar",
+          "skill::production",
+          "topic::formality",
+          "group::04_语法模式"
+        ],
+        "learning_group": "04_语法模式",
+        "learning_order": 140706
+      },
+      {
+        "uid": "AA1-U01-L07-G002",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "复数人称",
+        "context_zh": "Unidad 1 人称系统补全",
+        "prompt_zh": "完成：你们叫什么名字？我们叫 Carlos 和 Ana；我们是学生。",
+        "answer_es": "¿Cómo se llaman ustedes? Nos llamamos Carlos y Ana. Somos estudiantes.",
+        "meaning_zh": "你们叫什么名字？我们叫 Carlos 和 Ana。我们是学生。",
+        "pattern": "nosotros：somos / tenemos / nos llamamos；ustedes / ellos / ellas：son / tienen / se llaman",
+        "explanation_zh": "拉美西语中 ustedes 与 ellos / ellas 共用第三人称复数变位。",
+        "contrast_es": "Ellos son mexicanos. Ellas son mexicanas.",
+        "note": "当前先熟悉系统，Unidad 2 会继续练习现在时变位。",
+        "tags": [
+          "aula::u01::l07",
+          "type::grammar",
+          "skill::production",
+          "topic::plural_persons",
+          "group::04_语法模式"
+        ],
+        "learning_group": "04_语法模式",
+        "learning_order": 140707
+      }
+    ],
+    "rule_concept": [
+      {
+        "uid": "AA1-U01-L05-R001",
+        "unit": "U1",
+        "lesson": "L05",
+        "category": "阴阳性",
+        "question_zh": "职业和国籍怎样随人物性别变化？",
+        "core_answer_zh": "许多以 -o 结尾的词变为 -a；以辅音结尾的国籍常加 -a；也有男女形式相同的词。",
+        "example_es": "Carlos es médico. María es médica. Alex es estudiante.",
+        "explanation_zh": "形容国籍或职业的词通常要与人物的性别一致，例如 mexicano/mexicana、médico/médica。estudiante、periodista 等形式不变。",
+        "english_comparison": "英语中的职业和国籍通常不随性别改变。",
+        "japanese_comparison": "",
+        "negative_transfer": "不要看到女性就机械地给所有职业加 -a；先确认该词是否有阴阳性变化。",
+        "note": "",
+        "tags": [
+          "aula::u01::l05",
+          "type::rule",
+          "skill::understanding",
+          "group::03_规则理解"
+        ],
+        "learning_group": "03_规则理解",
+        "learning_order": 130500
+      },
+      {
+        "uid": "AA1-U01-L05-R002",
+        "unit": "U1",
+        "lesson": "L05",
+        "category": "主语省略",
+        "question_zh": "为什么西语中经常不说 yo 或 tú？",
+        "core_answer_zh": "动词形式通常已经标明人称，所以主语代词在不强调或不对比时经常省略。",
+        "example_es": "Soy de China. Tengo treinta y seis años.",
+        "explanation_zh": "soy 和 tengo 已经表示主语是“我”。明确语境下，省略 yo 更自然。",
+        "english_comparison": "英语通常必须保留 I/you/he 等主语。",
+        "japanese_comparison": "日语也常省略语境中明确的主语，但西语还会通过动词词尾标记人称。",
+        "negative_transfer": "不要因为英语习惯而每句话都加 yo。",
+        "note": "",
+        "tags": [
+          "aula::u01::l05",
+          "type::rule",
+          "skill::understanding",
+          "group::03_规则理解"
+        ],
+        "learning_group": "03_规则理解",
+        "learning_order": 130501
+      },
+      {
+        "uid": "AA1-U01-L03-R001",
+        "unit": "U1",
+        "lesson": "L03",
+        "category": "疑问词重音",
+        "question_zh": "为什么 cómo、qué、dónde、cuál、cuántos 在问句中有重音？",
+        "core_answer_zh": "它们在直接或间接提问中是带重音的疑问词，因此书写重音符号。",
+        "example_es": "¿Cómo te llamas? ¿De dónde eres? ¿Cuál es tu nombre?",
+        "explanation_zh": "这里的重音符号不仅提示读音，也区分疑问用法与非疑问用法。",
+        "english_comparison": "",
+        "japanese_comparison": "",
+        "negative_transfer": "不要把疑问词写成 como、que、donde、cual、cuantos。",
+        "note": "",
+        "tags": [
+          "aula::u01::l03",
+          "type::rule",
+          "skill::understanding",
+          "group::03_规则理解"
+        ],
+        "learning_group": "03_规则理解",
+        "learning_order": 130302
+      },
+      {
+        "uid": "AA1-U01-L07-R001",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "正式称呼",
+        "question_zh": "usted 为什么表示“您”，却使用第三人称变位？",
+        "core_answer_zh": "usted 在意义上指听话人，但语法上使用第三人称单数；因此说 usted es、se llama、tiene，并使用 su。",
+        "example_es": "¿Cómo se llama usted? ¿Cuál es su nombre? Usted es de México.",
+        "explanation_zh": "现代使用时把它当作一套固定对应关系即可：tú → te / tu / llamas；usted → se / su / llama。su 的具体含义依赖语境，也可表示“你们的、他/她的、他们/她们的”。",
+        "english_comparison": "现代英语 you 不区分 tú 与 usted，也几乎不随正式程度改变动词。",
+        "japanese_comparison": "日语礼貌体系主要通过称呼、敬语和动词形式体现，不能把某一个日语代词与 usted 完全一一对应。",
+        "negative_transfer": "不要说 Usted eres；也不要以为 su 永远只表示“他的”。",
+        "note": "usted 历史上来自尊称 vuestra merced，但现阶段不需要记忆历史演变。",
+        "tags": [
+          "aula::u01::l07",
+          "type::rule",
+          "skill::understanding",
+          "topic::formality",
+          "group::03_规则理解"
+        ],
+        "learning_group": "03_规则理解",
+        "learning_order": 130703
+      },
+      {
+        "uid": "AA1-U01-L07-R002",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "人物提问",
+        "question_zh": "¿Quién es? 和 ¿Cómo se llama? 有什么区别？",
+        "core_answer_zh": "¿Quién es? 问人物的身份、关系或角色；¿Cómo se llama? 只问姓名。",
+        "example_es": "¿Quién es? Es mi profesor. ¿Cómo se llama? Se llama Daniel.",
+        "explanation_zh": "看到照片、现场人物或听到陌生名字时，可以用 ¿Quién es?。回答可能是姓名、亲属关系、职业或其他身份。只想知道名字时用 ¿Cómo se llama?。",
+        "english_comparison": "大致对应 Who is that? 与 What is his/her name?",
+        "japanese_comparison": "可近似比较 だれですか 与 名前は何ですか，但具体礼貌程度仍由语境决定。",
+        "negative_transfer": "不要把两句都机械翻译成“他叫什么名字”。",
+        "note": "面对陌生人直接说 ¿Quién eres? 可能显得警惕；初次认识通常问 ¿Cómo te llamas?",
+        "tags": [
+          "aula::u01::l07",
+          "type::rule",
+          "skill::understanding",
+          "topic::third_person",
+          "group::03_规则理解"
+        ],
+        "learning_group": "03_规则理解",
+        "learning_order": 130704
+      },
+      {
+        "uid": "AA1-U01-L07-R003",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "动词分类",
+        "question_zh": "西语动词原形为什么分为 -ar、-er、-ir 三类？",
+        "core_answer_zh": "西语动词原形通常以 -ar、-er 或 -ir 结尾；结尾决定规则动词采用哪一套基本变位模式。",
+        "example_es": "hablar, trabajar, estudiar; comer, leer; vivir, escribir",
+        "explanation_zh": "先识别动词家族，不需要在 Unidad 1 背完整变位表。Unidad 2 会系统学习现在时规则。ser、tener 等高频动词存在不规则变化，需要单独认识。",
+        "english_comparison": "英语动词原形没有这种三类结尾系统。",
+        "japanese_comparison": "可以类比日语动词按活用类型分类，但分类标准和变化方式并不相同。",
+        "negative_transfer": "不要看到一个新动词就把每个形式当作毫无关系的独立词；先找词干和所属家族。",
+        "note": "",
+        "tags": [
+          "aula::u01::l07",
+          "type::rule",
+          "skill::understanding",
+          "topic::conjugation",
+          "group::03_规则理解"
+        ],
+        "learning_group": "03_规则理解",
+        "learning_order": 130705
+      },
+      {
+        "uid": "AA1-U01-L07-R004",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "职业表达",
+        "question_zh": "Soy ingeniero、Trabajo como ingeniero 和 Trabajo en… 分别强调什么？",
+        "core_answer_zh": "Soy + 职业说明身份；Trabajo como + 职业说明所从事的角色；Trabajo en + 地点、单位或行业说明工作环境。",
+        "example_es": "Soy ingeniero. Trabajo como ingeniero. Trabajo en una empresa de tecnología.",
+        "explanation_zh": "面对 ¿En qué trabajas?，三种回答都可能自然，只是信息焦点不同。",
+        "english_comparison": "近似 I am an engineer / I work as an engineer / I work at or in…",
+        "japanese_comparison": "",
+        "negative_transfer": "不要省略 como 说 Trabajo ingeniero。",
+        "note": "教材还出现 Trabajo de mesero；不同地区会使用 trabajar de，主动表达时 trabajo como 较稳妥。",
+        "tags": [
+          "aula::u01::l07",
+          "type::rule",
+          "skill::understanding",
+          "topic::profession",
+          "group::03_规则理解"
+        ],
+        "learning_group": "03_规则理解",
+        "learning_order": 130706
+      }
+    ],
+    "pronunciation": [
+      {
+        "uid": "AA1-U01-L03-PR001",
+        "unit": "U1",
+        "lesson": "L03",
+        "category": "字母 c",
+        "task_zh": "听辨并模仿 c 在不同元音前的发音。",
+        "target_es": "cinco, cero, cine",
+        "contrast_es": "cuatro, casa, comida",
+        "articulation_zh": "拉美西语中，c 在 e、i 前读清晰的 /s/；舌尖靠近下齿背，气流从舌面中央通过。c 在 a、o、u 前读 /k/，舌后部短暂接触软腭。",
+        "common_error_zh": "把 cinco 读成 “kinko”，或受英语影响把元音读成双元音。",
+        "practice_cue_zh": "交替说：cinco–cuatro、cero–casa、cine–comida。",
+        "note": "西班牙中北部通常把 c 在 e、i 前读作 /θ/。",
+        "tags": [
+          "aula::u01::l03",
+          "type::pronunciation",
+          "skill::listening",
+          "skill::speaking",
+          "group::02_发音"
+        ],
+        "learning_group": "02_发音",
+        "learning_order": 120300
+      },
+      {
+        "uid": "AA1-U01-L03-PR002",
+        "unit": "U1",
+        "lesson": "L03",
+        "category": "字母 g",
+        "task_zh": "听辨并模仿 g 在不同元音前的发音。",
+        "target_es": "ingeniero, general",
+        "contrast_es": "gato, gusto",
+        "articulation_zh": "g 在 e、i 前通常读无声摩擦音 /x/；许多拉美口音会更接近柔和的 /h/。g 在 a、o、u 前保留 /g/ 类音。",
+        "common_error_zh": "把 ingeniero 的 g 读成英语字母 g，或读成英语 j。",
+        "practice_cue_zh": "交替说：general–gato、ingeniero–gusto；先保持后舌位置，再切换摩擦与闭塞。",
+        "note": "此处按广泛拉美发音训练。",
+        "tags": [
+          "aula::u01::l03",
+          "type::pronunciation",
+          "skill::listening",
+          "skill::speaking",
+          "group::02_发音"
+        ],
+        "learning_group": "02_发音",
+        "learning_order": 120301
+      },
+      {
+        "uid": "AA1-U01-L07-PR001",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "ustedes",
+        "task_zh": "自然读出 ustedes，不把中间的 t 和 d 发得僵硬。",
+        "target_es": "ustedes",
+        "contrast_es": "us, te, des",
+        "articulation_zh": "分音节是 us-te-des；t 和 d 之间有元音 e，并不构成真正的 t+d 辅音连缀。t 保持西语中较短、少送气的闭塞；元音之间的 d 在许多西语变体中会弱化成较柔和的擦音。",
+        "common_error_zh": "误以为 t 和 d 直接相连，刻意停顿或把 d 发成很重的英语式硬 d。",
+        "practice_cue_zh": "先慢读 us、te、des，再保持三个音节连续；重点是纯净元音和轻柔的 d。",
+        "note": "不同地区 d 的弱化程度不同；清楚、连贯比追求极弱更重要。",
+        "tags": [
+          "aula::u01::l07",
+          "type::pronunciation",
+          "skill::listening",
+          "skill::speaking",
+          "group::02_发音"
+        ],
+        "learning_group": "02_发音",
+        "learning_order": 120702
+      },
+      {
+        "uid": "AA1-U01-L07-PR002",
+        "unit": "U1",
+        "lesson": "L07",
+        "category": "r 与齿龈音衔接",
+        "task_zh": "练习 rt、tr、dr 的连续动作。",
+        "target_es": "carta, tres, padre",
+        "contrast_es": "ra, ta; ta, ra; da, ra",
+        "articulation_zh": "这些组合都在牙齿后方的前部舌位附近完成。rt：轻弹 r 后立即形成 t 的闭塞；tr：t 释放后马上完成一次轻弹 r；padre 中的 d 位于元音之间，通常较柔和，再接轻弹 r。动作应连续，不插入额外元音。",
+        "common_error_zh": "把 r 发成英语卷舌音；在两个辅音之间加入“呃”类元音；为了切换动作把舌头大幅撤回。",
+        "practice_cue_zh": "慢速交替 ra–ta、ta–ra、da–ra，再合成 rta、tra、dra，最后放回 carta、tres、padre。",
+        "note": "西语各地区的 tr、dr 细节存在差异；当前目标是无卷舌、无插音、衔接稳定。",
+        "tags": [
+          "aula::u01::l07",
+          "type::pronunciation",
+          "skill::listening",
+          "skill::speaking",
+          "group::02_发音"
+        ],
+        "learning_group": "02_发音",
+        "learning_order": 120703
+      }
+    ]
   }
 }

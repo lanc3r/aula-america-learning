@@ -1,0 +1,75 @@
+{
+  "name": "anki_v0_7_3_source_repo",
+  "base_repository": "anki_v046",
+  "repository_version": "0.7.3",
+  "created_utc": "2026-09-05",
+  "preserves_original_cumulative_content_through": "anki_v046 / 0.4.6",
+  "included_prebuilds": [
+    {
+      "name": "anki_v047_nvh_u6_prebuild",
+      "source": "uploaded v047 bundle",
+      "notes": 146,
+      "role": "u6_prebuild_and_dedupe_baseline"
+    },
+    {
+      "name": "anki_v048_nvh_u7_prebuild",
+      "source": "generated in this repo",
+      "notes": 133,
+      "role": "u7_prebuild"
+    },
+    {
+      "name": "anki_v049_nvh_u8_mirador_review",
+      "source": "generated in this repo",
+      "notes": 64,
+      "role": "u8_mirador_review"
+    },
+    {
+      "name": "anki_v050_nvh_u9_prebuild",
+      "source": "generated in this repo",
+      "notes": 157,
+      "role": "u9_prebuild"
+    },
+    {
+      "name": "anki_v048_v050_nvh_travel_pack",
+      "source": "generated in this repo",
+      "notes": 354,
+      "role": "combined_v048_v050_package"
+    }
+  ],
+  "recommended_import_order": [
+    "existing anki_v046 cumulative deck",
+    "anki_v047_nvh_u6_prebuild.apkg",
+    "anki_v048_nvh_u7_prebuild.apkg",
+    "anki_v049_nvh_u8_mirador_review.apkg",
+    "anki_v050_nvh_u9_prebuild.apkg"
+  ],
+  "combined_option": [
+    "existing anki_v046 cumulative deck",
+    "anki_v047_nvh_u6_prebuild.apkg",
+    "anki_v048_v050_nvh_travel_pack.apkg"
+  ],
+  "do_not_import_together": [
+    "anki_v048_v050_nvh_travel_pack.apkg",
+    "separate v048, v049, and v050 apkg files"
+  ],
+  "dedupe_baseline": "prebuilds/v047/anki_v047_nvh_u6_prebuild.tsv",
+  "stored_prebuild_files": "TSV source inputs only. APKGs, manifests, and bundle ZIPs are generated artifacts and are not stored in the cleaned source repository.",
+  "exact_overlap_with_v047_front_back": 0,
+  "repository_integration": {
+    "status": "integrated_into_content_schema",
+    "version": "0.7.3",
+    "deck_output_file": "aula_america_a1_v0_7_3_card_front_fix.apkg",
+    "content_files": [
+      "content/unidad_nvh_06.json"
+    ],
+    "inactive_content_files": [
+      "inactive_content/unidad_nvh_07.json",
+      "inactive_content/unidad_nvh_08.json",
+      "inactive_content/unidad_nvh_09.json"
+    ],
+    "build_deck_audio_collection": "build_deck.command will collect these texts from content/unidad_*.json and request/generate missing audio before building the APKG.",
+    "total_active_notes_after_cleanup": 962,
+    "includes_v047_u6": true,
+    "lesson_order": "existing U1-U5 content, then cleaned unidad_nvh_06 by sorted content glob order. U7-U9 are parked in inactive_content until reviewed."
+  }
+}

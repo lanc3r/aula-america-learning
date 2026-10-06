@@ -191,7 +191,8 @@
         "tags"
       ],
       "audio_content_fields": [
-        "answer_es"
+        "answer_es",
+        "contrast_es"
       ]
     },
     "rule_concept": {
