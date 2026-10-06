@@ -51,6 +51,25 @@ def import_dependencies():
         ) from exc
     return genanki
 
+def tts_for_profile(tts: dict[str, Any], profile: str) -> dict[str, Any]:
+    effective = dict(tts)
+    profiles = tts.get("profiles", {})
+    if profile != "default":
+        if not isinstance(profiles, dict) or profile not in profiles:
+            raise ValueError(f"未知 TTS profile：{profile}")
+        spec = profiles[profile]
+        if not isinstance(spec, dict):
+            raise ValueError(f"TTS profile 必须是对象：{profile}")
+        if "speed" in spec:
+            effective["speed"] = spec["speed"]
+        profile_instructions = str(spec.get("instructions", "")).strip()
+        if profile_instructions:
+            base = str(effective.get("instructions", "")).strip()
+            effective["instructions"] = "\n\n".join(
+                part for part in (base, profile_instructions) if part
+            )
+    return effective
+
 def instructions_for(text: str, tts: dict[str, Any]) -> str:
     base = str(tts.get("instructions", "")).strip()
     overrides = tts.get("text_instruction_overrides", {})
@@ -61,20 +80,27 @@ def instructions_for(text: str, tts: dict[str, Any]) -> str:
     extra = str(overrides.get(text, "")).strip()
     return "\n\n".join(part for part in (base, extra) if part)
 
-def audio_key(text: str, tts: dict[str, Any]) -> str:
+def audio_key(text: str, tts: dict[str, Any], profile: str = "default") -> str:
+    effective = tts_for_profile(tts, profile)
     payload = "\n".join([
-        tts["model"],
-        tts["voice"],
-        str(tts["speed"]),
-        instructions_for(text, tts),
+        effective["model"],
+        effective["voice"],
+        str(effective["speed"]),
+        profile,
+        instructions_for(text, effective),
         text
     ])
     return hashlib.sha256(payload.encode("utf-8")).hexdigest()[:18]
 
-def audio_path_for(text: str, tts: dict[str, Any]) -> Path:
+def audio_path_for(
+    text: str,
+    tts: dict[str, Any],
+    profile: str = "default"
+) -> Path:
+    effective = tts_for_profile(tts, profile)
     return CACHE_DIR / (
-        f'{tts["cache_prefix"]}_{audio_key(text, tts)}.'
-        f'{tts["response_format"]}'
+        f'{effective["cache_prefix"]}_{audio_key(text, tts, profile)}.'
+        f'{effective["response_format"]}'
     )
 
 def collect_content(note_types: dict[str, Any]) -> dict[str, list[dict[str, Any]]]:
@@ -85,19 +111,21 @@ def collect_content(note_types: dict[str, Any]) -> dict[str, list[dict[str, Any]
             collected[type_name].extend(data["cards"].get(type_name, []))
     return collected
 
-def collect_audio_texts(
+def collect_audio_requests(
     collected: dict[str, list[dict[str, Any]]],
     note_types: dict[str, Any]
-) -> list[str]:
-    texts: set[str] = set()
+) -> list[tuple[str, str]]:
+    requests: set[tuple[str, str]] = set()
     for type_name, cards in collected.items():
-        fields = note_types["note_types"][type_name]["audio_content_fields"]
+        spec = note_types["note_types"][type_name]
+        fields = spec["audio_content_fields"]
+        profile = str(spec.get("audio_profile", "default"))
         for card in cards:
             for field in fields:
                 value = str(card.get(field, "")).strip()
                 if value:
-                    texts.add(value)
-    return sorted(texts)
+                    requests.add((profile, value))
+    return sorted(requests)
 
 def get_api_client():
     try:
@@ -121,10 +149,12 @@ def generate_audio(
     client,
     text: str,
     tts: dict[str, Any],
-    refresh: bool
+    refresh: bool,
+    profile: str = "default"
 ) -> Path:
     CACHE_DIR.mkdir(exist_ok=True)
-    out_path = audio_path_for(text, tts)
+    effective = tts_for_profile(tts, profile)
+    out_path = audio_path_for(text, tts, profile)
 
     if out_path.exists() and out_path.stat().st_size > 1000 and not refresh:
         print(f"  使用缓存：{text}")
@@ -136,12 +166,12 @@ def generate_audio(
     for attempt in range(1, 4):
         try:
             with client.audio.speech.with_streaming_response.create(
-                model=tts["model"],
-                voice=tts["voice"],
+                model=effective["model"],
+                voice=effective["voice"],
                 input=text,
-                instructions=instructions_for(text, tts),
-                response_format=tts["response_format"],
-                speed=tts["speed"],
+                instructions=instructions_for(text, effective),
+                response_format=effective["response_format"],
+                speed=effective["speed"],
             ) as response:
                 response.stream_to_file(out_path)
 
@@ -160,15 +190,15 @@ def generate_audio(
     raise RuntimeError(f"生成失败：{text}\n{last_error}") from last_error
 
 def build_audio_map(
-    texts: list[str],
+    requests: list[tuple[str, str]],
     tts: dict[str, Any],
     refresh: bool
-) -> dict[str, Path]:
+) -> dict[tuple[str, str], Path]:
     missing = [
-        text for text in texts
+        (profile, text) for profile, text in requests
         if refresh
-        or not audio_path_for(text, tts).exists()
-        or audio_path_for(text, tts).stat().st_size <= 1000
+        or not audio_path_for(text, tts, profile).exists()
+        or audio_path_for(text, tts, profile).stat().st_size <= 1000
     ]
 
     client = None
@@ -178,21 +208,25 @@ def build_audio_map(
     else:
         print("全部音频已存在，将直接复用缓存。")
 
-    audio_map: dict[str, Path] = {}
-    for index, text in enumerate(texts, start=1):
-        print(f"[{index}/{len(texts)}]")
+    audio_map: dict[tuple[str, str], Path] = {}
+    for index, (profile, text) in enumerate(requests, start=1):
+        print(f"[{index}/{len(requests)}] [{profile}]")
         if client is None:
-            path = audio_path_for(text, tts)
+            path = audio_path_for(text, tts, profile)
             print(f"  使用缓存：{text}")
         else:
-            path = generate_audio(client, text, tts, refresh)
-        audio_map[text] = path
+            path = generate_audio(client, text, tts, refresh, profile)
+        audio_map[(profile, text)] = path
     return audio_map
 
-def sound_field(text: str, audio_map: dict[str, Path]) -> str:
+def sound_field(
+    text: str,
+    audio_map: dict[tuple[str, str], Path],
+    profile: str = "default"
+) -> str:
     if not text:
         return ""
-    return f"[sound:{audio_map[text].name}]"
+    return f"[sound:{audio_map[(profile, text)].name}]"
 
 def make_models(genanki, note_types: dict[str, Any]):
     models = {}
@@ -213,29 +247,33 @@ def make_models(genanki, note_types: dict[str, Any]):
 def map_fields(
     type_name: str,
     card: dict[str, Any],
-    audio_map: dict[str, Path]
+    audio_map: dict[tuple[str, str], Path],
+    note_types: dict[str, Any]
 ) -> list[str]:
+    profile = str(
+        note_types["note_types"][type_name].get("audio_profile", "default")
+    )
     if type_name == "chunk_production":
         return [
             card["uid"], card["unit"], card["lesson"], card["category"],
             card["context_zh"], card["prompt_zh"], card["spanish"],
-            card["meaning_zh"], sound_field(card["spanish"], audio_map),
+            card["meaning_zh"], sound_field(card["spanish"], audio_map, profile),
             card["usage_zh"], card["pattern"], card["note"]
         ]
     if type_name == "dialogue_response":
         return [
             card["uid"], card["unit"], card["lesson"], card["context_zh"],
             card["question_es"],
-            sound_field(card["question_es"], audio_map),
+            sound_field(card["question_es"], audio_map, profile),
             card["answer_es"], card["answer_zh"],
-            sound_field(card["answer_es"], audio_map),
+            sound_field(card["answer_es"], audio_map, profile),
             card["usage_zh"]
         ]
     if type_name == "mistake_contrast":
         return [
             card["uid"], card["unit"], card["lesson"], card["context_zh"],
             card["prompt_zh"], card["wrong_es"], card["correct_es"],
-            sound_field(card["correct_es"], audio_map),
+            sound_field(card["correct_es"], audio_map, profile),
             card["explanation_zh"]
         ]
     if type_name == "vocabulary":
@@ -243,21 +281,21 @@ def map_fields(
             card["uid"], card["unit"], card["lesson"], card["category"],
             card["prompt_zh"], card["word_es"], card["gender"],
             card["plural_es"], card["meaning_zh"],
-            sound_field(card["word_es"], audio_map),
+            sound_field(card["word_es"], audio_map, profile),
             card["example_es"], card["example_zh"],
-            sound_field(card["example_es"], audio_map),
+            sound_field(card["example_es"], audio_map, profile),
             card["usage_zh"], card["regional_variant"]
         ]
     if type_name == "grammar_pattern":
         return [
             card["uid"], card["unit"], card["lesson"], card["category"],
             card["context_zh"], card["prompt_zh"], card["answer_es"],
-            sound_field(card["answer_es"], audio_map),
+            sound_field(card["answer_es"], audio_map, profile),
             card["meaning_zh"], card["pattern"],
             card["explanation_zh"],
             (
                 card["contrast_es"]
-                + ("<br>" + sound_field(card["contrast_es"], audio_map)
+                + ("<br>" + sound_field(card["contrast_es"], audio_map, profile)
                    if card["contrast_es"] else "")
             ),
             card["note"]
@@ -266,7 +304,7 @@ def map_fields(
         return [
             card["uid"], card["unit"], card["lesson"], card["category"],
             card["question_zh"], card["core_answer_zh"], card["example_es"],
-            sound_field(card["example_es"], audio_map),
+            sound_field(card["example_es"], audio_map, profile),
             card["explanation_zh"], card["english_comparison"],
             card["japanese_comparison"], card["negative_transfer"],
             card["note"]
@@ -275,11 +313,18 @@ def map_fields(
         return [
             card["uid"], card["unit"], card["lesson"], card["category"],
             card["task_zh"], card["target_es"],
-            sound_field(card["target_es"], audio_map),
+            sound_field(card["target_es"], audio_map, profile),
             card["contrast_es"],
-            sound_field(card["contrast_es"], audio_map),
+            sound_field(card["contrast_es"], audio_map, profile),
             card["articulation_zh"], card["common_error_zh"],
             card["practice_cue_zh"], card["note"]
+        ]
+    if type_name == "listening_dialogue":
+        return [
+            card["uid"], card["unit"], card["lesson"], card["context_zh"],
+            card["task_zh"], card["transcript_es"],
+            sound_field(card["transcript_es"], audio_map, profile),
+            card["meaning_zh"], card["listening_focus_zh"], card["note"]
         ]
     raise ValueError(f"未知卡片类型：{type_name}")
 
@@ -287,7 +332,7 @@ def build_deck(
     deck_config: dict[str, Any],
     note_types: dict[str, Any],
     collected: dict[str, list[dict[str, Any]]],
-    audio_map: dict[str, Path]
+    audio_map: dict[tuple[str, str], Path]
 ) -> Path:
     genanki = import_dependencies()
     models = make_models(genanki, note_types)
@@ -300,7 +345,7 @@ def build_deck(
     ordered_cards.sort(key=lambda x: (x[0], x[2]["uid"]))
     for _, type_name, card in ordered_cards:
         model = models[type_name]
-        note = genanki.Note(model=model, fields=map_fields(type_name, card, audio_map), tags=card["tags"])
+        note = genanki.Note(model=model, fields=map_fields(type_name, card, audio_map, note_types), tags=card["tags"])
         note.guid = genanki.guid_for(card["uid"])
         deck.add_note(note)
 
@@ -320,7 +365,7 @@ def build_deck(
 def export_manifest(
     deck_config: dict[str, Any],
     collected: dict[str, list[dict[str, Any]]],
-    audio_map: dict[str, Path]
+    audio_map: dict[tuple[str, str], Path]
 ) -> Path:
     manifest_path = RELEASE_DIR / "release_manifest.json"
     counts = {key: len(value) for key, value in collected.items()}
@@ -356,6 +401,7 @@ def export_content_tsv(
                     or card.get("answer_es")
                     or card.get("example_es")
                     or card.get("target_es")
+                    or card.get("transcript_es")
                     or ""
                 )
                 writer.writerow([
@@ -375,11 +421,11 @@ def main() -> None:
     tts = load_json(CONFIG_DIR / "tts_config.json")
     note_types = load_json(CONFIG_DIR / "note_types.json")
     collected = collect_content(note_types)
-    texts = collect_audio_texts(collected, note_types)
+    requests = collect_audio_requests(collected, note_types)
 
     print()
-    print(f"需要 {len(texts)} 条唯一音频。")
-    audio_map = build_audio_map(texts, tts, args.refresh_audio)
+    print(f"需要 {len(requests)} 条唯一音频请求。")
+    audio_map = build_audio_map(requests, tts, args.refresh_audio)
     output_path = build_deck(
         deck_config, note_types, collected, audio_map
     )

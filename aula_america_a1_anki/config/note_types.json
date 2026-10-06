@@ -276,6 +276,42 @@
         "target_es",
         "contrast_es"
       ]
+    },
+    "listening_dialogue": {
+      "model_id": 1607392327,
+      "model_name": "Aula · 情景听力 · Cedar",
+      "template_name": "情景听力",
+      "front_template": "templates/listening_dialogue_front.html",
+      "back_template": "templates/listening_dialogue_back.html",
+      "style_file": "templates/base_style.css",
+      "fields": [
+        "UID",
+        "Unit",
+        "Lesson",
+        "ContextZH",
+        "TaskZH",
+        "TranscriptES",
+        "Audio",
+        "MeaningZH",
+        "ListeningFocusZH",
+        "Note"
+      ],
+      "required_content_fields": [
+        "uid",
+        "unit",
+        "lesson",
+        "context_zh",
+        "task_zh",
+        "transcript_es",
+        "meaning_zh",
+        "listening_focus_zh",
+        "note",
+        "tags"
+      ],
+      "audio_content_fields": [
+        "transcript_es"
+      ],
+      "audio_profile": "listening_dialogue"
     }
   }
 }

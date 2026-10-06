@@ -27,5 +27,11 @@
     "Toma la línea 3 en dirección al centro.": "Lee por grupos conectados: «toma la línea tres» + «en dirección al centro». No cortes «en dirección al centro».",
     "Entonces, tomo la línea 3 en dirección al centro histórico.": "Haz una pausa breve después de «Entonces», y lee «tomo la línea tres en dirección al centro histórico» con conexión natural dentro del grupo.",
     "Hay muchos restaurantes en el centro.": "Lee «en el centro» conectado, sin pausa entre «en» y «el». Suena como afirmación cotidiana, no como lista de palabras."
+  },
+  "profiles": {
+    "listening_dialogue": {
+      "speed": 1.08,
+      "instructions": "Para las tarjetas de comprensión auditiva, interpreta el texto completo como una conversación latinoamericana real, no como material didáctico. Usa velocidad conversacional natural, ritmo continuo y habla conectada. No reduzcas la velocidad para un estudiante A1. No hagas pausas pedagógicas entre grupos de sentido, no articules palabra por palabra y no exageres la dicción. Mantén enlaces, sinalefa, resilabificación, reducciones naturales de palabras funcionales y entonación cotidiana. Las pausas entre turnos deben ser breves y propias de una conversación normal. Si el texto contiene varios turnos marcados con raya, cambia sutilmente el ritmo y la entonación entre interlocutores sin anunciar nombres ni leer las rayas. No añadas explicaciones, nombres de hablantes ni texto que no esté en la entrada."
+    }
   }
 }
