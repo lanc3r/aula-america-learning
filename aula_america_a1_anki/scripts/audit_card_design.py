@@ -27,6 +27,9 @@ LEARNER_VISIBLE_FIELDS = {
     "explanation_zh",
     "core_answer_zh",
     "example_zh",
+    "task_zh",
+    "meaning_zh",
+    "listening_focus_zh",
 }
 REUSABLE_CHUNK_PATTERNS = [
     (re.compile(r"^¿Sabe si\b", re.IGNORECASE), "¿Sabe si ...?"),
@@ -186,6 +189,27 @@ def audit_file(path: Path, note_types: dict[str, Any]) -> tuple[list[str], list[
                     errors.append(f"{loc}: mistake_contrast wrong_es is an incomplete choice.")
                 if not explanation:
                     warnings.append(f"{loc}: mistake_contrast has no explanation_zh.")
+
+            elif type_name == "listening_dialogue":
+                transcript = str(card.get("transcript_es", "")).strip()
+                task = str(card.get("task_zh", "")).strip()
+                turns = [
+                    line for line in transcript.splitlines()
+                    if line.strip().startswith(("—", "-"))
+                ]
+                if len(turns) < 3:
+                    errors.append(
+                        f"{loc}: listening_dialogue should contain at least three turns."
+                    )
+                if len(turns) > 8:
+                    warnings.append(
+                        f"{loc}: listening_dialogue has more than eight turns; "
+                        "review listening load."
+                    )
+                if transcript and task and transcript in task:
+                    errors.append(
+                        f"{loc}: listening task reveals the full transcript."
+                    )
 
             elif type_name == "vocabulary":
                 prompt = str(card.get("prompt_zh", "")).strip()
