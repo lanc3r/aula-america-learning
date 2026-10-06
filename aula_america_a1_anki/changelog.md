@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.8.0
+
+- Rebuilt NVH U7 Phase 1 from scratch under new `NVH-U7-R1-...` UIDs; no UID is reused from `inactive_content/`, which remains reference-only.
+- Added 57 active U7 Phase 1 notes covering Mexico immigration/customs, hotel booking and services, focused `por/para` use, `molestar`, contrastive `pues`, six high-frequency yo `-go` forms, `traer/llevar`, and learner-error contrasts.
+- Deliberately stopped before systematic `pretérito perfecto` instruction; prebuilt perfect-tense and later complaint cards remain inactive.
+- Added a new `listening_dialogue` Note Type with model ID `1607392327`. Existing Note Type model IDs and field contracts remain unchanged.
+- Added four 3–4 turn listening cards. Each full dialogue is synthesized in one request rather than line-by-line.
+- Added a dedicated `listening_dialogue` TTS profile at speed 1.08 with realistic Latin-American connected speech, no A1 slowdown, no pedagogical pauses, no word-by-word articulation, natural reductions, linking and turn-taking rhythm.
+- Made the audio cache profile-aware so the same text can safely have different normal-card and listening-dialogue renderings.
+- Extended card-design audit and documentation for listening-dialogue length, transcript hiding, and natural listening-load requirements.
+- New cumulative total: 1019 notes.
+
 ## 0.7.3
 
 - Fixed `mistake_contrast` cards that exposed their only correct answer on the front. Cards without a wrong candidate now show the prompt alone; cards with two candidates shuffle their order.
