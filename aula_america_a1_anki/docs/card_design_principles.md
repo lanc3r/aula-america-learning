@@ -53,7 +53,8 @@ Default order:
 4. Complete sentence chunks
 5. Situational questions and answers
 6. Mistake contrasts
-7. Short paragraph output
+7. Listening comprehension dialogues
+8. Short paragraph output
 
 Do not put an entire unit into one lesson unless it is genuinely tiny.
 
@@ -225,6 +226,28 @@ Good:
 - `por aquí` vs `cerca de aquí`
 
 The main answer is usually Chinese. Spanish examples are supporting evidence.
+
+### listening_dialogue
+
+Use for short, realistic listening-comprehension scenes, normally 3-6 dialogue turns.
+
+Front:
+- audio first
+- one concise Chinese listening task
+- no transcript or vocabulary hints that reveal the answer
+
+Back:
+- complete Spanish transcript
+- concise Chinese meaning
+- one useful listening focus, such as linked speech or a reduced function word
+
+The full dialogue is synthesized in one TTS request. Do not generate each line separately
+and stitch the clips together. The listening profile must use real conversational speed,
+connected speech, natural reductions and normal turn-taking pauses. Do not slow the
+dialogue down for A1 learners and do not insert pedagogical pauses between semantic chunks.
+
+Keep unfamiliar material low. A listening card should recombine mostly known language
+so the learner has to understand speech rather than memorize a transcript.
 
 ### short paragraph output
 
