@@ -651,12 +651,12 @@
         "learning_order": 780067,
         "category": "U7 旅行句块",
         "context_zh": "墨西哥旅行 / 酒店与入境",
-        "prompt_zh": "每晚多少钱？",
-        "spanish": "¿Cuánto cuesta por noche?",
-        "meaning_zh": "每晚多少钱？",
+        "prompt_zh": "房间每晚多少钱？",
+        "spanish": "¿Cuánto cuesta la habitación por noche?",
+        "meaning_zh": "房间每晚多少钱？",
         "usage_zh": "",
-        "pattern": "",
-        "note": "¿Cuánto cuesta ...?"
+        "pattern": "¿Cuánto cuesta + 名词 + por noche?",
+        "note": ""
       },
       {
         "uid": "NVH-U7-R1-L02-P009",
