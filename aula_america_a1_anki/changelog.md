@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.8.2
+
+- Redesigned all six U7 `-go` first-person cards so a new verb is not tested by inflection before its lexical meaning has been introduced.
+- Each card now retrieves the infinitive and yo form together, e.g. `“说”（动词）：说出原形 + yo 形式。` → `decir, digo` and `“来”... ` → `venir, vengo`.
+- Applied the same combined format to `hacer/hago`, `poner/pongo`, `salir/salgo`, `traer/traigo`, `decir/digo`, and `venir/vengo` for a consistent learning sequence.
+- Added a card-design rule: never test an inflected form of a lemma before lexical introduction; when a new verb and irregular form arrive together, combine them into one retrieval unit.
+- The six answer-audio texts changed, so a normal `build_deck.command` run will generate only those missing new audio files and reuse all unaffected cache entries.
+
 ## 0.8.1
 
 - Fixed two learner-facing U7 Chinese prompts without changing UIDs or Spanish targets.
