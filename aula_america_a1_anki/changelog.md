@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.8.1
+
+- Fixed two learner-facing U7 Chinese prompts without changing UIDs or Spanish targets.
+- `NVH-U7-R1-L03-P002`: changed the front from “我不介意，但我父母介意。” to “我不介意噪音，但我父母介意。” so the object required by `No me molesta el ruido...` is explicit.
+- `NVH-U7-R1-L02-P003`: changed the hotel-date prompt to “酒店前台问：您要订哪几天？【用 para 提问】” so the intended `¿Para qué fechas?` retrieval is uniquely cued.
+- No audio text changed, so existing TTS cache can be reused; a normal `build_deck.command` rebuild is sufficient.
+
 ## 0.8.0
 
 - Rebuilt NVH U7 Phase 1 from scratch under new `NVH-U7-R1-...` UIDs; no UID is reused from `inactive_content/`, which remains reference-only.
