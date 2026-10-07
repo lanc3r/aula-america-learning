@@ -192,6 +192,23 @@ task but has no response to train.
 
 Use for one structure or pattern.
 
+Do not test an inflected form of a lemma the learner has not yet been introduced to.
+If a new verb is introduced together with an irregular or high-value form, prefer one
+combined retrieval target that asks for the infinitive and the target form together.
+
+Good:
+
+- `“说”（动词）：说出原形 + yo 形式。` -> `decir, digo`
+- `“来”（动词）：说出原形 + yo 形式。` -> `venir, vengo`
+
+Bad:
+
+- first exposure: `venir -> yo?` -> `vengo`
+- first exposure: `decir -> yo?` -> `digo`
+
+Once the lemma is already established vocabulary, later cards may test only the inflected
+form when that isolated retrieval is genuinely useful.
+
 Good:
 
 - `ir a + el museo = ir al museo`
