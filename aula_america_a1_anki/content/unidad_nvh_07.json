@@ -2,7 +2,7 @@
   "unit": "NVH-U7",
   "title": "El placer de viajar",
   "status": "phase1_active",
-  "content_version": "0.1.0",
+  "content_version": "0.1.1",
   "scope_note": "R1 from-scratch rebuild. Phase 1 stops before systematic pretérito perfecto instruction. inactive_content is reference only; no UID reuse.",
   "cards": {
     "vocabulary": [
@@ -541,9 +541,9 @@
         "learning_order": 780062,
         "category": "U7 旅行句块",
         "context_zh": "墨西哥旅行 / 酒店与入境",
-        "prompt_zh": "请问是哪些日期？",
+        "prompt_zh": "酒店前台问：您要订哪几天？【用 para 提问】",
         "spanish": "¿Para qué fechas?",
-        "meaning_zh": "请问是哪些日期？",
+        "meaning_zh": "您要订哪几天？",
         "usage_zh": "",
         "pattern": "¿Para qué fechas?",
         "note": ""
@@ -827,7 +827,7 @@
         "learning_order": 780075,
         "category": "U7 旅行句块",
         "context_zh": "墨西哥旅行 / 酒店与入境",
-        "prompt_zh": "我不介意，但我父母介意。",
+        "prompt_zh": "我不介意噪音，但我父母介意。",
         "spanish": "No me molesta el ruido, pero a mis padres sí les molesta.",
         "meaning_zh": "我不介意噪音，但我父母介意。",
         "usage_zh": "sí 表示和前面的否定形成对比。",
