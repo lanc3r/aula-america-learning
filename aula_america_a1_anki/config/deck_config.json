@@ -1,10 +1,10 @@
 {
   "project_name": "aula_america_a1_anki",
-  "version": "0.9.1",
-  "version_file": "v0_9_1",
+  "version": "0.9.2",
+  "version_file": "v0_9_2",
   "deck_id": 2059400111,
   "deck_name": "西班牙语::Aula América A1",
-  "output_file": "aula_america_a1_v0_9_1_u7_phase2_quantifiers.apkg",
+  "output_file": "aula_america_a1_v0_9_2_vocab_cleanup.apkg",
   "content_glob": "content/unidad_*.json",
   "retired_uids_file": "content/retired_uids.json",
   "contract_hash": "32a5e635e4331ff2c885e093f819339f5ff38931ea3ed7c71bfafd03661dc1b3"
