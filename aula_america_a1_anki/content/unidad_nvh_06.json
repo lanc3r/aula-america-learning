@@ -2,7 +2,7 @@
   "unit": "NVH-U6",
   "title": "Por la ciudad",
   "status": "u6_audited_active",
-  "content_version": "0.6.1",
+  "content_version": "0.6.2",
   "cards": {
     "chunk_production": [
       {
@@ -2475,6 +2475,26 @@
         "usage_zh": "unos diez = 大概十。",
         "pattern": "",
         "note": ""
+      },
+      {
+        "uid": "NVH-U6-RV-P001",
+        "unit": "NVH-U6",
+        "lesson": "REV",
+        "category": "U6 目的地提问",
+        "context_zh": "问对方要去哪里",
+        "prompt_zh": "您要去哪里？【问目的地，用 adónde】",
+        "spanish": "¿Adónde va?",
+        "meaning_zh": "您要去哪里？",
+        "usage_zh": "usted 形式。日常也常听到 ¿Dónde va?，但这里用教材目标 adónde 明确训练“目的地”。",
+        "pattern": "¿Adónde + ir?",
+        "note": "",
+        "tags": [
+          "nvh::u06::review",
+          "source::backlog_audit",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 765191
       }
     ],
     "dialogue_response": [],
@@ -2987,6 +3007,270 @@
         "example_zh": "",
         "usage_zh": "",
         "regional_variant": ""
+      },
+      {
+        "uid": "NVH-U6-RV-V001",
+        "unit": "NVH-U6",
+        "lesson": "REV",
+        "category": "U6 城市词汇补遗",
+        "prompt_zh": "购物中心（名词）",
+        "word_es": "el centro comercial",
+        "gender": "m.",
+        "plural_es": "los centros comerciales",
+        "meaning_zh": "购物中心",
+        "example_es": "Hay un centro comercial cerca.",
+        "example_zh": "附近有一个购物中心。",
+        "usage_zh": "",
+        "regional_variant": "",
+        "tags": [
+          "nvh::u06::review",
+          "source::backlog_audit",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 765161
+      },
+      {
+        "uid": "NVH-U6-RV-V002",
+        "unit": "NVH-U6",
+        "lesson": "REV",
+        "category": "U6 城市词汇补遗",
+        "prompt_zh": "信息咨询处；服务台（名词）",
+        "word_es": "el punto de información",
+        "gender": "m.",
+        "plural_es": "los puntos de información",
+        "meaning_zh": "信息咨询处；服务台",
+        "example_es": "¿Dónde está el punto de información?",
+        "example_zh": "信息咨询处在哪里？",
+        "usage_zh": "机场、车站、商场和景点都很实用。",
+        "regional_variant": "",
+        "tags": [
+          "nvh::u06::review",
+          "source::backlog_audit",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 765162
+      },
+      {
+        "uid": "NVH-U6-RV-V003",
+        "unit": "NVH-U6",
+        "lesson": "REV",
+        "category": "U6 城市词汇补遗",
+        "prompt_zh": "面包店（名词）",
+        "word_es": "la panadería",
+        "gender": "f.",
+        "plural_es": "las panaderías",
+        "meaning_zh": "面包店",
+        "example_es": "Hay una panadería en esta calle.",
+        "example_zh": "这条街上有一家面包店。",
+        "usage_zh": "",
+        "regional_variant": "",
+        "tags": [
+          "nvh::u06::review",
+          "source::backlog_audit",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 765163
+      },
+      {
+        "uid": "NVH-U6-RV-V004",
+        "unit": "NVH-U6",
+        "lesson": "REV",
+        "category": "U6 城市词汇补遗",
+        "prompt_zh": "鞋店（名词）",
+        "word_es": "la zapatería",
+        "gender": "f.",
+        "plural_es": "las zapaterías",
+        "meaning_zh": "鞋店",
+        "example_es": "La zapatería está al lado del banco.",
+        "example_zh": "鞋店在银行旁边。",
+        "usage_zh": "",
+        "regional_variant": "",
+        "tags": [
+          "nvh::u06::review",
+          "source::backlog_audit",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 765164
+      },
+      {
+        "uid": "NVH-U6-RV-V005",
+        "unit": "NVH-U6",
+        "lesson": "REV",
+        "category": "U6 城市词汇补遗",
+        "prompt_zh": "水果店（名词）",
+        "word_es": "la frutería",
+        "gender": "f.",
+        "plural_es": "las fruterías",
+        "meaning_zh": "水果店",
+        "example_es": "Voy a la frutería.",
+        "example_zh": "我去水果店。",
+        "usage_zh": "",
+        "regional_variant": "",
+        "tags": [
+          "nvh::u06::review",
+          "source::backlog_audit",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 765165
+      },
+      {
+        "uid": "NVH-U6-RV-V006",
+        "unit": "NVH-U6",
+        "lesson": "REV",
+        "category": "U6 城市词汇补遗",
+        "prompt_zh": "服装店（名词）",
+        "word_es": "la tienda de ropa",
+        "gender": "f.",
+        "plural_es": "las tiendas de ropa",
+        "meaning_zh": "服装店",
+        "example_es": "Busco una tienda de ropa.",
+        "example_zh": "我在找一家服装店。",
+        "usage_zh": "",
+        "regional_variant": "",
+        "tags": [
+          "nvh::u06::review",
+          "source::backlog_audit",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 765166
+      },
+      {
+        "uid": "NVH-U6-RV-V007",
+        "unit": "NVH-U6",
+        "lesson": "REV",
+        "category": "U6 城市词汇补遗",
+        "prompt_zh": "礼品店（名词）",
+        "word_es": "la tienda de regalos",
+        "gender": "f.",
+        "plural_es": "las tiendas de regalos",
+        "meaning_zh": "礼品店",
+        "example_es": "La tienda de regalos está enfrente del museo.",
+        "example_zh": "礼品店在博物馆对面。",
+        "usage_zh": "",
+        "regional_variant": "",
+        "tags": [
+          "nvh::u06::review",
+          "source::backlog_audit",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 765167
+      },
+      {
+        "uid": "NVH-U6-RV-V008",
+        "unit": "NVH-U6",
+        "lesson": "REV",
+        "category": "U6 城市词汇补遗",
+        "prompt_zh": "邮局（名词）",
+        "word_es": "la oficina de correos",
+        "gender": "f.",
+        "plural_es": "las oficinas de correos",
+        "meaning_zh": "邮局",
+        "example_es": "¿Hay una oficina de correos por aquí?",
+        "example_zh": "这附近有邮局吗？",
+        "usage_zh": "教材用西班牙 Correos 品牌语境；作为一般地点词时可说 oficina de correos。",
+        "regional_variant": "",
+        "tags": [
+          "nvh::u06::review",
+          "source::backlog_audit",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 765168
+      },
+      {
+        "uid": "NVH-U6-RV-V009",
+        "unit": "NVH-U6",
+        "lesson": "REV",
+        "category": "U6 城市词汇补遗",
+        "prompt_zh": "洗手间【教材西班牙用法，复数】",
+        "word_es": "los servicios",
+        "gender": "m.pl.",
+        "plural_es": "",
+        "meaning_zh": "洗手间；厕所",
+        "example_es": "¿Dónde están los servicios?",
+        "example_zh": "洗手间在哪里？",
+        "usage_zh": "西班牙标识/口语可见。你的主动输出优先用 los baños。",
+        "regional_variant": "México/LatAm: los baños",
+        "tags": [
+          "nvh::u06::review",
+          "source::backlog_audit",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 765169
+      },
+      {
+        "uid": "NVH-U6-RV-V010",
+        "unit": "NVH-U6",
+        "lesson": "REV",
+        "category": "U6 城市词汇补遗",
+        "prompt_zh": "船（名词）",
+        "word_es": "el barco",
+        "gender": "m.",
+        "plural_es": "los barcos",
+        "meaning_zh": "船",
+        "example_es": "Voy en barco.",
+        "example_zh": "我坐船去。",
+        "usage_zh": "",
+        "regional_variant": "",
+        "tags": [
+          "nvh::u06::review",
+          "source::backlog_audit",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 765170
+      },
+      {
+        "uid": "NVH-U6-RV-V011",
+        "unit": "NVH-U6",
+        "lesson": "REV",
+        "category": "U6 城市词汇补遗",
+        "prompt_zh": "自行车（名词）",
+        "word_es": "la bicicleta",
+        "gender": "f.",
+        "plural_es": "las bicicletas",
+        "meaning_zh": "自行车",
+        "example_es": "Voy en bicicleta.",
+        "example_zh": "我骑自行车去。",
+        "usage_zh": "口语常缩短为 bici。",
+        "regional_variant": "la bici",
+        "tags": [
+          "nvh::u06::review",
+          "source::backlog_audit",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 765171
+      },
+      {
+        "uid": "NVH-U6-RV-V012",
+        "unit": "NVH-U6",
+        "lesson": "REV",
+        "category": "U6 城市词汇补遗",
+        "prompt_zh": "港口（名词）",
+        "word_es": "el puerto",
+        "gender": "m.",
+        "plural_es": "los puertos",
+        "meaning_zh": "港口",
+        "example_es": "La ciudad tiene un puerto grande.",
+        "example_zh": "这座城市有一个大港口。",
+        "usage_zh": "",
+        "regional_variant": "",
+        "tags": [
+          "nvh::u06::review",
+          "source::backlog_audit",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 765172
       }
     ],
     "grammar_pattern": [
@@ -3099,7 +3383,50 @@
         "learning_order": 763070
       }
     ],
-    "rule_concept": [],
+    "rule_concept": [
+      {
+        "uid": "NVH-U6-RV-R001",
+        "unit": "NVH-U6",
+        "lesson": "REV",
+        "category": "U6 dónde / adónde",
+        "question_zh": "¿Dónde? 和 ¿Adónde? 最实用的区别是什么？",
+        "core_answer_zh": "¿Dónde? 问位置“在哪里”；¿Adónde? 问目的地“去哪里”。",
+        "example_es": "¿Dónde está el museo? ¿Adónde vas?",
+        "explanation_zh": "静态位置用 dónde；带 ir / viajar 等移动到目的地的意思时可以用 adónde。日常口语里 ¿Dónde vas? 也非常常见。",
+        "english_comparison": "where is...? vs where are you going?",
+        "japanese_comparison": "",
+        "negative_transfer": "不要把 adónde 当成所有“哪里”都能用。",
+        "note": "",
+        "tags": [
+          "nvh::u06::review",
+          "source::backlog_audit",
+          "group::02_规则理解"
+        ],
+        "learning_group": "02_规则理解",
+        "learning_order": 765181
+      },
+      {
+        "uid": "NVH-U6-RV-R002",
+        "unit": "NVH-U6",
+        "lesson": "REV",
+        "category": "U6 路线组织",
+        "question_zh": "描述路线时 Primero / Después / Al final 分别起什么作用？",
+        "core_answer_zh": "Primero = 首先；Después = 然后；Al final = 最后。",
+        "example_es": "Primero sigues derecho. Después giras a la izquierda. Al final está el museo.",
+        "explanation_zh": "把它们当路线叙述的三个连接块，不需要展开成复杂语法。",
+        "english_comparison": "first / then / finally",
+        "japanese_comparison": "",
+        "negative_transfer": "",
+        "note": "",
+        "tags": [
+          "nvh::u06::review",
+          "source::backlog_audit",
+          "group::02_规则理解"
+        ],
+        "learning_group": "02_规则理解",
+        "learning_order": 765182
+      }
+    ],
     "pronunciation": []
   },
   "lesson_blocks": [
