@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.9.2
+
+- Added a 31-card backlog cleanup for NVH U3, U5, and U6 after comparing active Anki coverage against the textbook's core vocabulary and communication resources.
+- U3: added the character sense of `abierto/a` and recognition-oriented `bajito/a`, `gordito/a`, with usage notes to avoid confusing `ser abierto/a` with `estar abierto/a`.
+- U5: restored high-value textbook food/service language including `caliente`, `al mediodía`, `muchas veces`, `el menú del día`, `el plato combinado`, `el bocadillo`, `la tapa`, plus `medio litro de agua`, `una barra de pan`, `una tableta de chocolate`, `¿Se come caliente o frío?`, and recognition-response cards for `¿Qué le pongo?` / `¿Qué van a tomar?`.
+- U6: restored high-value city/transport vocabulary including `el centro comercial`, `el punto de información`, `la panadería`, `la zapatería`, `la frutería`, `la tienda de ropa`, `la tienda de regalos`, `la oficina de correos`, `los servicios`, `el barco`, `la bicicleta`, and `el puerto`.
+- Added a focused `dónde` vs `adónde` concept card, active `¿Adónde va?`, and a route-sequencing concept for `Primero / Después / Al final`.
+- Regional notes keep Spain-heavy textbook items primarily for recognition while preserving Mexico/Latin-America active-output priorities (`los baños`, `sándwich/torta`, `comida corrida`, etc.).
+- New cumulative total: 1109 notes.
+
 ## 0.9.1
 
 - Completed the Phase 2 practical quantifier set with active singular `algún + masculine noun` and `alguna + feminine noun` retrieval.
