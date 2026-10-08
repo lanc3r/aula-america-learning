@@ -2,7 +2,7 @@
 
 这是长期维护的西班牙语 A1 Anki 牌组源仓库。技术上的 deck ID、Note Type model ID 和历史 deck 名称继续保持不变，以保证旧牌组可以累积更新。
 
-当前正式版本：`0.9.1`
+当前正式版本：`0.9.2`
 
 ## Travel Prebuild Extension
 
@@ -44,17 +44,17 @@ Nos vemos hoy U1–U5 已完成阶段性收口。v0.4.6 正式关闭 U5《Comer 
 
 ## 当前卡片统计
 
-- 273 张 `chunk_production`
-- 61 张 `dialogue_response`
-- 461 张 `vocabulary`
+- 278 张 `chunk_production`
+- 63 张 `dialogue_response`
+- 483 张 `vocabulary`
 - 94 张 `grammar_pattern`
-- 97 张 `rule_concept`
+- 99 张 `rule_concept`
 - 81 张 `mistake_contrast`
 - 4 张 `pronunciation`
 - 7 张 `listening_dialogue`
-- 共 1078 张卡
+- 共 1109 张卡
 
-当前 active 内容包含 Aula U1-U3、NVH U3-U6，以及按新标准从零重制的 NVH U7 Phase 1–2。U7 Phase 2 已覆盖 pretérito perfecto、时间标记、muy/mucho、实用数量词和旅行准备，截止到投诉/道歉模块之前；旧 `inactive_content/unidad_nvh_07.json` 仅作为历史参考，不恢复、不迁移 UID。卡片按“基础词汇 → 规则理解 → 语法运用 → 高频句块 → 问答情景 → 易错综合 → 情景听力”组织，不拆成独立牌组。
+当前 active 内容包含 Aula U1-U3、NVH U3-U6（含一次教材核心词汇/搭配补遗审计），以及按新标准从零重制的 NVH U7 Phase 1–2。U7 Phase 2 已覆盖 pretérito perfecto、时间标记、muy/mucho、实用数量词和旅行准备，截止到投诉/道歉模块之前；旧 `inactive_content/unidad_nvh_07.json` 仅作为历史参考，不恢复、不迁移 UID。卡片按“基础词汇 → 规则理解 → 语法运用 → 高频句块 → 问答情景 → 易错综合 → 情景听力”组织，不拆成独立牌组。
 
 ## 核心原则
 
