@@ -2,7 +2,7 @@
   "unit": "NVH-U7",
   "title": "El placer de viajar",
   "status": "phase2_active",
-  "content_version": "0.2.0",
+  "content_version": "0.2.1",
   "scope_note": "R1 from-scratch rebuild. Phase 2 covers pretérito perfecto, travel-experience time markers, muy/mucho, practical quantifiers, and travel preparation. It stops before the complaints/apologies block. inactive_content is reference only; no UID reuse.",
   "cards": {
     "vocabulary": [
@@ -663,9 +663,9 @@
         "learning_order": 780224,
         "category": "U7 数量表达",
         "question_zh": "想表达 some / a few / several / few 时，现阶段最实用的几组词怎么区分？",
-        "core_answer_zh": "unos/unas = 一些、几个；algunos/as = 一些（明确是某些）；varios/as = 好几个/若干；pocos/as = 很少、不多；un poco de + 不可数名词 = 一点。",
-        "example_es": "unos días; algunos mercados; varios barrios; pocos días; un poco de efectivo",
-        "explanation_zh": "“a few”通常可用 unos/unas 或 algunos/as；pocos/as 更接近 few，带“数量少”的感觉。unos + 数字还可表示“大约”，如 unos diez minutos。",
+        "core_answer_zh": "unos/unas = 一些、几个；algún/alguna = 某个/任何一个（单数）；algunos/as = 一些（复数）；varios/as = 好几个/若干；pocos/as = 很少、不多；un poco de + 不可数名词 = 一点。",
+        "example_es": "unos días; algún mercado; alguna farmacia; algunos mercados; varios barrios; pocos días; un poco de efectivo",
+        "explanation_zh": "“a few”通常可用 unos/unas 或 algunos/as；pocos/as 更接近 few，带“数量少”的感觉。algún 是 alguno 放在阳性单数名词前的缩略形式；阴性单数用 alguna。unos + 数字还可表示“大约”，如 unos diez minutos。",
         "english_comparison": "some / a few / several / few / a little",
         "japanese_comparison": "",
         "negative_transfer": "不要把 English 'a few' 一律翻成 pocos；pocos 更像 'few, not many'.",
@@ -1062,6 +1062,52 @@
         "pattern": "mucho/a/os/as + sustantivo",
         "explanation_zh": "修饰名词时要跟名词配合性数；foto 是阴性。",
         "contrast_es": "Hemos hecho muchas fotos.",
+        "note": ""
+      },
+      {
+        "uid": "NVH-U7-R1-L06-G004",
+        "unit": "NVH-U7",
+        "lesson": "L06",
+        "tags": [
+          "nvh_u7",
+          "u7_r1",
+          "nvh::u07::l06",
+          "group::04_语法模式",
+          "u7_phase2"
+        ],
+        "learning_group": "04_语法模式",
+        "learning_order": 780251,
+        "category": "U7 数量表达",
+        "context_zh": "some / any + 单数名词",
+        "prompt_zh": "“这附近有某个/任何一个市场吗？”【阳性单数，用 algún】",
+        "answer_es": "¿Hay algún mercado por aquí?",
+        "meaning_zh": "这附近有市场吗？",
+        "pattern": "algún + masculine singular noun",
+        "explanation_zh": "alguno 放在阳性单数名词前通常缩成 algún。",
+        "contrast_es": "¿Hay algún mercado por aquí?",
+        "note": ""
+      },
+      {
+        "uid": "NVH-U7-R1-L06-G005",
+        "unit": "NVH-U7",
+        "lesson": "L06",
+        "tags": [
+          "nvh_u7",
+          "u7_r1",
+          "nvh::u07::l06",
+          "group::04_语法模式",
+          "u7_phase2"
+        ],
+        "learning_group": "04_语法模式",
+        "learning_order": 780252,
+        "category": "U7 数量表达",
+        "context_zh": "some / any + 单数名词",
+        "prompt_zh": "“这附近有某家药店吗？”【阴性单数，用 alguna】",
+        "answer_es": "¿Hay alguna farmacia por aquí?",
+        "meaning_zh": "这附近有药店吗？",
+        "pattern": "alguna + feminine singular noun",
+        "explanation_zh": "阴性单数保持 alguna，不缩写。",
+        "contrast_es": "¿Hay alguna farmacia por aquí?",
         "note": ""
       }
     ],
