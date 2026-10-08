@@ -1,7 +1,7 @@
 {
   "unit": "NVH-U5",
   "title": "Comer con gusto — complete",
-  "content_version": "0.3.0",
+  "content_version": "0.3.1",
   "status": "complete",
   "source": "Nos vemos hoy 1 (A1), Unidad 5 complete through all formally taught core goals: food and shopping, quantity/price, stem-changing verbs, numbers above 100, direct-object pronouns, se constructions, time, frequency, restaurant/bar interaction and the Costa Rica reading. Aula América is used continuously for Latin-American calibration and to close the este/esta/estos/estas/esto bridge gap. Final closeout also adds a deliberately small Mexico Food Core I and authentic Travel Core restaurant phrases. Low-value recipe/video vocabulary is intentionally not forced into active retrieval. Historical UIDs are preserved.",
   "cards": {
@@ -741,6 +741,86 @@
         ],
         "learning_group": "05_高频句块",
         "learning_order": 650320
+      },
+      {
+        "uid": "NVH-U05-RV-P001",
+        "unit": "NVH-U5",
+        "lesson": "REV",
+        "category": "U5 餐饮搭配补遗",
+        "context_zh": "买食物 / 餐厅",
+        "prompt_zh": "买饮料时：半升水。",
+        "spanish": "medio litro de agua",
+        "meaning_zh": "半升水。",
+        "usage_zh": "教材数量结构；medio litro de + 名词。",
+        "pattern": "medio litro de + sustantivo",
+        "note": "",
+        "tags": [
+          "nvh::u05::review",
+          "source::backlog_audit",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 670131
+      },
+      {
+        "uid": "NVH-U05-RV-P002",
+        "unit": "NVH-U5",
+        "lesson": "REV",
+        "category": "U5 餐饮搭配补遗",
+        "context_zh": "买食物 / 餐厅",
+        "prompt_zh": "买面包时：一条面包。",
+        "spanish": "una barra de pan",
+        "meaning_zh": "一条面包。",
+        "usage_zh": "barra de pan 是很常见的数量/形状搭配。",
+        "pattern": "una barra de + sustantivo",
+        "note": "",
+        "tags": [
+          "nvh::u05::review",
+          "source::backlog_audit",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 670132
+      },
+      {
+        "uid": "NVH-U05-RV-P003",
+        "unit": "NVH-U5",
+        "lesson": "REV",
+        "category": "U5 餐饮搭配补遗",
+        "context_zh": "买食物 / 餐厅",
+        "prompt_zh": "买巧克力时：一板巧克力。",
+        "spanish": "una tableta de chocolate",
+        "meaning_zh": "一板巧克力。",
+        "usage_zh": "tableta de chocolate 是教材里的固定数量搭配。",
+        "pattern": "una tableta de + sustantivo",
+        "note": "",
+        "tags": [
+          "nvh::u05::review",
+          "source::backlog_audit",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 670133
+      },
+      {
+        "uid": "NVH-U05-RV-P004",
+        "unit": "NVH-U5",
+        "lesson": "REV",
+        "category": "U5 餐饮搭配补遗",
+        "context_zh": "买食物 / 餐厅",
+        "prompt_zh": "问一道菜：这是热着吃还是冷着吃？",
+        "spanish": "¿Se come caliente o frío?",
+        "meaning_zh": "这是热着吃还是冷着吃？",
+        "usage_zh": "教材餐饮高频问法；se 表示泛指“这东西怎么吃”。",
+        "pattern": "¿Se come + adjetivo?",
+        "note": "",
+        "tags": [
+          "nvh::u05::review",
+          "source::backlog_audit",
+          "group::05_高频句块"
+        ],
+        "learning_group": "05_高频句块",
+        "learning_order": 670134
       }
     ],
     "dialogue_response": [
@@ -900,6 +980,42 @@
         ],
         "learning_group": "06_问答情景",
         "learning_order": 660080
+      },
+      {
+        "uid": "NVH-U05-RV-D001",
+        "unit": "NVH-U5",
+        "lesson": "REV",
+        "category": "U5 餐厅听懂并回应",
+        "context_zh": "服务员问你要点什么",
+        "question_es": "¿Qué le pongo?",
+        "answer_es": "Un café, por favor.",
+        "answer_zh": "一杯咖啡，谢谢。",
+        "usage_zh": "西班牙餐饮里很常见；重点是听懂服务员是在问你要什么。",
+        "tags": [
+          "nvh::u05::review",
+          "source::backlog_audit",
+          "group::06_问答情景"
+        ],
+        "learning_group": "06_问答情景",
+        "learning_order": 670141
+      },
+      {
+        "uid": "NVH-U05-RV-D002",
+        "unit": "NVH-U5",
+        "lesson": "REV",
+        "category": "U5 餐厅听懂并回应",
+        "context_zh": "服务员问一桌人喝什么",
+        "question_es": "¿Qué van a tomar?",
+        "answer_es": "Para mí, un agua mineral.",
+        "answer_zh": "我要一瓶/一份矿泉水。",
+        "usage_zh": "问多人时常听到 ¿Qué van a tomar?；这里训练识别而不是死背唯一回答。",
+        "tags": [
+          "nvh::u05::review",
+          "source::backlog_audit",
+          "group::06_问答情景"
+        ],
+        "learning_group": "06_问答情景",
+        "learning_order": 670142
       }
     ],
     "mistake_contrast": [
@@ -3051,6 +3167,160 @@
         ],
         "learning_group": "01_基础词汇",
         "learning_order": 610790
+      },
+      {
+        "uid": "NVH-U05-RV-V001",
+        "unit": "NVH-U5",
+        "lesson": "REV",
+        "category": "U5 教材词汇补遗",
+        "prompt_zh": "热的；温热的（食物/饮料）",
+        "word_es": "caliente",
+        "gender": "adj.",
+        "plural_es": "",
+        "meaning_zh": "热的；温热的",
+        "example_es": "La sopa está caliente.",
+        "example_zh": "汤是热的。",
+        "usage_zh": "和 frío/a 对比；这里是温度，不是 hace calor 的天气表达。",
+        "regional_variant": "",
+        "tags": [
+          "nvh::u05::review",
+          "source::backlog_audit",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 670121
+      },
+      {
+        "uid": "NVH-U05-RV-V002",
+        "unit": "NVH-U5",
+        "lesson": "REV",
+        "category": "U5 教材词汇补遗",
+        "prompt_zh": "中午（时间表达）",
+        "word_es": "al mediodía",
+        "gender": "expr.",
+        "plural_es": "",
+        "meaning_zh": "中午；在中午",
+        "example_es": "Al mediodía como algo ligero.",
+        "example_zh": "我中午吃点清淡的。",
+        "usage_zh": "时间表达直接整体记。",
+        "regional_variant": "",
+        "tags": [
+          "nvh::u05::review",
+          "source::backlog_audit",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 670122
+      },
+      {
+        "uid": "NVH-U05-RV-V003",
+        "unit": "NVH-U5",
+        "lesson": "REV",
+        "category": "U5 教材词汇补遗",
+        "prompt_zh": "很多次；经常（频率表达）",
+        "word_es": "muchas veces",
+        "gender": "expr.",
+        "plural_es": "",
+        "meaning_zh": "很多次；经常",
+        "example_es": "Muchas veces desayuno huevos.",
+        "example_zh": "我经常早餐吃鸡蛋。",
+        "usage_zh": "频率表达，比 a menudo 更字面地强调“很多次”。",
+        "regional_variant": "",
+        "tags": [
+          "nvh::u05::review",
+          "source::backlog_audit",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 670123
+      },
+      {
+        "uid": "NVH-U05-RV-V004",
+        "unit": "NVH-U5",
+        "lesson": "REV",
+        "category": "U5 教材词汇补遗",
+        "prompt_zh": "每日套餐；当日套餐",
+        "word_es": "el menú del día",
+        "gender": "m.",
+        "plural_es": "los menús del día",
+        "meaning_zh": "每日套餐；当日套餐",
+        "example_es": "Quiero el menú del día.",
+        "example_zh": "我要每日套餐。",
+        "usage_zh": "西班牙很常见；拉美也能理解。",
+        "regional_variant": "México: también comida corrida, según el lugar.",
+        "tags": [
+          "nvh::u05::review",
+          "source::backlog_audit",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 670124
+      },
+      {
+        "uid": "NVH-U05-RV-V005",
+        "unit": "NVH-U5",
+        "lesson": "REV",
+        "category": "U5 教材词汇补遗",
+        "prompt_zh": "组合套餐；拼盘套餐【西班牙常见】",
+        "word_es": "el plato combinado",
+        "gender": "m.",
+        "plural_es": "los platos combinados",
+        "meaning_zh": "组合套餐；拼盘套餐",
+        "example_es": "¿Tienen platos combinados?",
+        "example_zh": "你们有组合套餐吗？",
+        "usage_zh": "教材西班牙餐饮文化词；主动输出优先级低于一般的 plato / menú。",
+        "regional_variant": "",
+        "tags": [
+          "nvh::u05::review",
+          "source::backlog_audit",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 670125
+      },
+      {
+        "uid": "NVH-U05-RV-V006",
+        "unit": "NVH-U5",
+        "lesson": "REV",
+        "category": "U5 教材词汇补遗",
+        "prompt_zh": "夹馅面包；三明治【西班牙用法】",
+        "word_es": "el bocadillo",
+        "gender": "m.",
+        "plural_es": "los bocadillos",
+        "meaning_zh": "夹馅面包；三明治",
+        "example_es": "Quiero un bocadillo de jamón.",
+        "example_zh": "我想要一个火腿夹馅面包。",
+        "usage_zh": "西班牙通常指长面包夹馅；拉美各地意义不同。",
+        "regional_variant": "México: sándwich / torta según el tipo.",
+        "tags": [
+          "nvh::u05::review",
+          "source::backlog_audit",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 670126
+      },
+      {
+        "uid": "NVH-U05-RV-V007",
+        "unit": "NVH-U5",
+        "lesson": "REV",
+        "category": "U5 教材词汇补遗",
+        "prompt_zh": "小份下酒菜；tapa【西班牙餐饮】",
+        "word_es": "la tapa",
+        "gender": "f.",
+        "plural_es": "las tapas",
+        "meaning_zh": "小份下酒菜；tapa",
+        "example_es": "En España se comen tapas.",
+        "example_zh": "在西班牙人们会吃 tapas。",
+        "usage_zh": "文化与被动识别为主。",
+        "regional_variant": "",
+        "tags": [
+          "nvh::u05::review",
+          "source::backlog_audit",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 670127
       }
     ],
     "grammar_pattern": [
