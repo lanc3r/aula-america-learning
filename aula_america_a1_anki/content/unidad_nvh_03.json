@@ -1,7 +1,7 @@
 {
   "unit": "NVH-U3",
   "title": "Me gusta mi gente",
-  "content_version": "0.2.1",
+  "content_version": "0.2.2",
   "status": "complete",
   "source": "Nos vemos hoy 1 (A1), Unidad 3 complete + Bridge Lesson; Aula América 1 Unidad 5 used for Latin American calibration and coverage audit; Aula Internacional 1 teacher guide used for gustar/interesar/encantar cross-check; personalized course notes, learner error log, and Travel Core III gap audit",
   "cards": {
@@ -3215,6 +3215,75 @@
         ],
         "learning_group": "01_基础词汇",
         "learning_order": 411020
+      },
+      {
+        "uid": "NVH-U03-RV-V001",
+        "unit": "NVH-U3",
+        "lesson": "REV",
+        "category": "U3 教材词汇补遗",
+        "prompt_zh": "开朗的；开放的（形容人的性格）",
+        "word_es": "abierto / abierta",
+        "gender": "adj.",
+        "plural_es": "abiertos / abiertas",
+        "meaning_zh": "开朗的；开放的",
+        "example_es": "Es una persona muy abierta.",
+        "example_zh": "他/她是个很开朗的人。",
+        "usage_zh": "这里描述性格，用 ser + abierto/a；不要和 estar abierto/a“开着、营业中”混淆。",
+        "regional_variant": "",
+        "tags": [
+          "nvh::u03::review",
+          "source::backlog_audit",
+          "priority::medium",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 470151
+      },
+      {
+        "uid": "NVH-U03-RV-V002",
+        "unit": "NVH-U3",
+        "lesson": "REV",
+        "category": "U3 教材词汇补遗",
+        "prompt_zh": "个子比较矮的；矮个的（较缓和说法）",
+        "word_es": "bajito / bajita",
+        "gender": "adj.",
+        "plural_es": "bajitos / bajitas",
+        "meaning_zh": "个子比较矮的；矮个的",
+        "example_es": "Mi hermano es bajito.",
+        "example_zh": "我弟弟/哥哥个子比较矮。",
+        "usage_zh": "来自 bajo/a 的指小形式，教材用于外貌描述；语气通常比直接说 bajo/a 更缓和。",
+        "regional_variant": "",
+        "tags": [
+          "nvh::u03::review",
+          "source::backlog_audit",
+          "priority::medium",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 470152
+      },
+      {
+        "uid": "NVH-U03-RV-V003",
+        "unit": "NVH-U3",
+        "lesson": "REV",
+        "category": "U3 教材词汇补遗",
+        "prompt_zh": "有点胖的；圆润的（较缓和/亲昵说法）",
+        "word_es": "gordito / gordita",
+        "gender": "adj.",
+        "plural_es": "gorditos / gorditas",
+        "meaning_zh": "有点胖的；圆润的",
+        "example_es": "De niño era gordito.",
+        "example_zh": "他小时候有点胖。",
+        "usage_zh": "教材用于外貌描述。谈论陌生人的体型时可能敏感，现阶段以识别为主。",
+        "regional_variant": "",
+        "tags": [
+          "nvh::u03::review",
+          "source::backlog_audit",
+          "priority::medium",
+          "group::01_基础词汇"
+        ],
+        "learning_group": "01_基础词汇",
+        "learning_order": 470153
       }
     ],
     "grammar_pattern": [
