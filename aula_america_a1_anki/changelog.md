@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.9.1
+
+- Completed the Phase 2 practical quantifier set with active singular `algún + masculine noun` and `alguna + feminine noun` retrieval.
+- Expanded the quantifier concept card to distinguish `unos/unas`, `algún/alguna`, `algunos/as`, `varios/as`, `pocos/as`, and `un poco de`.
+- Added `¿Hay algún mercado por aquí?` and `¿Hay alguna farmacia por aquí?` as focused grammar-pattern cards.
+- New cumulative total: 1078 notes.
+
 ## 0.9.0
 
 - Added 57 active NVH U7 Phase 2 notes and advanced `unidad_nvh_07.json` to `phase2_active` / content version `0.2.0`.
