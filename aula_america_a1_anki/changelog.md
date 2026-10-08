@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.9.0
+
+- Added 57 active NVH U7 Phase 2 notes and advanced `unidad_nvh_07.json` to `phase2_active` / content version `0.2.0`.
+- Covered the newly taught `pretérito perfecto`: its communicative purpose, regular participle formation, high-frequency irregular participles (`hecho, visto, dicho, puesto, abierto, escrito, vuelto, sido`), and travel-experience markers such as `alguna vez, ya, todavía no, nunca, hasta ahora`.
+- Added learner-error contrasts from the live lesson, including missing `haber`, `nunca` vs `todavía no`, `visitar allí` vs `estar allí`, personal `a` with people, `comprado` vs `comparado`, and `muchas fotos`.
+- Formalized `muy / mucho / mucho-a-os-as` with one conceptual rule and focused production cards.
+- Closed a real lexical coverage gap around English-like quantity needs: `unos/unas`, `algunos/as`, `varios/as`, `pocos/as`, and `un poco de`. The deck now explicitly distinguishes neutral “some / a few” from scarcity-oriented `pocos/as`.
+- Added textbook travel-preparation vocabulary and chunks that had appeared without enough active instruction: `alquilar` (with Mexico `rentar` calibration), `el consulado`, `el itinerario`, `vacunarse`, `la guía`, `hacer el equipaje`, `cambiar dinero`, and `reservar una mesa`.
+- Added useful U7 travel/culture vocabulary encountered in the source or lesson: `el crucero`, `el malecón`, `el plato típico`, and `al aire libre`.
+- Added three natural-speed listening dialogues for travel experience, pre-trip preparation, and quantity expressions.
+- Phase 2 intentionally stops before the complaints/apologies block, so no unreached complaint content was activated.
+- New cumulative total: 1076 notes.
+
 ## 0.8.2
 
 - Redesigned all six U7 `-go` first-person cards so a new verb is not tested by inflection before its lexical meaning has been introduced.
