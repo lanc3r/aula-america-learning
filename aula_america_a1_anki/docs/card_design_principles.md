@@ -6,6 +6,23 @@ prebuild problems found in NVH U6: Chinese text in audio fields, multiple main
 answers in one card, recognition cards stored as production cards, and all cards
 being assigned to a single lesson.
 
+## Phase Coverage Audit
+
+At every mid-unit Anki checkpoint, audit three layers before writing new cards:
+
+1. **Explicit textbook targets**: grammar, vocabulary, and communicative functions that the
+   current pages expect the learner to use.
+2. **Source expressions that appeared but were never promoted to usable knowledge**:
+   high-frequency words or chunks may occur in examples, readings, or tasks without having
+   received a clear classroom introduction.
+3. **Real learner production gaps**: when the learner repeatedly needs a common concept
+   (for example, “some / a few”) but cannot express it, compare the need against the source
+   and current deck, then add a focused card if it is high-frequency and reusable.
+
+Do not turn this into exhaustive textbook mining. Skip low-value cultural or one-off words
+unless they are useful for travel, daily communication, future source comprehension, or a
+real learner need. Always deduplicate against the cumulative active deck before adding cards.
+
 ## Natural Expression Gate
 
 Every Spanish target must sound like something a real speaker would plausibly
