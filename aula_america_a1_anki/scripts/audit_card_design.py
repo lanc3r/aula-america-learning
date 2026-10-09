@@ -163,10 +163,15 @@ def audit_file(path: Path, note_types: dict[str, Any]) -> tuple[list[str], list[
             elif type_name == "dialogue_response":
                 question_es = str(card.get("question_es", "")).strip()
                 answer_es = str(card.get("answer_es", "")).strip()
+                usage_zh = str(card.get("usage_zh", "")).strip()
 
                 if not question_es or not answer_es:
                     errors.append(
                         f"{loc}: dialogue_response must have both question_es and answer_es."
+                    )
+                if not usage_zh:
+                    errors.append(
+                        f"{loc}: dialogue_response must have a learner-visible training goal in usage_zh."
                     )
                 if " / " in question_es or " / " in answer_es:
                     errors.append(f"{loc}: dialogue_response has multiple main Spanish answers.")
