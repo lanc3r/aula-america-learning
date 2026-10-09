@@ -137,6 +137,17 @@ Bad:
 - `你做什么工作？` -> `¿A qué te dedicas?`
 - `你做什么工作？` -> `¿En qué trabajas?`
 
+Regional differences must explain the relationship, not just list a local alternative. In `usage_zh` / `regional_variant`, state whether the regional item is an exact equivalent, a near-equivalent, a more common local default, or only a recognition item. Add one short usage explanation when a bare substitution could mislead the learner.
+
+Good:
+
+- `menú del día`: common in Spain for a fixed-price daily set menu.
+- Mexico: `comida corrida` is a common near-equivalent for an inexpensive fixed lunch; it is not a strict one-to-one synonym.
+
+Bad:
+
+- `México: también comida corrida.`
+
 Learner-visible fields must not contain repository or migration metadata.
 Implementation notes belong in docs, changelogs, scripts, tags, or audit reports,
 not on Anki cards.
