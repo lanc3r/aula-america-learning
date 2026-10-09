@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.9.4
+
+- Fixed five U7 `dialogue_response` cards whose learner-visible **训练目标** field was empty.
+- Added concise transferable training goals for immigration/customs prompts about stay duration, occupation, declarations, medications, and luggage count.
+- Updated the dialogue-response back template so a legacy empty `UsageZH` never renders a blank labeled box.
+- Strengthened card-design audit: every active `dialogue_response` must now have a non-empty learner-visible training goal.
+- No Spanish audio text changed; cumulative total remains 1109 notes.
+
 ## 0.9.3
 
 - Expanded the regional note for `el menú del día` so it explains what the Spanish concept is, how Mexican `comida corrida` overlaps with it, and why the two are not strict synonyms.
