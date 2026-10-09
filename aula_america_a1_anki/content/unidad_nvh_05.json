@@ -1,7 +1,7 @@
 {
   "unit": "NVH-U5",
   "title": "Comer con gusto — complete",
-  "content_version": "0.3.1",
+  "content_version": "0.3.2",
   "status": "complete",
   "source": "Nos vemos hoy 1 (A1), Unidad 5 complete through all formally taught core goals: food and shopping, quantity/price, stem-changing verbs, numbers above 100, direct-object pronouns, se constructions, time, frequency, restaurant/bar interaction and the Costa Rica reading. Aula América is used continuously for Latin-American calibration and to close the este/esta/estos/estas/esto bridge gap. Final closeout also adds a deliberately small Mexico Food Core I and authentic Travel Core restaurant phrases. Low-value recipe/video vocabulary is intentionally not forced into active retrieval. Historical UIDs are preserved.",
   "cards": {
@@ -3246,8 +3246,8 @@
         "meaning_zh": "每日套餐；当日套餐",
         "example_es": "Quiero el menú del día.",
         "example_zh": "我要每日套餐。",
-        "usage_zh": "西班牙很常见；拉美也能理解。",
-        "regional_variant": "México: también comida corrida, según el lugar.",
+        "usage_zh": "西班牙餐馆里很常见，通常指当天提供的一套固定价套餐，常见形式是前菜/第一道、主菜/第二道、饮料或甜点等组合。它不是泛指所有“套餐”。",
+        "regional_variant": "墨西哥也能理解 menú del día，但更有本地生活感的近似概念常是 comida corrida：通常指平价、固定搭配的午餐套餐，具体包含什么因餐馆而异。两者功能相近，但不是严格一一对应的同义词。",
         "tags": [
           "nvh::u05::review",
           "source::backlog_audit",
