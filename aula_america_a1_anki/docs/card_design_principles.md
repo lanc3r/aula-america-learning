@@ -248,6 +248,8 @@ Good:
 Do not use for wide tables or several forms at once. Related forms may appear in
 the explanation, but the answer field should test one main target.
 
+If `contrast_es` is shown as **对比** on the back, it must contain a genuinely contrasting form or example. Never repeat `answer_es` there just to fill the field. If no contrast adds learning value, leave it empty.
+
 ### mistake_contrast
 
 Use only when there is a real likely error.
