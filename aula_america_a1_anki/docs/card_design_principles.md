@@ -216,6 +216,8 @@ sentence production. If a learner should produce a question from Chinese, use
 `question_es` and `answer_es`; otherwise the review screen looks like a response
 task but has no response to train.
 
+`usage_zh` is displayed as **训练目标** on the back, so it must be a short, learner-visible explanation of the transferable skill being trained. Do not leave it empty. Prefer goals such as “听懂停留时长询问并直接回答时间长度” over simply repeating the Chinese meaning of the answer.
+
 ### grammar_pattern
 
 Use for one structure or pattern.
