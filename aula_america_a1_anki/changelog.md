@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.9.5
+
+- Fixed the two U7 `algún / alguna` grammar cards whose **对比** field accidentally repeated the main answer.
+- The masculine card now contrasts `¿Hay algún mercado por aquí?` with `¿Hay alguna farmacia por aquí?`; the feminine card shows the reverse comparison.
+- Added an audit error for `grammar_pattern` cards whose `contrast_es` is identical to `answer_es`.
+- No new cards were added; cumulative total remains 1109 notes.
+
 ## 0.9.4
 
 - Fixed five U7 `dialogue_response` cards whose learner-visible **训练目标** field was empty.
