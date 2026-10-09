@@ -2,7 +2,7 @@
   "unit": "NVH-U7",
   "title": "El placer de viajar",
   "status": "phase2_active",
-  "content_version": "0.2.1",
+  "content_version": "0.2.2",
   "scope_note": "R1 from-scratch rebuild. Phase 2 covers pretérito perfecto, travel-experience time markers, muy/mucho, practical quantifiers, and travel preparation. It stops before the complaints/apologies block. inactive_content is reference only; no UID reuse.",
   "cards": {
     "vocabulary": [
@@ -2052,7 +2052,7 @@
         "question_es": "¿Cuánto tiempo va a estar en México?",
         "answer_es": "Una semana.",
         "answer_zh": "会在墨西哥待一周。",
-        "usage_zh": ""
+        "usage_zh": "听懂入境官询问停留时长，并能用时间长度直接回答。"
       },
       {
         "uid": "NVH-U7-R1-L01-D003",
@@ -2109,7 +2109,7 @@
         "question_es": "¿A qué se dedica?",
         "answer_es": "Soy ingeniero de software.",
         "answer_zh": "我是软件工程师。",
-        "usage_zh": ""
+        "usage_zh": "听懂职业询问 ¿A qué se dedica?，并能简洁说明自己的职业。"
       },
       {
         "uid": "NVH-U7-R1-L01-D006",
@@ -2128,7 +2128,7 @@
         "question_es": "¿Trae algo que declarar?",
         "answer_es": "No, nada.",
         "answer_zh": "没有需要申报的东西。",
-        "usage_zh": ""
+        "usage_zh": "听懂海关申报问题 ¿Trae algo que declarar?；无申报物时能用 No, nada. 简洁回答。"
       },
       {
         "uid": "NVH-U7-R1-L01-D007",
@@ -2147,7 +2147,7 @@
         "question_es": "¿Trae medicamentos?",
         "answer_es": "Sí, para uso personal.",
         "answer_zh": "有，个人使用。",
-        "usage_zh": ""
+        "usage_zh": "听懂海关关于药品的询问，并能说明药品仅供个人使用。"
       },
       {
         "uid": "NVH-U7-R1-L01-D008",
@@ -2166,7 +2166,7 @@
         "question_es": "¿Cuántas maletas trae?",
         "answer_es": "Traigo una mochila y una maleta.",
         "answer_zh": "我带一个背包和一个行李箱。",
-        "usage_zh": ""
+        "usage_zh": "听懂行李数量询问，并能用 traer + 行李数量作答。"
       },
       {
         "uid": "NVH-U7-R1-L05-D001",
