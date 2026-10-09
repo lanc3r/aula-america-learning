@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.9.3
+
+- Expanded the regional note for `el menú del día` so it explains what the Spanish concept is, how Mexican `comida corrida` overlaps with it, and why the two are not strict synonyms.
+- Added a card-design rule that regional notes must label the relationship explicitly: exact equivalent, near-equivalent, more common local default, or recognition-only item.
+- No cards were added or removed; cumulative total remains 1109 notes.
+
 ## 0.9.2
 
 - Added a 31-card backlog cleanup for NVH U3, U5, and U6 after comparing active Anki coverage against the textbook's core vocabulary and communication resources.
