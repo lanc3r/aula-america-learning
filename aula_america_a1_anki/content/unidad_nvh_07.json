@@ -2,7 +2,7 @@
   "unit": "NVH-U7",
   "title": "El placer de viajar",
   "status": "phase2_active",
-  "content_version": "0.2.2",
+  "content_version": "0.2.3",
   "scope_note": "R1 from-scratch rebuild. Phase 2 covers pretérito perfecto, travel-experience time markers, muy/mucho, practical quantifiers, and travel preparation. It stops before the complaints/apologies block. inactive_content is reference only; no UID reuse.",
   "cards": {
     "vocabulary": [
@@ -1083,8 +1083,8 @@
         "answer_es": "¿Hay algún mercado por aquí?",
         "meaning_zh": "这附近有市场吗？",
         "pattern": "algún + masculine singular noun",
-        "explanation_zh": "alguno 放在阳性单数名词前通常缩成 algún。",
-        "contrast_es": "¿Hay algún mercado por aquí?",
+        "explanation_zh": "alguno 放在阳性单数名词前通常缩成 algún；对比阴性单数 alguna：algún mercado / alguna farmacia。",
+        "contrast_es": "¿Hay alguna farmacia por aquí?",
         "note": ""
       },
       {
@@ -1106,8 +1106,8 @@
         "answer_es": "¿Hay alguna farmacia por aquí?",
         "meaning_zh": "这附近有药店吗？",
         "pattern": "alguna + feminine singular noun",
-        "explanation_zh": "阴性单数保持 alguna，不缩写。",
-        "contrast_es": "¿Hay alguna farmacia por aquí?",
+        "explanation_zh": "阴性单数保持 alguna，不缩写；对比阳性单数 algún：alguna farmacia / algún mercado。",
+        "contrast_es": "¿Hay algún mercado por aquí?",
         "note": ""
       }
     ],
