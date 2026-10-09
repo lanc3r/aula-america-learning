@@ -179,10 +179,16 @@ def audit_file(path: Path, note_types: dict[str, Any]) -> tuple[list[str], list[
             elif type_name == "grammar_pattern":
                 prompt = str(card.get("prompt_zh", "")).strip()
                 answer_es = str(card.get("answer_es", "")).strip()
+                contrast_es = str(card.get("contrast_es", "")).strip()
                 if prompt and answer_es:
                     prompt_targets[(type_name, prompt)].append((answer_es, loc))
                 if " / " in answer_es:
                     errors.append(f"{loc}: grammar_pattern answer tests multiple targets.")
+                if answer_es and contrast_es and answer_es == contrast_es:
+                    errors.append(
+                        f"{loc}: grammar_pattern contrast_es duplicates answer_es; "
+                        "either provide a real contrast or leave contrast_es empty."
+                    )
 
             elif type_name == "mistake_contrast":
                 correct_es = str(card.get("correct_es", "")).strip()
