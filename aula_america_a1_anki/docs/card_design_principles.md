@@ -38,6 +38,11 @@ Good examples:
 
 Prefer useful modern morphology and word-family links over etymological trivia. Historical origin is worth showing only when it genuinely makes the word easier to understand or remember.
 
+Also point out common productive endings and recurring form changes when they help the learner predict meaning or grammar. High-value examples include `-miento / -imiento`, `-ción`, `-dad`, `-ería`, `-dor / -dora`, `-mente`, and common shortened forms such as `alguno → algún`.
+
+For pronominal infinitives, explain that the grammatical element is `-se`. With an `-ar` verb this often appears as `-arse`, e.g. `hospedar + se → hospedarse`. On first introduction, show the compact person pattern `me / te / se / nos / se` with one familiar verb. Do not imply that every pronominal verb is literally reflexive in meaning.
+
+
 ## Natural Expression Gate
 
 Every Spanish target must sound like something a real speaker would plausibly
