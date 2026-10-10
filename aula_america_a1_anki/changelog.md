@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.9.6
+
+- Added morphology memory hints to the U7 algun/alguna cards.
+- Added a design rule to include useful word-family and form-origin hints selectively.
+- No cards were added or removed; total remains 1109 notes.
+
 ## 0.9.5
 
 - Fixed the two U7 `algún / alguna` grammar cards whose **对比** field accidentally repeated the main answer.
