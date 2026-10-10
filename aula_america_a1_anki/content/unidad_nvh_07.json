@@ -2,7 +2,7 @@
   "unit": "NVH-U7",
   "title": "El placer de viajar",
   "status": "phase2_active",
-  "content_version": "0.2.4",
+  "content_version": "0.2.5",
   "scope_note": "R1 from-scratch rebuild. Phase 2 covers pretérito perfecto, travel-experience time markers, muy/mucho, practical quantifiers, and travel preparation. It stops before the complaints/apologies block. inactive_content is reference only; no UID reuse.",
   "cards": {
     "vocabulary": [
@@ -99,7 +99,7 @@
         "meaning_zh": "停车场",
         "example_es": "¿El hotel tiene estacionamiento?",
         "example_zh": "酒店有停车场吗？",
-        "usage_zh": "墨西哥主动输出优先。",
+        "usage_zh": "墨西哥主动输出优先。构词提示：estacionar（停车）→ estacionamiento（停车/停车场）。-miento / -imiento 常把动词变成表示动作、过程、结果或相关事物的名词。",
         "regional_variant": "España: el aparcamiento"
       },
       {
@@ -2071,7 +2071,7 @@
         "question_es": "¿Dónde se va a hospedar?",
         "answer_es": "En un hotel en la Condesa.",
         "answer_zh": "住在 Condesa 的一家酒店。",
-        "usage_zh": "把 hospedarse 先作为入境高频问句识别。"
+        "usage_zh": "把 hospedarse 先作为入境高频问句识别。形式提示：真正附加的是 -se，不是单独的 -arse；hospedar + se → hospedarse。变位时代词跟人称变化：me hospedo / te hospedas / se hospeda / nos hospedamos / se hospedan。"
       },
       {
         "uid": "NVH-U7-R1-L01-D004",
