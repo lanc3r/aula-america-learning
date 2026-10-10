@@ -23,6 +23,21 @@ Do not turn this into exhaustive textbook mining. Skip low-value cultural or one
 unless they are useful for travel, daily communication, future source comprehension, or a
 real learner need. Always deduplicate against the cumulative active deck before adding cards.
 
+## Useful Morphology and Etymology Hints
+
+When a word's origin, stem, prefix, suffix, shortened form, or transparent word-family relation materially helps comprehension or retention, point it out both in class and in the learner-visible Anki note/explanation. Keep it brief and practical.
+
+Use these hints selectively. Do not mechanically decompose every word, and do not invent a modern word-building analysis just because two forms look similar.
+
+Good examples:
+
+- `alguno → algún` before a masculine singular noun: a shortened form, not modern `algo + un`.
+- `nación → nacional → nacionalidad`: a transparent word family.
+- `posible → imposible`: a productive negative prefix.
+- `computar → computador/computadora`: a useful derivational family when it helps recognition.
+
+Prefer useful modern morphology and word-family links over etymological trivia. Historical origin is worth showing only when it genuinely makes the word easier to understand or remember.
+
 ## Natural Expression Gate
 
 Every Spanish target must sound like something a real speaker would plausibly
