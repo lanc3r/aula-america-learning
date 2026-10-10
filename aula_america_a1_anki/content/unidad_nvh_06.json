@@ -2,7 +2,7 @@
   "unit": "NVH-U6",
   "title": "Por la ciudad",
   "status": "u6_audited_active",
-  "content_version": "0.6.2",
+  "content_version": "0.6.3",
   "cards": {
     "chunk_production": [
       {
@@ -3086,7 +3086,7 @@
         "meaning_zh": "鞋店",
         "example_es": "La zapatería está al lado del banco.",
         "example_zh": "鞋店在银行旁边。",
-        "usage_zh": "",
+        "usage_zh": "构词提示：-ería 常见于商店/营业场所名称。zapatería 属于 zapato（鞋）的词族；类似 panadería（面包店）、frutería（水果店）、heladería（冰淇淋店）。把它当作高频构词模式识别，不要求每个词都机械拆分。",
         "regional_variant": "",
         "tags": [
           "nvh::u06::review",
