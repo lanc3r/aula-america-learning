@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.9.7
+
+- Added learner-visible word-building hints for `zapatería`, `estacionamiento`, and `hospedarse`.
+- Expanded the design rule to surface common productive endings and recurring form changes when they improve comprehension or retention.
+- Clarified pronominal infinitives: the grammatical element is `-se`; forms like `-arse` are verb infinitive + `se`, not a standalone derivational suffix.
+- No new cards were added or removed; cumulative total remains 1109 notes.
+
 ## 0.9.6
 
 - Added morphology memory hints to the U7 algun/alguna cards.
