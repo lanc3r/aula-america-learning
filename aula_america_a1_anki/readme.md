@@ -2,7 +2,7 @@
 
 这是长期维护的西班牙语 A1 Anki 牌组源仓库。技术上的 deck ID、Note Type model ID 和历史 deck 名称继续保持不变，以保证旧牌组可以累积更新。
 
-当前正式版本：`0.9.5`
+当前正式版本：`0.9.6`
 
 ## Travel Prebuild Extension
 
